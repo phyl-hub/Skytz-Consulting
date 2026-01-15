@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "title": "Skytz Consulting | Direct Search for Sales Engineering & Executive Leadership",
+    "description": "I secure revenue-critical engineering leadership and Sales Engineers for the world's most demanding technical firms. Direct Search. No databases. DACH & USA."
+  },
+  "nav": {
+    "home": "Home",
+    "caseStudies": "Case Studies",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "hero": {
+    "tagline": "Germany · Switzerland · United States",
+    "headline": "Engineering Talent.\nPrecision Placed.",
+    "subhead": "I secure revenue-critical engineering leadership and Sales Engineers for the world's most demanding technical firms. 85% of my placements were never on the market.",
+    "cta": {
+      "primary": "Schedule a Call",
+      "secondary": "View Case Studies"
+    },
+    "signature": "Philipp Hoffschröer, Founder"
+  },
+  "proof": {
+    "megger": {
+      "badge": "Partner Since 2016",
+      "title": "Megger Group",
+      "subtitle": "9+ Key Placements",
+      "quote": "Philipp's background in Sales Engineering, combined with his methodically precise approach, made working with him exceptionally effective.",
+      "contact": "Friedrich Enkert",
+      "role": "Managing Director Germany/Austria",
+      "outcome": "Sales Engineers, Business Development, Sales Leadership"
+    },
+    "swr": {
+      "badge": "Growth Partner",
+      "title": "SWR Engineering",
+      "subtitle": "Strategic Expansion",
+      "quote": "I value the smooth and efficient collaboration with Philipp Hoffschröer. Excellent consulting and fitting candidates.",
+      "contact": "Dirk Heesen",
+      "role": "CEO",
+      "outcome": "Sales Leadership, Technical Sales Manager"
+    },
+    "dualPerspective": {
+      "badge": "Candidate → Client",
+      "title": "SebaKMT / Megger",
+      "subtitle": "The Dual Perspective",
+      "quote": "I was first placed by Philipp as a candidate. The quality of his consulting convinced me to engage him as a client.",
+      "contact": "Sascha Kuflik",
+      "role": "Business Unit Director",
+      "outcome": "Placed as candidate in 2018, long-term client ever since"
+    },
+    "otopront": {
+      "badge": "Medical Sector",
+      "title": "Happersberger Otopront",
+      "subtitle": "International Sales Leadership",
+      "quote": "Professional collaboration with high discretion. Candidate quality was consistently excellent.",
+      "contact": "Carlo Happersberger",
+      "role": "CEO",
+      "outcome": "Head of International Sales"
+    },
+    "eurasia": {
+      "badge": "Executive Search · 2024",
+      "title": "C-Level Mandate",
+      "client": "Eurasia Group AG",
+      "location": "Schaffhausen",
+      "role": "Chief Financial Officer (CFO)",
+      "description": "Placed the CFO for this prominent Swiss Family Office & Investment Group in Schaffhausen. A mandate requiring absolute discretion and cross-border financial expertise."
+    }
+  },
+  "stats": {
+    "passive": {
+      "value": "85%",
+      "label": "Passive Candidates",
+      "subtext": "Placements from direct outreach"
+    },
+    "rehire": {
+      "value": "95%",
+      "label": "Rehire Rate",
+      "subtext": "Clients who came back"
+    },
+    "since": {
+      "value": "2015",
+      "label": "Operating Since",
+      "subtext": "10 years of precision search"
+    }
+  },
+  "services": {
+    "title": "What I Place",
+    "subtitle": "Narrow focus. Deep market knowledge.",
+    "salesEngineering": {
+      "title": "Sales Engineering & Technical Sales",
+      "items": [
+        "Sales Engineers / Application Engineers",
+        "Technical Sales / Key Account Management",
+        "International Sales (direct & channel)"
+      ]
+    },
+    "leadership": {
+      "title": "Leadership & Executive Search",
+      "items": [
+        "Head of Sales / VP Sales / Commercial Director",
+        "Business Unit Leadership",
+        "Confidential C-level searches"
+      ]
+    }
+  },
+  "process": {
+    "title": "How I Work",
+    "subtitle": "100% personal involvement. No sub-recruiters. No hand-offs.",
+    "steps": {
+      "calibration": {
+        "title": "Role Calibration",
+        "description": "We define success, failure modes, and must-have signals — beyond the job description."
+      },
+      "mapping": {
+        "title": "Market Mapping",
+        "description": "Competitors, adjacent industries, geo constraints. I build the target list."
+      },
+      "outreach": {
+        "title": "Direct Outreach",
+        "description": "Targeted approach, structured qualification, documented risks."
+      },
+      "shortlist": {
+        "title": "Shortlist Delivery",
+        "description": "Candidates with reasoning, trade-offs, and risk notes. Not just CVs."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to discuss a search?",
+    "subtitle": "No forms, no gatekeepers. Direct conversation.",
+    "button": "Schedule a Call",
+    "email": "Or email directly"
+  },
+  "footer": {
+    "legal": "Strategic Global Operations: Laurasia LLC",
+    "address": "1309 Coffeen Avenue STE 1200, Sheridan, WY 82801, USA",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "imprint": "Imprint"
+    },
+    "copyright": "© {{year}} Skytz Consulting. All rights reserved."
+  },
+  "caseStudies": {
+    "title": "Reference Clients",
+    "subtitle": "Proven Track Record",
+    "description": "Real engagements. Reference calls available on request.",
+    "megger": {
+      "industry": "Electrical Test Equipment",
+      "outcome": "9 placements since 2016",
+      "highlight1": "Built Sales Engineering team",
+      "highlight2": "Placed Sales Leadership",
+      "highlight3": "Long-term partnership"
+    },
+    "swr": {
+      "industry": "Industrial Bulk Measurement",
+      "outcome": "Growth Partner",
+      "highlight1": "Supported strategic expansion",
+      "highlight2": "Placed Technical Sales Manager",
+      "highlight3": "Recruited Sales Leadership"
+    },
+    "sebakmt": {
+      "industry": "Cable & Pipe Location",
+      "outcome": "Dual Perspective",
+      "highlight1": "Placed as candidate in 2018",
+      "highlight2": "Became a client",
+      "highlight3": "Long-standing collaboration"
+    },
+    "otopront": {
+      "industry": "Medical Technology / ENT",
+      "outcome": "C-Level Placement",
+      "highlight1": "International Sales Leadership",
+      "highlight2": "High discretion",
+      "highlight3": "Successful placement"
+    },
+    "cta": {
+      "title": "Want full reference letters?",
+      "description": "I can provide written references and arrange calls with past clients.",
+      "button": "Request References"
+    }
+  },
+  "about": {
+    "title": "About Skytz Consulting",
+    "subtitle": "Since 2015",
+    "description": "Specialist recruitment for Sales Engineering and leadership roles in engineering-driven companies.",
+    "beliefsTitle": "What I Believe",
+    "beliefs": {
+      "expertise": {
+        "title": "Sales Engineering is not 'sales with a tech title'",
+        "description": "It requires domain expertise, technical credibility, and commercial instinct."
+      },
+      "alignment": {
+        "title": "Leadership hires fail more often due to misalignment than skill",
+        "description": "That's why I document risks early."
+      },
+      "decision": {
+        "title": "Good recruiting is decision support",
+        "description": "You should know why I recommend someone — and why not."
+      }
+    },
+    "operationsTitle": "How I Operate",
+    "operations": {
+      "direct": {
+        "title": "Direct Search",
+        "description": "85%+ of placements come from candidates I approach directly."
+      },
+      "documented": {
+        "title": "Documented Trade-offs",
+        "description": "Every candidate comes with risk notes and reasoning."
+      },
+      "honest": {
+        "title": "Honest Pushback",
+        "description": "If expectations don't match reality, I tell you upfront."
+      }
+    },
+    "legal": {
+      "title": "Global Operations",
+      "description": "Skytz Consulting operates under Laurasia LLC (Wyoming, USA) as its strategic global base. Philipp Hoffschröer serves as the local executive partner for all DACH region mandates."
+    }
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "subtitle": "Direct & Simple",
+    "description": "No forms, no gatekeepers. Direct conversation about your requirements.",
+    "getInTouch": {
+      "title": "Get in Touch",
+      "description": "The fastest way to discuss your hiring requirements."
+    },
+    "phone": "Phone",
+    "noCommitment": "No commitment. Initial conversations always free.",
+    "fasterAlignment": {
+      "title": "For Faster Alignment",
+      "description": "If you're reaching out about a specific search, include:",
+      "items": {
+        "roleTitle": "Role title and scope",
+        "location": "Location / region",
+        "seniority": "Seniority level",
+        "timeline": "Urgency / timeline",
+        "compensation": "Compensation band (if known)"
+      }
+    },
+    "office": {
+      "title": "Office"
+    },
+    "hours": {
+      "title": "Availability",
+      "weekdays": "Mon–Fri: 09:00–18:00",
+      "timezone": "Timezone: CET / CEST"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2026",
+    "intro": "Skytz Consulting (\"we\", \"us\") is a brand of Laurasia LLC. We take privacy seriously and process personal data only to the extent necessary to operate this website and our recruiting services.",
+    "controller": {
+      "title": "1. Data Controller"
+    },
+    "dataCollected": {
+      "title": "2. Data We Collect",
+      "intro": "We may collect the following data:",
+      "items": {
+        "contact": "Contact details you provide (name, email, phone)",
+        "email": "Information sent via email or direct contact",
+        "technical": "Technical data such as IP address, browser type, and access times"
+      }
+    },
+    "purpose": {
+      "title": "3. Purpose of Processing",
+      "items": {
+        "inquiries": "Responding to inquiries",
+        "services": "Discussing recruiting services",
+        "website": "Operating and improving this website",
+        "legal": "Compliance with legal obligations"
+      }
+    },
+    "legalBasis": {
+      "title": "4. Legal Basis (GDPR)",
+      "intro": "Where applicable under GDPR, processing is based on:",
+      "items": {
+        "consent": "Consent (Art. 6(1)(a))",
+        "contract": "Contractual necessity (Art. 6(1)(b))",
+        "legitimate": "Legitimate interest (Art. 6(1)(f))"
+      }
+    },
+    "sharing": {
+      "title": "5. Data Sharing",
+      "description": "We do not sell personal data. Data is shared only when required to deliver services or comply with the law."
+    },
+    "retention": {
+      "title": "6. Data Retention",
+      "description": "Personal data is retained only as long as necessary for the purpose for which it was collected, or as required by law."
+    },
+    "rights": {
+      "title": "7. Your Rights",
+      "description": "You may request access, correction, or deletion of your personal data. You also have the right to object to processing where applicable."
+    },
+    "contact": {
+      "title": "8. Contact",
+      "description": "Privacy-related inquiries can be sent to"
+    }
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "Last updated: January 2026",
+    "intro": "These Terms govern the use of the Skytz Consulting website. By accessing this site, you agree to these Terms.",
+    "scope": {
+      "title": "1. Scope",
+      "description": "This website provides general information about recruiting services offered by Skytz Consulting. It does not constitute a binding offer."
+    },
+    "noGuarantee": {
+      "title": "2. No Guarantee",
+      "description": "Recruiting outcomes depend on market conditions, client decisions, and candidate behavior. No placement or outcome is guaranteed unless agreed in writing."
+    },
+    "ip": {
+      "title": "3. Intellectual Property",
+      "description": "All content on this site is the property of Laurasia LLC unless stated otherwise. Unauthorized use is prohibited."
+    },
+    "liability": {
+      "title": "4. Liability",
+      "description": "We are not liable for damages arising from the use of this website, except where liability is mandatory by law."
+    },
+    "externalLinks": {
+      "title": "5. External Links",
+      "description": "This site may contain links to third-party websites. We are not responsible for their content or privacy practices."
+    },
+    "governing": {
+      "title": "6. Governing Law",
+      "description": "These Terms are governed by the laws of the State of Wyoming, United States, without regard to conflict-of-law principles."
+    },
+    "contact": {
+      "title": "7. Contact",
+      "description": "Legal inquiries can be directed to"
+    }
+  }
+}

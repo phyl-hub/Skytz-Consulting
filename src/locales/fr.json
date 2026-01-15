@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "title": "Skytz Consulting | Recherche Directe pour Sales Engineering & Direction Exécutive",
+    "description": "Je place des leaders engineering critiques et des Sales Engineers pour les entreprises techniques les plus exigeantes. Approche directe, pas de bases de données. DACH & USA."
+  },
+  "nav": {
+    "home": "Accueil",
+    "caseStudies": "Références",
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Confidentialité",
+    "terms": "Conditions"
+  },
+  "hero": {
+    "tagline": "Suisse · Allemagne · États-Unis",
+    "headline": "Talent Engineering.\nPlacement Précis.",
+    "subhead": "Je sécurise des postes de direction critiques en Sales Engineering pour les entreprises techniques les plus exigeantes – avec 10 ans d'expérience et une discrétion absolue. 85% de mes placements n'étaient jamais sur le marché.",
+    "cta": {
+      "primary": "Planifier un appel",
+      "secondary": "Voir les références"
+    },
+    "signature": "Philipp Hoffschröer, Fondateur"
+  },
+  "proof": {
+    "megger": {
+      "badge": "Partenaire depuis 2016",
+      "title": "Megger Group",
+      "subtitle": "9+ Placements Clés",
+      "quote": "L'expertise de Philipp en Sales Engineering, combinée à son approche méthodique précise, a rendu notre collaboration exceptionnellement efficace.",
+      "contact": "Friedrich Enkert",
+      "role": "Directeur Général Allemagne/Autriche",
+      "outcome": "Sales Engineers, Business Development, Direction Commerciale"
+    },
+    "swr": {
+      "badge": "Partenaire de Croissance",
+      "title": "SWR Engineering",
+      "subtitle": "Expansion Stratégique",
+      "quote": "J'apprécie la collaboration fluide et efficace avec Philipp Hoffschröer. Excellent conseil et candidats adaptés.",
+      "contact": "Dirk Heesen",
+      "role": "CEO",
+      "outcome": "Direction Commerciale, Technical Sales Manager"
+    },
+    "dualPerspective": {
+      "badge": "Candidat → Client",
+      "title": "SebaKMT / Megger",
+      "subtitle": "Double Perspective",
+      "quote": "J'ai d'abord été placé par Philipp comme candidat. La qualité de son conseil m'a convaincu de l'engager comme client.",
+      "contact": "Sascha Kuflik",
+      "role": "Business Unit Director",
+      "outcome": "Placé comme candidat en 2018, client fidèle depuis"
+    },
+    "otopront": {
+      "badge": "Secteur Médical",
+      "title": "Happersberger Otopront",
+      "subtitle": "Direction Commerciale Internationale",
+      "quote": "Collaboration professionnelle avec haute discrétion. La qualité des candidats était constamment excellente.",
+      "contact": "Carlo Happersberger",
+      "role": "CEO",
+      "outcome": "Directeur des Ventes Internationales"
+    },
+    "eurasia": {
+      "badge": "Mandat Exécutif · 2024",
+      "title": "Mandat C-Level",
+      "client": "Eurasia Group AG",
+      "location": "Schaffhausen",
+      "role": "Directeur Financier (CFO)",
+      "description": "Placement du CFO pour un prestigieux Family Office & Groupe d'Investissement suisse à Schaffhausen. Un mandat exigeant une discrétion absolue."
+    }
+  },
+  "stats": {
+    "passive": {
+      "value": "85%",
+      "label": "Candidats Passifs",
+      "subtext": "Placements par approche directe"
+    },
+    "rehire": {
+      "value": "95%",
+      "label": "Taux de Fidélisation",
+      "subtext": "Clients qui reviennent"
+    },
+    "since": {
+      "value": "2015",
+      "label": "En activité depuis",
+      "subtext": "10 ans de recherche précise"
+    }
+  },
+  "services": {
+    "title": "Ce que je place",
+    "subtitle": "Focus étroit. Expertise marché approfondie.",
+    "salesEngineering": {
+      "title": "Sales Engineering & Ventes Techniques",
+      "items": [
+        "Sales Engineers / Ingénieurs d'Application",
+        "Ventes Techniques / Grands Comptes",
+        "Ventes Internationales (directes & channel)"
+      ]
+    },
+    "leadership": {
+      "title": "Leadership & Executive Search",
+      "items": [
+        "Directeur Commercial / VP Sales",
+        "Direction de Business Unit",
+        "Recherches C-level confidentielles"
+      ]
+    }
+  },
+  "process": {
+    "title": "Ma Méthode",
+    "subtitle": "100% d'implication personnelle. Pas de sous-traitance. Pas de délégation.",
+    "steps": {
+      "calibration": {
+        "title": "Calibration du Poste",
+        "description": "Nous définissons le succès, les risques et les signaux essentiels — au-delà de la description de poste."
+      },
+      "mapping": {
+        "title": "Cartographie du Marché",
+        "description": "Concurrents, industries adjacentes, contraintes géographiques. Je construis la liste cible."
+      },
+      "outreach": {
+        "title": "Approche Directe",
+        "description": "Approche ciblée, qualification structurée, risques documentés."
+      },
+      "shortlist": {
+        "title": "Livraison Shortlist",
+        "description": "Des candidats avec raisonnement, compromis et notes de risque. Pas juste des CVs."
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à discuter?",
+    "subtitle": "Pas de formulaires, pas d'intermédiaires. Conversation directe.",
+    "button": "Planifier un appel",
+    "email": "Ou contacter par email"
+  },
+  "footer": {
+    "legal": "Structure Globale: Laurasia LLC · Partenaire Local: Philipp Hoffschröer (DACH)",
+    "address": "1309 Coffeen Avenue STE 1200, Sheridan, WY 82801, USA",
+    "links": {
+      "privacy": "Confidentialité",
+      "terms": "Conditions",
+      "imprint": "Mentions légales"
+    },
+    "copyright": "© {{year}} Skytz Consulting. Tous droits réservés."
+  },
+  "caseStudies": {
+    "title": "Clients de Référence",
+    "subtitle": "Historique Prouvé",
+    "description": "Mandats réels. Appels de référence disponibles sur demande.",
+    "megger": {
+      "industry": "Équipements de Test Électrique",
+      "outcome": "9 placements depuis 2016",
+      "highlight1": "Équipe Sales Engineering constituée",
+      "highlight2": "Direction Commerciale placée",
+      "highlight3": "Partenariat long terme"
+    },
+    "swr": {
+      "industry": "Mesure Industrielle Bulk",
+      "outcome": "Partenaire de Croissance",
+      "highlight1": "Expansion stratégique accompagnée",
+      "highlight2": "Technical Sales Manager placé",
+      "highlight3": "Direction Commerciale recrutée"
+    },
+    "sebakmt": {
+      "industry": "Localisation Câbles & Conduites",
+      "outcome": "Double Perspective",
+      "highlight1": "Placé comme candidat en 2018",
+      "highlight2": "Devenu client",
+      "highlight3": "Collaboration de longue date"
+    },
+    "otopront": {
+      "industry": "Technologie Médicale / ORL",
+      "outcome": "Placement C-Level",
+      "highlight1": "Direction Commerciale Internationale",
+      "highlight2": "Haute discrétion",
+      "highlight3": "Placement réussi"
+    },
+    "cta": {
+      "title": "Vous souhaitez des lettres de référence complètes?",
+      "description": "Je peux fournir des références écrites et organiser des appels avec d'anciens clients.",
+      "button": "Demander des références"
+    }
+  },
+  "about": {
+    "title": "À propos de Skytz Consulting",
+    "subtitle": "Depuis 2015",
+    "description": "Recrutement spécialisé pour Sales Engineering et postes de direction dans les entreprises industrielles.",
+    "beliefsTitle": "Ce que je crois",
+    "beliefs": {
+      "expertise": {
+        "title": "Le Sales Engineering n'est pas 'de la vente avec un titre tech'",
+        "description": "Cela nécessite une expertise métier, une crédibilité technique et un instinct commercial."
+      },
+      "alignment": {
+        "title": "Les recrutements de dirigeants échouent plus souvent par désalignement que par manque de compétence",
+        "description": "C'est pourquoi je documente les risques tôt."
+      },
+      "decision": {
+        "title": "Un bon recrutement c'est de l'aide à la décision",
+        "description": "Vous devez savoir pourquoi je recommande quelqu'un — et pourquoi pas."
+      }
+    },
+    "operationsTitle": "Comment je travaille",
+    "operations": {
+      "direct": {
+        "title": "Recherche Directe",
+        "description": "85%+ des placements proviennent de candidats que j'approche directement."
+      },
+      "documented": {
+        "title": "Compromis Documentés",
+        "description": "Chaque candidat vient avec des notes de risque et un raisonnement."
+      },
+      "honest": {
+        "title": "Retour Honnête",
+        "description": "Si les attentes ne correspondent pas à la réalité, je vous le dis directement."
+      }
+    },
+    "legal": {
+      "title": "Structure Globale",
+      "description": "Skytz Consulting opère sous Laurasia LLC (Wyoming, USA) comme base stratégique globale. Philipp Hoffschröer est le partenaire exécutif local pour tous les mandats DACH."
+    }
+  },
+  "contact": {
+    "title": "Parlons",
+    "subtitle": "Direct & Simple",
+    "description": "Pas de formulaires, pas d'intermédiaires. Conversation directe sur vos besoins.",
+    "getInTouch": {
+      "title": "Prendre Contact",
+      "description": "Le moyen le plus rapide pour discuter de vos besoins en recrutement."
+    },
+    "phone": "Téléphone",
+    "noCommitment": "Sans engagement. Premiers échanges toujours gratuits.",
+    "fasterAlignment": {
+      "title": "Pour un Échange Plus Efficace",
+      "description": "Si vous contactez pour une recherche spécifique, indiquez:",
+      "items": {
+        "roleTitle": "Titre et périmètre du poste",
+        "location": "Localisation / région",
+        "seniority": "Niveau de séniorité",
+        "timeline": "Urgence / calendrier",
+        "compensation": "Fourchette de rémunération (si connue)"
+      }
+    },
+    "office": {
+      "title": "Bureau"
+    },
+    "hours": {
+      "title": "Disponibilité",
+      "weekdays": "Lun–Ven: 09:00–18:00",
+      "timezone": "Fuseau horaire: CET / CEST"
+    }
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour: Janvier 2026",
+    "intro": "Skytz Consulting (\"nous\") est une marque de Laurasia LLC. Nous prenons la confidentialité au sérieux et ne traitons les données personnelles que dans la mesure nécessaire au fonctionnement de ce site web et de nos services de recrutement.",
+    "controller": {
+      "title": "1. Responsable du Traitement"
+    },
+    "dataCollected": {
+      "title": "2. Données Collectées",
+      "intro": "Nous pouvons collecter les données suivantes:",
+      "items": {
+        "contact": "Coordonnées que vous fournissez (nom, email, téléphone)",
+        "email": "Informations envoyées par email ou contact direct",
+        "technical": "Données techniques telles que adresse IP, type de navigateur et heures d'accès"
+      }
+    },
+    "purpose": {
+      "title": "3. Finalité du Traitement",
+      "items": {
+        "inquiries": "Répondre aux demandes",
+        "services": "Discuter des services de recrutement",
+        "website": "Exploiter et améliorer ce site web",
+        "legal": "Conformité aux obligations légales"
+      }
+    },
+    "legalBasis": {
+      "title": "4. Base Juridique (RGPD)",
+      "intro": "Lorsque le RGPD s'applique, le traitement est basé sur:",
+      "items": {
+        "consent": "Consentement (Art. 6(1)(a))",
+        "contract": "Nécessité contractuelle (Art. 6(1)(b))",
+        "legitimate": "Intérêt légitime (Art. 6(1)(f))"
+      }
+    },
+    "sharing": {
+      "title": "5. Partage des Données",
+      "description": "Nous ne vendons pas de données personnelles. Les données ne sont partagées que lorsque cela est nécessaire pour fournir des services ou respecter la loi."
+    },
+    "retention": {
+      "title": "6. Conservation des Données",
+      "description": "Les données personnelles ne sont conservées que le temps nécessaire à la finalité pour laquelle elles ont été collectées, ou comme requis par la loi."
+    },
+    "rights": {
+      "title": "7. Vos Droits",
+      "description": "Vous pouvez demander l'accès, la rectification ou la suppression de vos données personnelles. Vous avez également le droit de vous opposer au traitement le cas échéant."
+    },
+    "contact": {
+      "title": "8. Contact",
+      "description": "Les demandes relatives à la confidentialité peuvent être envoyées à"
+    }
+  },
+  "terms": {
+    "title": "Conditions Générales",
+    "lastUpdated": "Dernière mise à jour: Janvier 2026",
+    "intro": "Ces Conditions régissent l'utilisation du site web Skytz Consulting. En accédant à ce site, vous acceptez ces Conditions.",
+    "scope": {
+      "title": "1. Champ d'Application",
+      "description": "Ce site web fournit des informations générales sur les services de recrutement offerts par Skytz Consulting. Il ne constitue pas une offre contraignante."
+    },
+    "noGuarantee": {
+      "title": "2. Pas de Garantie",
+      "description": "Les résultats de recrutement dépendent des conditions du marché, des décisions des clients et du comportement des candidats. Aucun placement ou résultat n'est garanti sauf accord écrit."
+    },
+    "ip": {
+      "title": "3. Propriété Intellectuelle",
+      "description": "Tout le contenu de ce site est la propriété de Laurasia LLC sauf indication contraire. L'utilisation non autorisée est interdite."
+    },
+    "liability": {
+      "title": "4. Responsabilité",
+      "description": "Nous ne sommes pas responsables des dommages résultant de l'utilisation de ce site web, sauf lorsque la responsabilité est obligatoire par la loi."
+    },
+    "externalLinks": {
+      "title": "5. Liens Externes",
+      "description": "Ce site peut contenir des liens vers des sites web tiers. Nous ne sommes pas responsables de leur contenu ou de leurs pratiques de confidentialité."
+    },
+    "governing": {
+      "title": "6. Droit Applicable",
+      "description": "Ces Conditions sont régies par les lois de l'État du Wyoming, États-Unis, sans égard aux principes de conflit de lois."
+    },
+    "contact": {
+      "title": "7. Contact",
+      "description": "Les demandes juridiques peuvent être adressées à"
+    }
+  }
+}
