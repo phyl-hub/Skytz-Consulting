@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc; /* Slate-50: The Swiss standard for 'clean' */
+  color: #020617; /* Slate-950: Deep ink, not black */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Swiss Typography: Mathematical precision */
+h1, h2, h3, h4 {
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+  text-wrap: balance;
+}
+
+h1 { 
+  letter-spacing: -0.035em; 
+  line-height: 1.05;
+}
+h2 { 
+  letter-spacing: -0.025em; 
+  line-height: 1.1;
+}
+h3 { 
+  letter-spacing: -0.02em; 
+  line-height: 1.15;
+}
+
+/* Subheads: Slightly looser for readability */
+.subhead {
+  letter-spacing: -0.01em;
+  line-height: 1.5;
+}
+
+/* Custom shadow for Bento Cards: Soft but defined */
+.bento-shadow {
+  box-shadow: 
+    0 0 0 1px rgba(0,0,0,0.03), 
+    0 2px 4px rgba(0,0,0,0.04), 
+    0 8px 16px rgba(0,0,0,0.04),
+    0 24px 48px rgba(0,0,0,0.03);
+}
+
+/* Swiss-Made Premium Card: Deep slate with subtle gold accent */
+.swiss-bank-card {
+  background: linear-gradient(145deg, #0f172a 0%, #1e293b 100%);
+  border: 1px solid rgba(37, 99, 235, 0.15);
+  box-shadow: 
+    0 0 0 1px rgba(255,255,255,0.03),
+    0 4px 6px rgba(0,0,0,0.2),
+    0 20px 40px rgba(0,0,0,0.3),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+/* Bento Grid Air: Premium spacing */
+.bento-grid-air {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .bento-grid-air {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
