@@ -1,0 +1,45 @@
+name: Daily GitHub Backup Branch
+
+on:
+  schedule:
+    # Runs daily at 03:15 UTC (adjust as needed)
+    - cron: "15 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backup-branch
+  cancel-in-progress: false
+
+jobs:
+  create-backup-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Create and push backup branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          stamp=$(date -u +%Y%m%d%H%M)
+          branch="backup/auto-${stamp}"
+
+          echo "Creating backup branch: ${branch}"
+
+          # Push current HEAD to a new branch on origin.
+          # If it already exists (unlikely due to timestamp), fail fast.
+          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:"refs/heads/${branch}"
+
+      - name: Summary
+        run: |
+          echo "Backup branch created and pushed." >> $GITHUB_STEP_SUMMARY
