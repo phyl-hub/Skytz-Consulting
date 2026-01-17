@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Award, Users, Quote, ArrowRight, Building2, CheckCircle } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
+import SEO, { pageSEOConfig } from '../components/SEO';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -14,75 +15,41 @@ const fadeIn = {
 };
 
 const stagger = {
+  hidden: { opacity: 0 },
   visible: {
+    opacity: 1,
     transition: { staggerChildren: 0.1 }
   }
 };
 
-export default function CaseStudies() {
-  const { t } = useTranslation();
+export default function Testimonials() {
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language || 'de';
+  const seoConfig = pageSEOConfig.testimonials[lang] || pageSEOConfig.testimonials.en;
 
   useEffect(() => {
-    document.title = `${t('nav.caseStudies')} | Skytz Consulting`;
+    document.title = `${t('nav.testimonials')} | Skytz Consulting`;
   }, [t]);
 
-  const cases = [
-    {
-      company: 'Megger Germany GmbH',
-      industry: t('caseStudies.megger.industry'),
-      person: 'Friedrich Enkert',
-      role: 'Managing Director',
-      quote: t('proof.megger.quote'),
-      outcome: t('caseStudies.megger.outcome'),
-      highlights: [
-        t('caseStudies.megger.highlight1'),
-        t('caseStudies.megger.highlight2'),
-        t('caseStudies.megger.highlight3')
-      ]
-    },
-    {
-      company: 'SWR (Südwestrundfunk)',
-      industry: t('caseStudies.swr.industry'),
-      person: 'Dirk Heesen',
-      role: 'Head of Broadcast Technology',
-      quote: t('proof.swr.quote'),
-      outcome: t('caseStudies.swr.outcome'),
-      highlights: [
-        t('caseStudies.swr.highlight1'),
-        t('caseStudies.swr.highlight2'),
-        t('caseStudies.swr.highlight3')
-      ]
-    },
-    {
-      company: 'SebaKMT',
-      industry: t('caseStudies.sebakmt.industry'),
-      person: 'Sascha Kuflik',
-      role: 'Managing Director',
-      quote: t('proof.dualPerspective.quote'),
-      outcome: t('caseStudies.sebakmt.outcome'),
-      highlights: [
-        t('caseStudies.sebakmt.highlight1'),
-        t('caseStudies.sebakmt.highlight2'),
-        t('caseStudies.sebakmt.highlight3')
-      ]
-    },
-    {
-      company: 'Otopront',
-      industry: t('caseStudies.otopront.industry'),
-      person: 'Carlo Happersberger',
-      role: 'Managing Director',
-      quote: t('proof.otopront.quote'),
-      outcome: t('caseStudies.otopront.outcome'),
-      highlights: [
-        t('caseStudies.otopront.highlight1'),
-        t('caseStudies.otopront.highlight2'),
-        t('caseStudies.otopront.highlight3')
-      ]
-    }
-  ];
+  // Client keys to iterate over
+  const clientKeys = ['megger', 'swr', 'sebakmt', 'otopront', 'box02'];
+  
+  const cases = clientKeys.map(key => ({
+    key,
+    company: t(`testimonials.clients.${key}.company`),
+    industry: t(`testimonials.clients.${key}.industry`),
+    person: t(`testimonials.clients.${key}.contact`),
+    role: t(`testimonials.clients.${key}.role`),
+    quote: t(`testimonials.clients.${key}.quote`),
+    quoteNote: t(`testimonials.clients.${key}.quoteNote`, { defaultValue: '' }),
+    outcome: t(`testimonials.clients.${key}.outcome`, { defaultValue: '' }),
+    highlights: t(`testimonials.clients.${key}.highlights`, { returnObjects: true }) || []
+  }));
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <>
+      <SEO title={seoConfig.title} description={seoConfig.description} />
+      <div className="min-h-screen bg-slate-50">
       {/* Hero */}
       <section className="py-20 md:py-28">
         <div className="mx-auto max-w-7xl px-6">
@@ -93,13 +60,13 @@ export default function CaseStudies() {
             className="max-w-3xl"
           >
             <motion.p variants={fadeIn} className="text-sm font-medium uppercase tracking-wider text-blueprint-600">
-              {t('caseStudies.subtitle')}
+              {t('testimonials.subtitle')}
             </motion.p>
             <motion.h1 variants={fadeIn} className="mt-4 text-4xl font-bold tracking-tighter text-slate-900 md:text-5xl lg:text-6xl">
-              {t('caseStudies.title')}
+              {t('testimonials.title')}
             </motion.h1>
             <motion.p variants={fadeIn} className="mt-6 text-lg text-slate-600">
-              {t('caseStudies.description')}
+              {t('testimonials.description')}
             </motion.p>
           </motion.div>
         </div>
@@ -110,20 +77,31 @@ export default function CaseStudies() {
         <div className="mx-auto max-w-7xl px-6">
           <motion.div
             initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
+            animate="visible"
             variants={stagger}
             className="space-y-8"
           >
             {cases.map((c, index) => (
-              <motion.div key={c.company} variants={fadeIn}>
+              <motion.div key={c.key} variants={fadeIn}>
                 <BentoCard className="p-0 overflow-hidden">
                   <div className="grid md:grid-cols-3">
                     {/* Company Info */}
                     <div className="p-8 md:border-r border-slate-200">
-                      <div className="flex items-center gap-3 mb-4">
-                        <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blueprint-50">
-                          <Building2 className="h-6 w-6 text-blueprint-600" />
+                      <div className="flex items-center gap-4 mb-4">
+                        <div className="flex h-24 w-48 items-center justify-center rounded-xl bg-blueprint-50 p-3 shrink-0">
+                          {c.key === 'megger' ? (
+                            <img src="/recommendation/Megger_logo_without_slogan.svg" alt="Megger" className="max-h-16 max-w-40 object-contain" />
+                          ) : c.key === 'swr' ? (
+                            <img src="/recommendation/SWR_logo.jpeg" alt="SWR" className="max-h-16 max-w-40 object-contain" />
+                          ) : c.key === 'sebakmt' ? (
+                            <img src="/recommendation/sebakmt-logo-black-rgb-scaled.png" alt="SebaKMT" className="max-h-16 max-w-40 object-contain" />
+                          ) : c.key === 'otopront' ? (
+                            <img src="/recommendation/otopront-logo.png" alt="Otopront" className="max-h-16 max-w-40 object-contain" />
+                          ) : c.key === 'box02' ? (
+                            <img src="/recommendation/Logo-box02.png" alt="Box02" className="max-h-16 max-w-40 object-contain" />
+                          ) : (
+                            <Building2 className="h-12 w-12 text-blueprint-600" />
+                          )}
                         </div>
                         <div>
                           <h2 className="font-bold text-slate-900">{c.company}</h2>
@@ -136,10 +114,12 @@ export default function CaseStudies() {
                         <p className="text-sm text-slate-500">{c.role}</p>
                       </div>
                       
-                      <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1.5">
-                        <CheckCircle className="h-4 w-4 text-emerald-600" />
-                        <span className="text-sm font-medium text-emerald-700">{c.outcome}</span>
-                      </div>
+                      {c.outcome && (
+                        <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1.5">
+                          <CheckCircle className="h-4 w-4 text-emerald-600" />
+                          <span className="text-sm font-medium text-emerald-700">{c.outcome}</span>
+                        </div>
+                      )}
                     </div>
                     
                     {/* Quote */}
@@ -150,9 +130,12 @@ export default function CaseStudies() {
                           <p className="text-slate-700 italic leading-relaxed">
                             "{c.quote}"
                           </p>
+                          {c.quoteNote && (
+                            <p className="text-xs text-slate-400 mt-1">({c.quoteNote})</p>
+                          )}
                           
                           <div className="mt-6 space-y-2">
-                            {c.highlights.map((h, i) => (
+                            {Array.isArray(c.highlights) && c.highlights.map((h, i) => (
                               <div key={i} className="flex items-center gap-2 text-sm text-slate-600">
                                 <ArrowRight className="h-4 w-4 text-blueprint-500" />
                                 {h}
@@ -181,21 +164,22 @@ export default function CaseStudies() {
             className="text-center"
           >
             <h2 className="text-2xl font-bold tracking-tight text-slate-900">
-              {t('caseStudies.cta.title')}
+              {t('testimonials.cta.title')}
             </h2>
             <p className="mt-4 text-slate-600 max-w-xl mx-auto">
-              {t('caseStudies.cta.description')}
+              {t('testimonials.cta.description')}
             </p>
             <a
-              href="mailto:contact@skytz.de"
+              href="mailto:info@skytz-consulting.com"
               className="mt-8 inline-flex items-center gap-2 rounded-xl bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white hover:bg-slate-800 transition-colors"
             >
-              {t('caseStudies.cta.button')}
+              {t('testimonials.cta.button')}
               <ArrowRight className="h-4 w-4" />
             </a>
           </motion.div>
         </div>
       </section>
     </div>
+    </>
   );
 }

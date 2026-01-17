@@ -17,7 +17,6 @@ A premium recruitment consultancy specializing in revenue-critical technical tal
 | Client | Relationship | Achievement |
 |--------|-------------|-------------|
 | **Megger Group** | Partner since 2016 | 9+ key placements across Sales Engineering, Business Development, and Leadership |
-| **Eurasia Group AG** | Executive Search 2024 | CFO placement for Swiss Family Office & Investment Group (Schaffhausen) |
 | **SWR Engineering** | Growth Partner | Strategic expansion support |
 | **Happersberger Otopront** | Medical Sector | Head of International Sales |
 

@@ -46,7 +46,7 @@ export default function Hero() {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
               <Link
-                to={getLocalizedPath('/case-studies')}
+                to={getLocalizedPath('/testimonials')}
                 className="inline-flex items-center justify-center px-6 py-3.5 border border-slate-300 hover:border-slate-400 text-slate-700 font-medium rounded-xl transition-colors"
               >
                 {t('hero.cta.secondary')}
@@ -93,45 +93,16 @@ export default function Hero() {
           {/* TILE D: Megger Seal (6 cols) */}
           <BentoCard colSpan={6} variant="primary" delay={0.3}>
             <span className="inline-block px-3 py-1 bg-white/20 rounded-full text-xs font-medium text-white/90 mb-4">
-              {t('proof.megger.badge')}
+              {t('testimonials.clients.megger.badge')}
             </span>
-            <h3 className="text-2xl font-bold text-white mb-2">{t('proof.megger.title')}</h3>
-            <p className="text-blueprint-100 text-sm font-medium mb-3">{t('proof.megger.subtitle')}</p>
+            <img src="/recommendation/Megger_logo_without_slogan.svg" alt="Megger Group" className="h-12 mb-4 brightness-0 invert" />
+            <p className="text-blueprint-100 text-sm font-medium mb-3">{t('testimonials.clients.megger.outcome')}</p>
             <p className="text-white/80 text-sm leading-relaxed mb-4 line-clamp-2">
-              "{t('proof.megger.quote')}"
+              "{t('testimonials.clients.megger.quote')}"
             </p>
             <p className="text-white/60 text-xs">
-              — {t('proof.megger.contact')}, {t('proof.megger.role')}
+              — {t('testimonials.clients.megger.contact')}, {t('testimonials.clients.megger.role')}
             </p>
-          </BentoCard>
-
-          {/* TILE E: Eurasia Group (6 cols) - Replaces Dual & Swiss */}
-          <BentoCard colSpan={6} className="md:col-span-6 bg-slate-950 text-white relative overflow-hidden group" delay={0.4}>
-             <div className="relative z-10 h-full flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center gap-2 mb-6">
-                    <div className="w-2 h-2 bg-red-600 rounded-full animate-pulse"></div>
-                    <span className="text-xs font-bold tracking-[0.2em] uppercase text-slate-400">
-                      {t('proof.eurasia.badge')}
-                    </span>
-                  </div>
-                  
-                  <h3 className="text-3xl font-bold mb-4 leading-tight text-white">
-                    {t('proof.eurasia.client')}
-                  </h3>
-                  <p className="text-slate-400 text-sm leading-relaxed mb-6">
-                    {t('proof.eurasia.description')}
-                  </p>
-                </div>
-
-                <div className="border-t border-slate-800 pt-4 flex justify-between items-end">
-                  <div>
-                    <p className="text-blueprint-400 font-bold text-xs uppercase tracking-widest mb-1">Location</p>
-                    <p className="text-white text-sm">{t('proof.eurasia.location')}, CH</p>
-                  </div>
-                  <ArrowUpRight className="text-slate-600 group-hover:text-white transition-colors" size={24} />
-                </div>
-             </div>
           </BentoCard>
 
         </div>

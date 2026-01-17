@@ -5,135 +5,31 @@
   },
   "nav": {
     "home": "Home",
-    "caseStudies": "Case Studies",
+    "testimonials": "Testimonials",
     "about": "About",
-    "contact": "Contact",
+    "contact": "Meet Philipp",
     "privacy": "Privacy",
     "terms": "Terms"
   },
   "hero": {
     "tagline": "Germany · Switzerland · United States",
     "headline": "Engineering Talent.\nPrecision Placed.",
-    "subhead": "I secure revenue-critical engineering leadership and Sales Engineers for the world's most demanding technical firms. 85% of my placements were never on the market.",
+    "subhead": "I secure revenue-critical engineering leadership and Sales Engineers for demanding technical firms. Most of my placements were never actively looking.",
     "cta": {
       "primary": "Schedule a Call",
       "secondary": "View Case Studies"
     },
     "signature": "Philipp Hoffschröer, Founder"
   },
-  "proof": {
-    "megger": {
-      "badge": "Partner Since 2016",
-      "title": "Megger Group",
-      "subtitle": "9+ Key Placements",
-      "quote": "Philipp's background in Sales Engineering, combined with his methodically precise approach, made working with him exceptionally effective.",
-      "contact": "Friedrich Enkert",
-      "role": "Managing Director Germany/Austria",
-      "outcome": "Sales Engineers, Business Development, Sales Leadership"
-    },
-    "swr": {
-      "badge": "Growth Partner",
-      "title": "SWR Engineering",
-      "subtitle": "Strategic Expansion",
-      "quote": "I value the smooth and efficient collaboration with Philipp Hoffschröer. Excellent consulting and fitting candidates.",
-      "contact": "Dirk Heesen",
-      "role": "CEO",
-      "outcome": "Sales Leadership, Technical Sales Manager"
-    },
-    "dualPerspective": {
-      "badge": "Candidate → Client",
-      "title": "SebaKMT / Megger",
-      "subtitle": "The Dual Perspective",
-      "quote": "I was first placed by Philipp as a candidate. The quality of his consulting convinced me to engage him as a client.",
-      "contact": "Sascha Kuflik",
-      "role": "Business Unit Director",
-      "outcome": "Placed as candidate in 2018, long-term client ever since"
-    },
-    "otopront": {
-      "badge": "Medical Sector",
-      "title": "Happersberger Otopront",
-      "subtitle": "International Sales Leadership",
-      "quote": "Professional collaboration with high discretion. Candidate quality was consistently excellent.",
-      "contact": "Carlo Happersberger",
-      "role": "CEO",
-      "outcome": "Head of International Sales"
-    },
-    "eurasia": {
-      "badge": "Executive Search · 2024",
-      "title": "C-Level Mandate",
-      "client": "Eurasia Group AG",
-      "location": "Schaffhausen",
-      "role": "Chief Financial Officer (CFO)",
-      "description": "Placed the CFO for this prominent Swiss Family Office & Investment Group in Schaffhausen. A mandate requiring absolute discretion and cross-border financial expertise."
-    }
-  },
   "stats": {
     "passive": {
-      "value": "85%",
-      "label": "Passive Candidates",
-      "subtext": "Placements from direct outreach"
-    },
-    "rehire": {
-      "value": "95%",
-      "label": "Rehire Rate",
-      "subtext": "Clients who came back"
-    },
-    "since": {
-      "value": "2015",
-      "label": "Operating Since",
-      "subtext": "10 years of precision search"
+      "value": "Direct",
+      "label": "Search Approach",
+      "subtext": "Most placements from direct outreach"
     }
-  },
-  "services": {
-    "title": "What I Place",
-    "subtitle": "Narrow focus. Deep market knowledge.",
-    "salesEngineering": {
-      "title": "Sales Engineering & Technical Sales",
-      "items": [
-        "Sales Engineers / Application Engineers",
-        "Technical Sales / Key Account Management",
-        "International Sales (direct & channel)"
-      ]
-    },
-    "leadership": {
-      "title": "Leadership & Executive Search",
-      "items": [
-        "Head of Sales / VP Sales / Commercial Director",
-        "Business Unit Leadership",
-        "Confidential C-level searches"
-      ]
-    }
-  },
-  "process": {
-    "title": "How I Work",
-    "subtitle": "100% personal involvement. No sub-recruiters. No hand-offs.",
-    "steps": {
-      "calibration": {
-        "title": "Role Calibration",
-        "description": "We define success, failure modes, and must-have signals — beyond the job description."
-      },
-      "mapping": {
-        "title": "Market Mapping",
-        "description": "Competitors, adjacent industries, geo constraints. I build the target list."
-      },
-      "outreach": {
-        "title": "Direct Outreach",
-        "description": "Targeted approach, structured qualification, documented risks."
-      },
-      "shortlist": {
-        "title": "Shortlist Delivery",
-        "description": "Candidates with reasoning, trade-offs, and risk notes. Not just CVs."
-      }
-    }
-  },
-  "cta": {
-    "title": "Ready to discuss a search?",
-    "subtitle": "No forms, no gatekeepers. Direct conversation.",
-    "button": "Schedule a Call",
-    "email": "Or email directly"
   },
   "footer": {
-    "legal": "Strategic Global Operations: Laurasia LLC",
+    "legal": "Skytz Consulting (a brand of Laurasia LLC)",
     "address": "1309 Coffeen Avenue STE 1200, Sheridan, WY 82801, USA",
     "links": {
       "privacy": "Privacy Policy",
@@ -142,37 +38,75 @@
     },
     "copyright": "© {{year}} Skytz Consulting. All rights reserved."
   },
-  "caseStudies": {
+  "testimonials": {
     "title": "Reference Clients",
     "subtitle": "Proven Track Record",
     "description": "Real engagements. Reference calls available on request.",
-    "megger": {
-      "industry": "Electrical Test Equipment",
-      "outcome": "9 placements since 2016",
-      "highlight1": "Built Sales Engineering team",
-      "highlight2": "Placed Sales Leadership",
-      "highlight3": "Long-term partnership"
-    },
-    "swr": {
-      "industry": "Industrial Bulk Measurement",
-      "outcome": "Growth Partner",
-      "highlight1": "Supported strategic expansion",
-      "highlight2": "Placed Technical Sales Manager",
-      "highlight3": "Recruited Sales Leadership"
-    },
-    "sebakmt": {
-      "industry": "Cable & Pipe Location",
-      "outcome": "Dual Perspective",
-      "highlight1": "Placed as candidate in 2018",
-      "highlight2": "Became a client",
-      "highlight3": "Long-standing collaboration"
-    },
-    "otopront": {
-      "industry": "Medical Technology / ENT",
-      "outcome": "C-Level Placement",
-      "highlight1": "International Sales Leadership",
-      "highlight2": "High discretion",
-      "highlight3": "Successful placement"
+    "clients": {
+      "megger": {
+        "company": "Megger Germany GmbH",
+        "industry": "Electrical Testing Equipment",
+        "badge": "Partner Since 2016",
+        "contact": "Friedrich Enkert",
+        "role": "Managing Director",
+        "quote": "He has an impressive track record, successfully recruiting multiple qualified candidates for key positions in our company. His professionalism, deep understanding of our specific needs, and his ability to identify the best talents in the market have significantly contributed to our company's success.",
+        "outcome": "10+ placements since 2016",
+        "highlights": [
+          "Multiple placements in key sales, commercial, and leadership positions",
+          "Europe-wide placements, including subsidiaries",
+          "Continuous collaboration since 2016"
+        ]
+      },
+      "swr": {
+        "company": "SWR Engineering",
+        "industry": "Industrial Bulk Measurement",
+        "contact": "Dirk Heesen",
+        "role": "Managing Director",
+        "quote": "What sets him apart is his meticulous selection of candidates who not only possess the required skills but also align well with our corporate culture.",
+        "highlights": [
+          "Multiple site manager positions filled",
+          "Operational and specialist roles recruited",
+          "Collaboration since 2016"
+        ]
+      },
+      "sebakmt": {
+        "company": "SebaKMT by Megger",
+        "industry": "Measurement and locating technology for pipelines",
+        "contact": "Sascha Kuflik",
+        "role": "Business Unit Director",
+        "quote": "I first had the opportunity to know Philipp from the perspective of a candidate. His thorough understanding of my professional aspirations and his adeptness in aligning them with the right opportunities were truly remarkable.",
+        "quoteNote": "",
+        "highlights": [
+          "Placed as candidate in 2018",
+          "Became a client",
+          "Long-standing collaboration"
+        ]
+      },
+      "otopront": {
+        "company": "Happersberger Otopront GmbH",
+        "industry": "Medical Technology / ENT",
+        "contact": "Carlo Happersberger",
+        "role": "CEO",
+        "quote": "During our collaboration, Philipp successfully completed two hires. The collaboration was professional, discreet, and characterized by a structured and efficient hiring process.",
+        "quoteNote": "Translated from German original",
+        "highlights": [
+          "International Sales Leadership",
+          "High discretion",
+          "Successful placement"
+        ]
+      },
+      "box02": {
+        "company": "Box02 LLC",
+        "industry": "E-Commerce",
+        "contact": "Sebastian Wolff",
+        "role": "Founder & CEO",
+        "quote": "Philipp supported us in filling two Marketing Manager positions. The process was efficient, well-structured, and resulted in candidates who were a great fit both professionally and culturally.",
+        "highlights": [
+          "Two Marketing Managers successfully placed",
+          "Efficient, structured recruitment process",
+          "Precise candidate selection"
+        ]
+      }
     },
     "cta": {
       "title": "Want full reference letters?",
@@ -203,7 +137,7 @@
     "operations": {
       "direct": {
         "title": "Direct Search",
-        "description": "85%+ of placements come from candidates I approach directly."
+        "description": "Most placements come from candidates I approach directly."
       },
       "documented": {
         "title": "Documented Trade-offs",
@@ -215,8 +149,19 @@
       }
     },
     "legal": {
-      "title": "Global Operations",
-      "description": "Skytz Consulting operates under Laurasia LLC (Wyoming, USA) as its strategic global base. Philipp Hoffschröer serves as the local executive partner for all DACH region mandates."
+      "title": "Legal Structure & Compliance",
+      "description": "Skytz Consulting operates under Laurasia LLC (Wyoming, USA) as its strategic global base. We comply with all applicable European (including GDPR) and U.S. legal requirements. Philipp Hoffschröer serves as the executive partner for all DACH region mandates."
+    },
+    "german": {
+      "title": "Working with German-Speaking Companies",
+      "description": "We work with German-speaking companies by providing executive-level recruitment expertise with deep familiarity of the German market, business culture, and hiring standards.",
+      "details": "Our work is delivered in German and English and is structured for international collaboration, allowing clients in Germany to access specialized recruiting support without the constraints of a locally bound provider."
+    },
+    "swiss": {
+      "title": "Supporting Swiss Organizations",
+      "description": "We support Swiss-based organizations by identifying and engaging qualified engineering professionals based in Germany who are open to cross-border career opportunities.",
+      "details": "Our mandate focuses on sourcing, pre-qualifying, and advising candidates under German contractual and regulatory frameworks, while facilitating introductions to Swiss employers for roles where relocation or cross-border employment is initiated by the candidate.",
+      "benefit": "This approach ensures full compliance on the sourcing side, a transparent process for all parties, and access to a highly relevant talent pool familiar with the Swiss market and working environment."
     }
   },
   "contact": {
@@ -226,6 +171,10 @@
     "getInTouch": {
       "title": "Get in Touch",
       "description": "The fastest way to discuss your hiring requirements."
+    },
+    "booking": {
+      "label": "Schedule a Call",
+      "action": "Book a time directly"
     },
     "phone": "Phone",
     "noCommitment": "No commitment. Initial conversations always free.",
@@ -252,85 +201,123 @@
   "privacy": {
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: January 2026",
-    "intro": "Skytz Consulting (\"we\", \"us\") is a brand of Laurasia LLC. We take privacy seriously and process personal data only to the extent necessary to operate this website and our recruiting services.",
+    "intro": "Skytz Consulting (\"we\", \"us\", \"our\") is a brand operated by Laurasia LLC. We are committed to protecting your privacy and processing personal data in compliance with the EU General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other applicable data protection laws.",
     "controller": {
-      "title": "1. Data Controller"
+      "title": "1. Data Controller",
+      "description": "The data controller responsible for your personal data is:"
     },
     "dataCollected": {
-      "title": "2. Data We Collect",
-      "intro": "We may collect the following data:",
+      "title": "2. Personal Data We Collect",
+      "intro": "We collect and process the following categories of personal data:",
       "items": {
-        "contact": "Contact details you provide (name, email, phone)",
-        "email": "Information sent via email or direct contact",
-        "technical": "Technical data such as IP address, browser type, and access times"
+        "contact": "Contact information: name, email address, telephone number, company name, job title",
+        "email": "Communication data: content of emails, messages, and any attachments you send us",
+        "technical": "Technical data: IP address, browser type and version, time zone, operating system, access times",
+        "candidate": "Professional data (for candidates): CV/resume, work history, qualifications, salary expectations",
+        "usage": "Usage data: pages visited, time spent on pages, referral source"
       }
     },
     "purpose": {
       "title": "3. Purpose of Processing",
+      "intro": "We process your personal data for the following purposes:",
       "items": {
-        "inquiries": "Responding to inquiries",
-        "services": "Discussing recruiting services",
-        "website": "Operating and improving this website",
-        "legal": "Compliance with legal obligations"
+        "inquiries": "Responding to inquiries and providing information about our services",
+        "services": "Performing recruitment services including candidate sourcing, evaluation, and placement",
+        "website": "Operating, maintaining, and improving this website",
+        "legal": "Complying with legal obligations and protecting our legal rights",
+        "communication": "Communicating with you about relevant opportunities or services"
       }
     },
     "legalBasis": {
-      "title": "4. Legal Basis (GDPR)",
-      "intro": "Where applicable under GDPR, processing is based on:",
+      "title": "4. Legal Basis for Processing (GDPR)",
+      "intro": "For individuals in the European Economic Area (EEA), UK, and Switzerland, we process personal data on the following legal bases:",
       "items": {
-        "consent": "Consent (Art. 6(1)(a))",
-        "contract": "Contractual necessity (Art. 6(1)(b))",
-        "legitimate": "Legitimate interest (Art. 6(1)(f))"
+        "consent": "Consent (Art. 6(1)(a) GDPR): Where you have given explicit consent for specific processing activities",
+        "contract": "Contractual necessity (Art. 6(1)(b) GDPR): Where processing is necessary to perform a contract or take pre-contractual steps",
+        "legitimate": "Legitimate interest (Art. 6(1)(f) GDPR): Where processing is necessary for our legitimate business interests, such as direct marketing, fraud prevention, and service improvement",
+        "legal": "Legal obligation (Art. 6(1)(c) GDPR): Where processing is required to comply with applicable laws"
       }
     },
     "sharing": {
-      "title": "5. Data Sharing",
-      "description": "We do not sell personal data. Data is shared only when required to deliver services or comply with the law."
+      "title": "5. Data Sharing & International Transfers",
+      "description": "We do not sell your personal data. We may share data with: (a) clients, solely for recruitment purposes and only with your consent; (b) service providers who assist our operations under strict confidentiality agreements; (c) authorities when required by law. Data may be transferred to the United States where Laurasia LLC is based. Such transfers are conducted in compliance with GDPR requirements, including the use of Standard Contractual Clauses (SCCs) where applicable."
     },
     "retention": {
       "title": "6. Data Retention",
-      "description": "Personal data is retained only as long as necessary for the purpose for which it was collected, or as required by law."
+      "description": "We retain personal data only as long as necessary for the purposes described, typically: (a) client and candidate data for the duration of our business relationship plus 6 years for legal compliance; (b) website usage data for up to 26 months; (c) communication records for 3 years after last contact. You may request earlier deletion subject to legal retention requirements."
     },
     "rights": {
-      "title": "7. Your Rights",
-      "description": "You may request access, correction, or deletion of your personal data. You also have the right to object to processing where applicable."
+      "title": "7. Your Data Protection Rights",
+      "description": "Depending on your jurisdiction, you have the following rights: Right of access (to obtain a copy of your data), Right to rectification (to correct inaccurate data), Right to erasure ('right to be forgotten'), Right to restrict processing, Right to data portability, Right to object to processing, Right to withdraw consent at any time, Right to lodge a complaint with a supervisory authority. California residents have additional rights under CCPA, including the right to know what personal information is collected and the right to opt-out of the sale of personal information (we do not sell personal data)."
+    },
+    "security": {
+      "title": "8. Data Security",
+      "description": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. These include encryption, access controls, and regular security assessments."
+    },
+    "cookies": {
+      "title": "9. Cookies & Tracking",
+      "description": "This website uses only essential cookies necessary for site functionality. We do not use advertising cookies or third-party tracking services. Any analytics tools used are configured to anonymize IP addresses."
+    },
+    "changes": {
+      "title": "10. Changes to This Policy",
+      "description": "We may update this Privacy Policy periodically. Material changes will be communicated via our website. Continued use of our services after changes constitutes acceptance."
     },
     "contact": {
-      "title": "8. Contact",
-      "description": "Privacy-related inquiries can be sent to"
+      "title": "11. Contact & Data Protection Inquiries",
+      "description": "For privacy-related inquiries, data subject requests, or complaints, please contact us at"
     }
   },
   "terms": {
     "title": "Terms & Conditions",
     "lastUpdated": "Last updated: January 2026",
-    "intro": "These Terms govern the use of the Skytz Consulting website. By accessing this site, you agree to these Terms.",
+    "intro": "These Terms and Conditions (\"Terms\") govern your use of the Skytz Consulting website and any services provided by Laurasia LLC d/b/a Skytz Consulting. By accessing this website or engaging our services, you agree to be bound by these Terms.",
     "scope": {
-      "title": "1. Scope",
-      "description": "This website provides general information about recruiting services offered by Skytz Consulting. It does not constitute a binding offer."
+      "title": "1. Scope of Services",
+      "description": "Skytz Consulting provides executive recruitment and talent advisory services. This website offers general information about our services and does not constitute a binding offer or contract. All recruitment engagements are subject to separate written agreements."
     },
     "noGuarantee": {
-      "title": "2. No Guarantee",
-      "description": "Recruiting outcomes depend on market conditions, client decisions, and candidate behavior. No placement or outcome is guaranteed unless agreed in writing."
+      "title": "2. No Guarantee of Results",
+      "description": "Recruitment outcomes depend on market conditions, candidate availability, client decisions, and factors beyond our control. While we commit to professional diligence, no specific placement, timeline, or outcome is guaranteed unless explicitly stated in a written agreement. Past results do not guarantee future performance."
     },
     "ip": {
       "title": "3. Intellectual Property",
-      "description": "All content on this site is the property of Laurasia LLC unless stated otherwise. Unauthorized use is prohibited."
+      "description": "All content on this website, including text, graphics, logos, and design, is the property of Laurasia LLC or its licensors and is protected by copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works without prior written consent."
+    },
+    "confidentiality": {
+      "title": "4. Confidentiality",
+      "description": "Information shared with us regarding positions, candidates, or business operations is treated as confidential. We do not disclose client or candidate information to third parties without consent, except as required by law. Candidates are only presented to clients after appropriate consent is obtained."
     },
     "liability": {
-      "title": "4. Liability",
-      "description": "We are not liable for damages arising from the use of this website, except where liability is mandatory by law."
+      "title": "5. Limitation of Liability",
+      "description": "To the maximum extent permitted by law, Laurasia LLC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from: (a) use of this website; (b) reliance on any information provided; (c) recruitment services rendered. Our total liability shall not exceed the fees paid for the specific service giving rise to the claim. Nothing in these Terms excludes liability for death or personal injury caused by negligence, fraud, or any other liability that cannot be excluded by law."
+    },
+    "indemnification": {
+      "title": "6. Indemnification",
+      "description": "You agree to indemnify and hold harmless Laurasia LLC, its officers, employees, and agents from any claims, damages, losses, or expenses arising from: (a) your violation of these Terms; (b) your violation of any third-party rights; (c) any misrepresentation made by you."
     },
     "externalLinks": {
-      "title": "5. External Links",
-      "description": "This site may contain links to third-party websites. We are not responsible for their content or privacy practices."
+      "title": "7. External Links",
+      "description": "This website may contain links to third-party websites. We are not responsible for the content, accuracy, or privacy practices of external sites. Links do not imply endorsement."
+    },
+    "compliance": {
+      "title": "8. Legal Compliance",
+      "description": "Laurasia LLC operates in compliance with applicable U.S. federal and state laws, as well as European regulations including GDPR when serving clients and candidates in the EEA, UK, and Switzerland. We are committed to non-discrimination and equal opportunity principles in all recruitment activities."
     },
     "governing": {
-      "title": "6. Governing Law",
-      "description": "These Terms are governed by the laws of the State of Wyoming, United States, without regard to conflict-of-law principles."
+      "title": "9. Governing Law & Jurisdiction",
+      "description": "These Terms are governed by the laws of the State of Wyoming, United States, without regard to conflict-of-law principles. Any disputes shall be resolved in the courts of Wyoming. For EU-based individuals, mandatory consumer protection laws of your country of residence may apply, and you may have the right to bring proceedings in your local courts."
+    },
+    "severability": {
+      "title": "10. Severability",
+      "description": "If any provision of these Terms is found to be unenforceable, the remaining provisions shall continue in full force and effect."
+    },
+    "amendments": {
+      "title": "11. Amendments",
+      "description": "We reserve the right to modify these Terms at any time. Changes become effective upon posting to this website. Continued use constitutes acceptance of modified Terms."
     },
     "contact": {
-      "title": "7. Contact",
-      "description": "Legal inquiries can be directed to"
+      "title": "12. Contact",
+      "description": "For legal inquiries or questions about these Terms, please contact us at"
     }
   }
 }

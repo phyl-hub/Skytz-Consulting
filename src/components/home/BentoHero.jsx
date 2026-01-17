@@ -48,7 +48,7 @@ export default function BentoHero() {
                 </svg>
               </Link>
               <Link
-                to="/case-studies"
+                to="/testimonials"
                 className="inline-flex items-center justify-center px-8 py-4 border border-slate-600 hover:border-slate-500 text-white font-medium rounded-xl transition-colors"
               >
                 {t('hero.cta.secondary')}

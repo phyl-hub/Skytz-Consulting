@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Target, Shield, Users, TrendingUp, Award, Lightbulb, Building2 } from 'lucide-react';
+import { Target, Shield, Users, TrendingUp, Award, Lightbulb, Building2, Globe, Languages } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
+import SEO, { pageSEOConfig } from '../components/SEO';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -20,7 +21,9 @@ const stagger = {
 };
 
 export default function About() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language || 'de';
+  const seoConfig = pageSEOConfig.about[lang] || pageSEOConfig.about.en;
 
   useEffect(() => {
     document.title = `${t('nav.about')} | Skytz Consulting`;
@@ -63,7 +66,9 @@ export default function About() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <>
+      <SEO title={seoConfig.title} description={seoConfig.description} />
+      <div className="min-h-screen bg-slate-50">
       {/* Hero */}
       <section className="py-20 md:py-28">
         <div className="mx-auto max-w-7xl px-6">
@@ -167,29 +172,67 @@ export default function About() {
                 </div>
                 <h2 className="text-xl font-bold text-slate-900">{t('about.legal.title')}</h2>
               </div>
-              <p className="text-slate-600 mb-6">{t('about.legal.description')}</p>
-              
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div className="p-4 bg-slate-50 rounded-xl">
-                  <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-1">Strategic Global Base</p>
-                  <address className="text-sm not-italic text-slate-700">
-                    Laurasia LLC<br />
-                    1309 Coffeen Avenue STE 1200<br />
-                    Sheridan, WY 82801, USA
-                  </address>
+              <p className="text-slate-600">{t('about.legal.description')}</p>
+            </BentoCard>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* German Market Section */}
+      <section className="border-t border-slate-200 bg-slate-50 py-16">
+        <div className="mx-auto max-w-7xl px-6">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeIn}
+          >
+            <BentoCard className="max-w-3xl">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50">
+                  <Languages className="h-5 w-5 text-amber-600" />
                 </div>
-                <div className="p-4 bg-blueprint-50 rounded-xl border border-blueprint-100">
-                  <p className="text-xs font-bold uppercase tracking-wider text-blueprint-600 mb-1">DACH Executive Partner</p>
-                  <p className="text-sm text-slate-700 font-medium">
-                    Philipp Hoffschröer<br />
-                    Germany · Switzerland · Austria
-                  </p>
+                <h2 className="text-xl font-bold text-slate-900">{t('about.german.title')}</h2>
+              </div>
+              <div className="space-y-4">
+                <p className="text-slate-600">{t('about.german.description')}</p>
+                <p className="text-slate-700 font-medium bg-amber-50 p-4 rounded-xl border border-amber-100">
+                  {t('about.german.details')}
+                </p>
+              </div>
+            </BentoCard>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Swiss Market Section */}
+      <section className="border-t border-slate-200 bg-white py-16">
+        <div className="mx-auto max-w-7xl px-6">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeIn}
+          >
+            <BentoCard className="max-w-3xl">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-red-50">
+                  <Globe className="h-5 w-5 text-red-600" />
                 </div>
+                <h2 className="text-xl font-bold text-slate-900">{t('about.swiss.title')}</h2>
+              </div>
+              <div className="space-y-4">
+                <p className="text-slate-600">{t('about.swiss.description')}</p>
+                <p className="text-slate-600">{t('about.swiss.details')}</p>
+                <p className="text-slate-700 font-medium bg-red-50 p-4 rounded-xl border border-red-100">
+                  {t('about.swiss.benefit')}
+                </p>
               </div>
             </BentoCard>
           </motion.div>
         </div>
       </section>
     </div>
+    </>
   );
 }

@@ -4,12 +4,15 @@ import { Link } from 'react-router-dom';
 import { ShieldCheck, Users, Globe, ArrowUpRight } from 'lucide-react';
 import useLanguage from '../hooks/useLanguage';
 import { useRef } from 'react';
+import SEO, { pageSEOConfig } from '../components/SEO';
 
 export default function Home() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { getLocalizedPath } = useLanguage();
   const heroRef = useRef(null);
   const isInView = useInView(heroRef, { once: true, margin: "-100px" });
+  const lang = i18n.language || 'de';
+  const seoConfig = pageSEOConfig.home[lang] || pageSEOConfig.home.en;
 
   // Framer Motion: "Clarity Transition" for premium headshot reveal
   const imageVariants = {
@@ -27,7 +30,9 @@ export default function Home() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-20 lg:py-28 min-h-screen">
+    <>
+      <SEO title={seoConfig.title} description={seoConfig.description} />
+      <div className="max-w-7xl mx-auto px-6 py-20 lg:py-28 min-h-screen">
       {/* 12-Column Bento Grid with Swiss Air */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8">
         
@@ -41,24 +46,36 @@ export default function Home() {
         >
           {/* Premium Headshot with "Clarity Transition" */}
           <motion.div 
-            className="relative shrink-0 cursor-pointer"
+            className="relative shrink-0 cursor-pointer mb-6"
             initial="initial"
             animate={isInView ? "active" : "initial"}
             whileHover="active"
           >
             <motion.div 
-              className="w-44 lg:w-56 rounded-2xl overflow-hidden border border-slate-200/60 shadow-xl aspect-[4/5]"
+              className="w-40 sm:w-48 lg:w-56 rounded-2xl overflow-hidden border border-slate-200/60 shadow-xl aspect-[4/5]"
               variants={imageVariants}
             >
               <img 
                 src="/brand/Philipp-Hoffschroer.jpg" 
-                alt="Philipp Hoffschröer – Direct Search Partner, DACH" 
+                alt="Philipp Hoffschröer – Founder, Skytz Consulting" 
                 className="w-full h-full object-cover object-top" 
+                loading="lazy"
+                decoding="async"
               />
             </motion.div>
             {/* Trust Verification Badge */}
             <div className="absolute -bottom-2 -right-2 w-9 h-9 bg-blueprint-600 rounded-full flex items-center justify-center shadow-lg ring-4 ring-white">
               <ShieldCheck className="w-4 h-4 text-white" strokeWidth={2.5} />
+            </div>
+            
+            {/* Founder Name - Below Image */}
+            <div className="mt-4 text-center">
+              <p className="text-sm font-bold text-slate-900">
+                Philipp Hoffschröer
+              </p>
+              <p className="text-xs text-blueprint-600 font-semibold uppercase tracking-wide mt-1">
+                Skytz Consulting
+              </p>
             </div>
           </motion.div>
           
@@ -74,61 +91,24 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Link
-                to={getLocalizedPath('contact')}
+              <a
+                href="https://calendar.app.google/UCMkTD9Qe2Y4TMMF7"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-7 py-3.5 bg-blueprint-600 hover:bg-blueprint-700 text-white font-semibold rounded-xl transition-all shadow-lg shadow-blueprint-600/25 hover:shadow-xl hover:shadow-blueprint-600/30"
               >
                 {t('hero.cta.primary')}
                 <ArrowUpRight className="ml-2 w-4 h-4" />
-              </Link>
+              </a>
               <Link
-                to={getLocalizedPath('case-studies')}
+                to={getLocalizedPath('testimonials')}
                 className="inline-flex items-center justify-center px-7 py-3.5 border border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-700 font-medium rounded-xl transition-all"
               >
                 {t('hero.cta.secondary')}
               </Link>
             </div>
-          </div>
-        </motion.div>
-
-        {/* TILE 2: EURASIA ANCHOR (4 cols) - Swiss Bank Premium Card */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }} 
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="md:col-span-4 swiss-bank-card rounded-[2rem] p-8 text-white flex flex-col justify-between relative overflow-hidden group min-h-[320px]"
-        >
-          <div className="absolute top-0 right-0 p-6 opacity-5 group-hover:opacity-10 transition-opacity duration-500">
-            <Globe size={100} strokeWidth={0.75} />
-          </div>
-          
-          <div className="relative z-10">
-            <div className="flex items-center gap-2.5 mb-6">
-              <div className="w-2 h-2 bg-blueprint-500 rounded-full animate-pulse shadow-lg shadow-blueprint-500/50"></div>
-              <span className="text-[10px] font-bold tracking-[0.25em] uppercase text-slate-400">
-                {t('proof.eurasia.badge') || "Executive Search · 2024"}
-              </span>
             </div>
-            
-            <h3 className="text-2xl lg:text-[1.65rem] font-bold mb-2 tracking-tight text-white">
-              {t('proof.eurasia.client') || "Eurasia Group AG"}
-            </h3>
-            <p className="text-blueprint-400 text-sm font-semibold mb-5 tracking-wide">
-              {t('proof.eurasia.role') || "Chief Financial Officer"}
-            </p>
-            <p className="text-slate-400 text-sm leading-relaxed border-l-2 border-slate-700/50 pl-4">
-              {t('proof.eurasia.description')}
-            </p>
-          </div>
-          
-          <div className="relative z-10 mt-8 flex items-center justify-between border-t border-slate-700/30 pt-4">
-            <div className="text-xs font-mono text-slate-500 uppercase tracking-wider flex items-center gap-2">
-              <span className="inline-block w-1.5 h-1.5 bg-slate-600 rounded-full"></span>
-              {t('proof.eurasia.location') || "Schaffhausen"}, CH
-            </div>
-            <ArrowUpRight className="text-slate-600 group-hover:text-blueprint-400 transition-colors duration-300" size={20} />
-          </div>
-        </motion.div>
+          </motion.div>
 
         {/* TILE 3: MEGGER TIMELINE (4 cols) - PROVEN LONGEVITY */}
         <motion.div 
@@ -139,21 +119,21 @@ export default function Home() {
         >
           <div className="flex items-center gap-2.5 text-blueprint-600 mb-6">
             <ShieldCheck size={20} strokeWidth={2.5} />
-            <span className="text-[11px] font-bold uppercase tracking-[0.2em]">{t('proof.megger.badge')}</span>
+            <span className="text-[11px] font-bold uppercase tracking-[0.2em]">{t('testimonials.clients.megger.badge')}</span>
           </div>
           
           <div className="flex-1">
-            <h3 className="text-2xl font-bold text-slate-900 mb-2 tracking-tight">{t('proof.megger.title')}</h3>
-            <p className="text-slate-500 text-sm font-semibold mb-5">{t('proof.megger.subtitle')}</p>
+            <img src="/recommendation/Megger_logo_without_slogan.svg" alt="Megger Group" className="h-12 mb-4 object-contain" />
+            <p className="text-slate-500 text-sm font-semibold mb-5">{t('testimonials.clients.megger.outcome')}</p>
             <p className="text-slate-600 italic text-sm leading-relaxed mb-6 border-l-2 border-slate-200 pl-4">
-              "{t('proof.megger.quote')}"
+              "{t('testimonials.clients.megger.quote')}"
             </p>
           </div>
           
           <div className="pt-4 border-t border-slate-100 flex justify-between items-center">
             <div className="text-xs text-slate-500">
-              <strong className="text-slate-900 block font-bold">{t('proof.megger.contact')}</strong>
-              {t('proof.megger.role')}
+              <strong className="text-slate-900 block font-bold">{t('testimonials.clients.megger.contact')}</strong>
+              {t('testimonials.clients.megger.role')}
             </div>
           </div>
         </motion.div>
@@ -210,5 +190,6 @@ export default function Home() {
 
       </div>
     </div>
+    </>
   );
 }

@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const nav = [
   { to: "/hire", label: "Hire Talent" },
-  { to: "/case-studies", label: "Case Studies" },
+  { to: "/testimonials", label: "Testimonials" },
   { to: "/about", label: "About" },
   { to: "/candidates", label: "Candidates" },
   { to: "/contact", label: "Contact" },
