@@ -1,0 +1,40 @@
+{
+  "caseStudies": {
+    "title": "Reference Clients",
+    "subtitle": "Proven Track Record",
+    "description": "Real engagements. Reference calls available on request.",
+    "megger": {
+      "industry": "Electrical Test Equipment",
+      "outcome": "10+ placements since 2016",
+      "highlight1": "Placed several Sales Engineering and further Commercial Roles",
+      "highlight2": "incl. Senior Leadership",
+      "highlight3": "Long-term partnership"
+    },
+    "swr": {
+      "industry": "Pipeline Construction",
+      "outcome": "Growth Partner",
+      "highlight1": "Supported strategic expansion",
+      "highlight2": "Placed several site managers and senior construction leadership",
+      "highlight3": "Long-term partnership since 2016"
+    },
+    "sebakmt": {
+      "industry": "Cable & Pipe Location",
+      "outcome": "Dual Perspective",
+      "highlight1": "Placed as candidate in 2018",
+      "highlight2": "Became a client",
+      "highlight3": "Long-standing collaboration"
+    },
+    "otopront": {
+      "industry": "Medical Technology / ENT",
+      "outcome": "C-Level Placement",
+      "highlight1": "International Sales Leadership",
+      "highlight2": "High discretion",
+      "highlight3": "Successful placement"
+    },
+    "cta": {
+      "title": "Want full reference letters?",
+      "description": "I can provide written references and arrange calls with past clients.",
+      "button": "Request References"
+    }
+  }
+}
