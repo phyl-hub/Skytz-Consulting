@@ -124,6 +124,36 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <!-- Vacancies - German -->
+  <url>
+    <loc>https://skytz-consulting.com/de/vacancies</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/vacancies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/vacancies"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://skytz-consulting.com/fr/vacancies"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Vacancies - English -->
+  <url>
+    <loc>https://skytz-consulting.com/en/vacancies</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/vacancies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/vacancies"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://skytz-consulting.com/fr/vacancies"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Vacancies - French -->
+  <url>
+    <loc>https://skytz-consulting.com/fr/vacancies</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://skytz-consulting.com/de/vacancies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skytz-consulting.com/en/vacancies"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://skytz-consulting.com/fr/vacancies"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   
   <!-- Privacy Policy - German -->
   <url>

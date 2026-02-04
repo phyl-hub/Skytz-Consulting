@@ -31,7 +31,7 @@ export function useLanguage() {
 
     // Navigate to new language path
     const newPath = `/${newLang}${pathWithoutLang ? '/' + pathWithoutLang : ''}`;
-    navigate(newPath);
+    navigate(`${newPath}${location.search}${location.hash}`);
     i18n.changeLanguage(newLang);
   };
 

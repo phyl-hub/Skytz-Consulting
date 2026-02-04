@@ -7,9 +7,33 @@
     "home": "Home",
     "testimonials": "Testimonials",
     "about": "About",
+    "vacancies": "Open Positions",
     "contact": "Meet Philipp",
     "privacy": "Privacy",
     "terms": "Terms"
+  },
+  "vacancies": {
+    "title": "Open Positions",
+    "subtitle": "Current Vacancies",
+    "description": "Download the role briefs as PDFs. For details and availability, email us.",
+    "positionsTitle": "Role Briefs",
+    "positionsHint": "PDFs open in a new tab.",
+    "download": "PDF",
+    "cta": "Get in touch",
+    "positions": {
+      "gfAssistenz": {
+        "title": "Executive Assistant (Managing Director)",
+        "company": "Construction industry",
+        "location": "Germany",
+        "summary": "Role brief available as PDF."
+      },
+      "bauueberwachung": {
+        "title": "Construction Supervision",
+        "company": "Construction industry",
+        "location": "Germany",
+        "summary": "Role brief available as PDF."
+      }
+    }
   },
   "hero": {
     "tagline": "Germany · Switzerland · United States",

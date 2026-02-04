@@ -458,5 +458,19 @@ export const pageSEOConfig = {
       title: 'Conditions Générales | Skytz Consulting',
       description: 'Conditions générales pour les services de recrutement Skytz Consulting.'
     }
+  },
+  vacancies: {
+    en: {
+      title: 'Open Positions | Skytz Consulting',
+      description: 'Current open positions. Download role briefs as PDFs and contact us for details.'
+    },
+    de: {
+      title: 'Offene Positionen | Skytz Consulting',
+      description: 'Aktuelle offene Positionen. Rollenprofile als PDF herunterladen und bei Fragen Kontakt aufnehmen.'
+    },
+    fr: {
+      title: 'Postes Ouverts | Skytz Consulting',
+      description: 'Postes actuellement ouverts. Téléchargez les descriptifs en PDF et contactez-nous pour plus de détails.'
+    }
   }
 };

@@ -7,9 +7,33 @@
     "home": "Startseite",
     "testimonials": "Referenzen",
     "about": "Über uns",
+    "vacancies": "Offene Positionen",
     "contact": "Philipp treffen",
     "privacy": "Datenschutz",
     "terms": "AGB"
+  },
+  "vacancies": {
+    "title": "Offene Positionen",
+    "subtitle": "Aktuelle Vakanzen",
+    "description": "Hier finden Sie aktuelle Rollenprofile als PDF. Für Details und Verfügbarkeit: schreiben Sie uns kurz.",
+    "positionsTitle": "Rollenprofile",
+    "positionsHint": "PDFs öffnen in einem neuen Tab.",
+    "download": "PDF",
+    "cta": "Kontakt aufnehmen",
+    "positions": {
+      "gfAssistenz": {
+        "title": "Assistenz der Geschäftsführung",
+        "company": "Baubranche",
+        "location": "Deutschland",
+        "summary": "Rollenprofil als PDF zum Download."
+      },
+      "bauueberwachung": {
+        "title": "Bauüberwachung",
+        "company": "Baubranche",
+        "location": "Deutschland",
+        "summary": "Rollenprofil als PDF zum Download."
+      }
+    }
   },
   "hero": {
     "tagline": "Deutschland · Schweiz · USA",

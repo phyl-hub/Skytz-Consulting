@@ -7,9 +7,33 @@
     "home": "Accueil",
     "testimonials": "Références",
     "about": "À propos",
+    "vacancies": "Postes ouverts",
     "contact": "Rencontrer Philipp",
     "privacy": "Confidentialité",
     "terms": "Conditions"
+  },
+  "vacancies": {
+    "title": "Postes ouverts",
+    "subtitle": "Postes disponibles",
+    "description": "Téléchargez les descriptifs de poste au format PDF. Pour les détails et la disponibilité, contactez-nous par e-mail.",
+    "positionsTitle": "Descriptifs",
+    "positionsHint": "Les PDF s’ouvrent dans un nouvel onglet.",
+    "download": "PDF",
+    "cta": "Nous contacter",
+    "positions": {
+      "gfAssistenz": {
+        "title": "Assistant(e) de Direction",
+        "company": "Secteur de la construction",
+        "location": "Allemagne",
+        "summary": "Descriptif disponible en PDF."
+      },
+      "bauueberwachung": {
+        "title": "Suivi / Supervision de chantier",
+        "company": "Secteur de la construction",
+        "location": "Allemagne",
+        "summary": "Descriptif disponible en PDF."
+      }
+    }
   },
   "hero": {
     "tagline": "Suisse · Allemagne · États-Unis",

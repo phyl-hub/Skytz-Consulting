@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import './i18n';
 
 import Header from './components/layout/Header';
@@ -10,6 +11,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import Vacancies from './pages/Vacancies';
 
 function LoadingFallback() {
   return (
@@ -30,6 +32,24 @@ function Layout({ children }) {
   );
 }
 
+const SUPPORTED_LANGS = ['en', 'de', 'fr'];
+const DEFAULT_LANG = 'de';
+
+function normalizeLang(lang) {
+  if (!lang) return null;
+  const code = String(lang).toLowerCase().split('-')[0];
+  return SUPPORTED_LANGS.includes(code) ? code : null;
+}
+
+function DetectedRedirect({ suffix = '' }) {
+  const { i18n } = useTranslation();
+  const detected = normalizeLang(i18n.resolvedLanguage || i18n.language) || DEFAULT_LANG;
+  const hostname = typeof window !== 'undefined' ? window.location.hostname : '';
+  const effectiveSuffix = suffix || (hostname.startsWith('vacancies.') ? 'vacancies' : '');
+  const path = effectiveSuffix ? `/${detected}/${effectiveSuffix}` : `/${detected}`;
+  return <Navigate to={path} replace />;
+}
+
 export default function App() {
   return (
     <Suspense fallback={<LoadingFallback />}>
@@ -40,19 +60,21 @@ export default function App() {
           <Route path="/:lang/testimonials" element={<Layout><Testimonials /></Layout>} />
           <Route path="/:lang/about" element={<Layout><About /></Layout>} />
           <Route path="/:lang/meet-philipp" element={<Layout><Contact /></Layout>} />
+          <Route path="/:lang/vacancies" element={<Layout><Vacancies /></Layout>} />
           <Route path="/:lang/privacy" element={<Layout><Privacy /></Layout>} />
           <Route path="/:lang/terms" element={<Layout><Terms /></Layout>} />
           
           {/* Direct access routes (without language prefix) - redirect to default language */}
-          <Route path="/meet-philipp" element={<Navigate to="/de/meet-philipp" replace />} />
-          <Route path="/testimonials" element={<Navigate to="/de/testimonials" replace />} />
-          <Route path="/about" element={<Navigate to="/de/about" replace />} />
-          <Route path="/privacy" element={<Navigate to="/de/privacy" replace />} />
-          <Route path="/terms" element={<Navigate to="/de/terms" replace />} />
+          <Route path="/meet-philipp" element={<DetectedRedirect suffix="meet-philipp" />} />
+          <Route path="/testimonials" element={<DetectedRedirect suffix="testimonials" />} />
+          <Route path="/about" element={<DetectedRedirect suffix="about" />} />
+          <Route path="/vacancies" element={<DetectedRedirect suffix="vacancies" />} />
+          <Route path="/privacy" element={<DetectedRedirect suffix="privacy" />} />
+          <Route path="/terms" element={<DetectedRedirect suffix="terms" />} />
           
           {/* Redirect root to default language */}
-          <Route path="/" element={<Navigate to="/de" replace />} />
-          <Route path="*" element={<Navigate to="/de" replace />} />
+          <Route path="/" element={<DetectedRedirect />} />
+          <Route path="*" element={<DetectedRedirect />} />
         </Routes>
       </BrowserRouter>
     </Suspense>
