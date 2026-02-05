@@ -32,7 +32,7 @@ export default function Testimonials() {
   }, [t]);
 
   // Client keys to iterate over
-  const clientKeys = ['megger', 'swr', 'sebakmt', 'otopront', 'box02'];
+  const clientKeys = ['megger', 'eurasiagroup', 'swr', 'sebakmt', 'otopront', 'box02'];
   
   const cases = clientKeys.map(key => ({
     key,
@@ -81,7 +81,7 @@ export default function Testimonials() {
             variants={stagger}
             className="space-y-8"
           >
-            {cases.map((c, index) => (
+            {cases.map((c) => (
               <motion.div key={c.key} variants={fadeIn}>
                 <BentoCard className="p-0 overflow-hidden">
                   <div className="grid md:grid-cols-3">
@@ -91,6 +91,8 @@ export default function Testimonials() {
                         <div className="flex h-24 w-48 items-center justify-center rounded-xl bg-blueprint-50 p-3 shrink-0">
                           {c.key === 'megger' ? (
                             <img src="/recommendation/Megger_logo_without_slogan.svg" alt="Megger" className="max-h-16 max-w-40 object-contain" />
+                          ) : c.key === 'eurasiagroup' ? (
+                            <img src="/recommendation/Eurasia-logo.png" alt="Eurasia Group" className="max-h-20 max-w-44 object-contain" />
                           ) : c.key === 'swr' ? (
                             <img src="/recommendation/SWR_logo.jpeg" alt="SWR" className="max-h-16 max-w-40 object-contain" />
                           ) : c.key === 'sebakmt' ? (
