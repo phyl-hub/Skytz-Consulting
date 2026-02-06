@@ -5,6 +5,7 @@ import { ArrowRight, ArrowUpRight, Users, Award, Calendar } from 'lucide-react';
 import BentoCard from '../ui/BentoCard';
 import GridBackground from '../ui/GridBackground';
 import useLanguage from '../../hooks/useLanguage';
+import { assetUrl } from '../../utils/assetUrl';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -95,7 +96,7 @@ export default function Hero() {
             <span className="inline-block px-3 py-1 bg-white/20 rounded-full text-xs font-medium text-white/90 mb-4">
               {t('testimonials.clients.megger.badge')}
             </span>
-            <img src="/recommendation/Megger_logo_without_slogan.svg" alt="Megger Group" className="h-12 mb-4 brightness-0 invert" />
+            <img src={assetUrl('recommendation/Megger_logo_without_slogan.svg')} alt="Megger Group" className="h-12 mb-4 brightness-0 invert" />
             <p className="text-blueprint-100 text-sm font-medium mb-3">{t('testimonials.clients.megger.outcome')}</p>
             <p className="text-white/80 text-sm leading-relaxed mb-4 line-clamp-2">
               "{t('testimonials.clients.megger.quote')}"

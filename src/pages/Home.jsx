@@ -1,10 +1,12 @@
 import { useTranslation } from 'react-i18next';
-import { motion, useInView } from 'framer-motion';
+import { AnimatePresence, motion, useInView } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Users, Globe, ArrowUpRight } from 'lucide-react';
+import { ShieldCheck, Users, Globe, ArrowUpRight, ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 import useLanguage from '../hooks/useLanguage';
-import { useRef } from 'react';
-import SEO, { pageSEOConfig } from '../components/SEO';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import SEO from '../components/SEO';
+import { pageSEOConfig } from '../content/pageSEOConfig';
+import { assetUrl } from '../utils/assetUrl';
 
 export default function Home() {
   const { t, i18n } = useTranslation();
@@ -13,6 +15,48 @@ export default function Home() {
   const isInView = useInView(heroRef, { once: true, margin: "-100px" });
   const lang = i18n.language || 'de';
   const seoConfig = pageSEOConfig.home[lang] || pageSEOConfig.home.en;
+
+  const carouselKeys = useMemo(() => ['megger', 'eurasiagroup', 'swr'], []);
+  const [activeSlideIdx, setActiveSlideIdx] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+  const [isHoverPaused, setIsHoverPaused] = useState(false);
+
+  const isAutoplaying = !isPaused && !isHoverPaused;
+  const activeKey = carouselKeys[activeSlideIdx] || 'megger';
+
+  const logoByClient = useMemo(
+    () => ({
+      megger: {
+        src: assetUrl('recommendation/Megger_logo_without_slogan.svg'),
+        alt: 'Megger Group',
+        className: 'h-12',
+      },
+      eurasiagroup: {
+        src: assetUrl('recommendation/Eurasia-logo.png'),
+        alt: 'Eurasia Group',
+        className: 'h-16',
+      },
+      swr: {
+        src: assetUrl('recommendation/SWR_logo.jpeg'),
+        alt: 'SWR Engineering',
+        className: 'h-16',
+      },
+    }),
+    []
+  );
+
+  const activeLogo = logoByClient[activeKey] || logoByClient.megger;
+
+  useEffect(() => {
+    if (!isAutoplaying) return;
+    const id = setInterval(() => {
+      setActiveSlideIdx((idx) => (idx + 1) % carouselKeys.length);
+    }, 3500);
+    return () => clearInterval(id);
+  }, [isAutoplaying, carouselKeys.length]);
+
+  const goPrev = () => setActiveSlideIdx((idx) => (idx - 1 + carouselKeys.length) % carouselKeys.length);
+  const goNext = () => setActiveSlideIdx((idx) => (idx + 1) % carouselKeys.length);
 
   // Framer Motion: "Clarity Transition" for premium headshot reveal
   const imageVariants = {
@@ -56,7 +100,7 @@ export default function Home() {
               variants={imageVariants}
             >
               <img 
-                src="/brand/Philipp-Hoffschroer.jpg" 
+                src={assetUrl('brand/Philipp-Hoffschroer.jpg')} 
                 alt="Philipp Hoffschröer – Founder, Skytz Consulting" 
                 className="w-full h-full object-cover object-top" 
                 loading="lazy"
@@ -116,24 +160,90 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="md:col-span-4 bg-white rounded-[2rem] p-8 border border-slate-200/80 shadow-sm flex flex-col h-full"
+          onMouseEnter={() => setIsHoverPaused(true)}
+          onMouseLeave={() => setIsHoverPaused(false)}
         >
-          <div className="flex items-center gap-2.5 text-blueprint-600 mb-6">
-            <ShieldCheck size={20} strokeWidth={2.5} />
-            <span className="text-[11px] font-bold uppercase tracking-[0.2em]">{t('testimonials.clients.megger.badge')}</span>
+          <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center gap-2.5 text-blueprint-600">
+              <ShieldCheck size={20} strokeWidth={2.5} />
+              <span className="text-[11px] font-bold uppercase tracking-[0.2em]">
+                {t(`testimonials.clients.${activeKey}.badge`, { defaultValue: t('testimonials.subtitle') })}
+              </span>
+            </div>
+
+            <div className="flex items-center gap-1">
+              <button
+                type="button"
+                onClick={goPrev}
+                aria-label="Previous testimonial"
+                className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-slate-200 text-slate-600 hover:bg-slate-50"
+              >
+                <ChevronLeft className="h-4 w-4" />
+              </button>
+              <button
+                type="button"
+                onClick={() => setIsPaused((p) => !p)}
+                aria-label={isPaused ? 'Play carousel' : 'Pause carousel'}
+                aria-pressed={isPaused}
+                className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-slate-200 text-slate-600 hover:bg-slate-50"
+              >
+                {isPaused ? <Play className="h-4 w-4" /> : <Pause className="h-4 w-4" />}
+              </button>
+              <button
+                type="button"
+                onClick={goNext}
+                aria-label="Next testimonial"
+                className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-slate-200 text-slate-600 hover:bg-slate-50"
+              >
+                <ChevronRight className="h-4 w-4" />
+              </button>
+            </div>
           </div>
           
-          <div className="flex-1">
-            <img src="/recommendation/Megger_logo_without_slogan.svg" alt="Megger Group" className="h-12 mb-4 object-contain" />
-            <p className="text-slate-500 text-sm font-semibold mb-5">{t('testimonials.clients.megger.outcome')}</p>
-            <p className="text-slate-600 italic text-sm leading-relaxed mb-6 border-l-2 border-slate-200 pl-4">
-              "{t('testimonials.clients.megger.quote')}"
-            </p>
+          <div className="flex-1" aria-live="polite">
+            <AnimatePresence mode="wait" initial={false}>
+              <motion.div
+                key={activeKey}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -8 }}
+                transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+              >
+                <img
+                  src={activeLogo.src}
+                  alt={activeLogo.alt}
+                  className={`${activeLogo.className || 'h-12'} mb-4 object-contain max-w-[220px]`}
+                />
+
+                {t(`testimonials.clients.${activeKey}.outcome`, { defaultValue: '' }) ? (
+                  <p className="text-slate-500 text-sm font-semibold mb-5">
+                    {t(`testimonials.clients.${activeKey}.outcome`)}
+                  </p>
+                ) : null}
+
+                <p className="text-slate-600 italic text-sm leading-relaxed mb-6 border-l-2 border-slate-200 pl-4">
+                  "{t(`testimonials.clients.${activeKey}.quote`)}"
+                </p>
+              </motion.div>
+            </AnimatePresence>
           </div>
           
           <div className="pt-4 border-t border-slate-100 flex justify-between items-center">
             <div className="text-xs text-slate-500">
-              <strong className="text-slate-900 block font-bold">{t('testimonials.clients.megger.contact')}</strong>
-              {t('testimonials.clients.megger.role')}
+              <strong className="text-slate-900 block font-bold">{t(`testimonials.clients.${activeKey}.contact`)}</strong>
+              {t(`testimonials.clients.${activeKey}.role`)}
+            </div>
+
+            <div className="flex items-center gap-1.5">
+              {carouselKeys.map((key, idx) => (
+                <button
+                  key={key}
+                  type="button"
+                  onClick={() => setActiveSlideIdx(idx)}
+                  aria-label={`Show ${t(`testimonials.clients.${key}.company`)}`}
+                  className={`h-2 w-2 rounded-full transition-colors ${idx === activeSlideIdx ? 'bg-blueprint-600' : 'bg-slate-200 hover:bg-slate-300'}`}
+                />
+              ))}
             </div>
           </div>
         </motion.div>

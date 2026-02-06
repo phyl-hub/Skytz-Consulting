@@ -9,7 +9,7 @@ import useLanguage from '../../hooks/useLanguage';
 export default function Header() {
   const { t } = useTranslation();
   const location = useLocation();
-  const { getLocalizedPath, currentLang } = useLanguage();
+  const { getLocalizedPath } = useLanguage();
   const [mobileOpen, setMobileOpen] = useState(false);
   const logoSrc = `${import.meta.env.BASE_URL}brand/Logo-Skytz-Consulting.png`;
 

@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import SEO, { pageSEOConfig } from '../components/SEO';
+import SEO from '../components/SEO';
+import { pageSEOConfig } from '../content/pageSEOConfig';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },

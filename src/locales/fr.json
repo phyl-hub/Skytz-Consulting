@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Skytz Consulting | Recherche Directe pour Sales Engineering & Direction Exécutive",
-    "description": "Je place des leaders engineering critiques et des Sales Engineers pour les entreprises techniques les plus exigeantes. Approche directe, pas de bases de données. DACH & USA."
+    "description": "Je place des leaders engineering critiques et des Sales Engineers pour les entreprises techniques exigeantes. Approche directe, pas de bases de données. DACH & USA."
   },
   "nav": {
     "home": "Accueil",
@@ -32,6 +32,12 @@
         "company": "Secteur de la construction",
         "location": "Allemagne",
         "summary": "Descriptif disponible en PDF."
+      },
+      "technischerZeichner": {
+        "title": "Dessinateur technique (CAO)",
+        "company": "Secteur de la construction",
+        "location": "Allemagne",
+        "summary": "Descriptif disponible en PDF."
       }
     }
   },
@@ -47,9 +53,9 @@
   },
   "stats": {
     "passive": {
-      "value": "Direct",
-      "label": "Approche de Recherche",
-      "subtext": "La plupart des placements par approche directe"
+      "value": "50+",
+      "label": "Placements depuis 2015",
+      "subtext": "La plupart n'étaient pas en recherche active"
     }
   },
   "footer": {
@@ -85,6 +91,7 @@
       "eurasiagroup": {
         "company": "Eurasia Group AG",
         "industry": "Agriculture & Financial Holding",
+        "badge": "Holding Europe & Asie",
         "contact": "Mustafa Sahin",
         "role": "Chief Executive Officer",
         "quote": "M. Hoffschröer a rapidement acquis une compréhension précise de notre structure et des exigences du poste de directeur financier. Les candidats présentés étaient bien ciblés et avaient été présélectionnés de manière professionnelle. Le processus a été efficace et bien géré, la communication a été claire et fiable tout au long du processus, et le placement final a pleinement répondu à nos attentes.",
@@ -99,10 +106,12 @@
       "swr": {
         "company": "Südwestdeutsche Rohrleitungsbau GmbH",
         "industry": "Construction de Pipelines",
+        "badge": "Placements multiples",
         "contact": "Dirk Heesen",
         "role": "Managing Director",
         "quote": "Ce qui le distingue, c'est sa sélection méticuleuse de candidats qui non seulement possèdent les compétences requises, mais s'intègrent également parfaitement à notre culture d'entreprise.",
         "quoteNote": "Traduit de l'original allemand",
+        "outcome": "Partenaire de croissance depuis 2016",
         "highlights": [
           "Plusieurs postes de chef de chantier pourvus",
           "Rôles opérationnels et spécialisés recrutés",
@@ -158,51 +167,62 @@
   "about": {
     "title": "À propos de Skytz Consulting",
     "subtitle": "Depuis 2015",
-    "description": "Recrutement spécialisé pour Sales Engineering et postes de direction dans les entreprises industrielles.",
-    "beliefsTitle": "Ce que je crois",
+    "description": "Skytz Consulting est un cabinet de recrutement spécialisé dans le Sales Engineering et les postes de direction au sein d'organisations technologiques. Nous pourvoyons des postes qui définissent le succès commercial de produits complexes.",
+    "beliefsTitle": "Convictions fondamentales (Sur la qualité du recrutement)",
     "beliefs": {
       "expertise": {
-        "title": "Le Sales Engineering n'est pas 'de la vente avec un titre tech'",
-        "description": "Cela nécessite une expertise métier, une crédibilité technique et un instinct commercial."
+        "title": "Le Sales Engineering est une fonction critique, pas un titre",
+        "description": "Le SE n'est pas une 'variante commerciale' — c'est une interface à haut risque. Le succès exige une autorité technique, une maturité décisionnelle et un sens commercial. Recruter sur le 'charisme' plutôt que la 'crédibilité' est une recette pour l'échec technique."
       },
       "alignment": {
-        "title": "Les recrutements de dirigeants échouent plus souvent par désalignement que par manque de compétence",
-        "description": "C'est pourquoi je documente les risques tôt."
+        "title": "L'alignement prime sur le CV",
+        "description": "La plupart des échecs de recrutement ne sont pas dus à un manque de compétences, mais à un désalignement structurel et des attentes non satisfaites. J'identifie ces risques avant qu'ils ne deviennent des passifs coûteux."
       },
       "decision": {
-        "title": "Un bon recrutement c'est de l'aide à la décision",
-        "description": "Vous devez savoir pourquoi je recommande quelqu'un — et pourquoi pas."
+        "title": "Le recrutement est une architecture de décision",
+        "description": "Mon travail est de fournir une base solide pour votre décision. Cela inclut des contre-arguments explicites. Si mon évaluation d'un candidat change en cours de processus, je le communique immédiatement — même si cela met le placement en péril."
       }
     },
-    "operationsTitle": "Comment je travaille",
+    "operationsTitle": "Méthodologie",
     "operations": {
       "direct": {
-        "title": "Recherche Directe",
-        "description": "La plupart des placements proviennent de candidats que j'approche directement."
+        "title": "Recherche directe plutôt qu'espoir",
+        "description": "Les talents de premier plan ne postulent pas. La majorité de mes placements résultent d'une approche directe ciblée et discrète. Nous ne pratiquons pas le 'Post and Pray'."
       },
       "documented": {
-        "title": "Compromis Documentés",
-        "description": "Chaque candidat vient avec des notes de risque et un raisonnement."
+        "title": "Compromis documentés",
+        "description": "Chaque profil de candidat est accompagné d'une évaluation des risques. Pas de jargon, pas d'embellissement. Vous saurez exactement où un candidat excelle et où il pourrait créer des frictions."
       },
       "honest": {
-        "title": "Retour Honnête",
-        "description": "Si les attentes ne correspondent pas à la réalité, je vous le dis directement."
+        "title": "Franchise radicale",
+        "description": "Si vos exigences sont irréalistes ou si les réalités du marché ne correspondent pas à vos objectifs, je vous le dirai dès la première réunion. Le temps est votre actif le plus précieux."
+      }
+    },
+    "founder": {
+      "title": "À propos du fondateur",
+      "intro": "J'aborde le recrutement en entrepreneur, pas en agent RH.",
+      "background": "Trois ans chez KPMG (Finance Advisory), suivis de rôles stratégiques chez Lufthansa et Deichmann.",
+      "dna": "Fondateur et CEO de startups technologiques (notamment emteria GmbH, Studo GmbH). Je comprends comment les dirigeants pensent, comment les budgets sont gérés, et exactement où les processus de recrutement échouent dans le monde réel.",
+      "feesNote": "Je fournis un conseil de niveau senior et des résultats à fort enjeu. Je ne suis pas une option économique. Les clients font appel à moi lorsque le coût d'une vacance ou d'un mauvais recrutement dépasse largement les honoraires de conseil."
+    },
+    "regional": {
+      "title": "Expertise régionale & portée mondiale",
+      "dach": {
+        "title": "Région DACH",
+        "description": "Compréhension approfondie de la culture d'affaires allemande combinée à l'agilité d'une structure internationale."
+      },
+      "usa": {
+        "title": "Pont transatlantique (USA)",
+        "description": "Nous accompagnons les entreprises DACH dans leur entrée sur le marché américain et les entreprises tech américaines dans leur expansion en Europe. Nous maîtrisons les différences de rémunération, de rapidité et de culture d'entreprise."
+      },
+      "swiss": {
+        "title": "Focus Suisse",
+        "description": "Identification ciblée de talents ingénieurs allemands pour les employeurs suisses, en garantissant la conformité avec les réglementations transfrontalières."
       }
     },
     "legal": {
       "title": "Structure juridique & conformité",
-      "description": "Skytz Consulting opère sous Laurasia LLC (Wyoming, USA) comme base stratégique globale. Nous respectons toutes les exigences légales européennes (y compris le RGPD) et américaines applicables. Philipp Hoffschröer est le partenaire exécutif pour tous les mandats DACH."
-    },
-    "german": {
-      "title": "Collaboration avec les entreprises germanophones",
-      "description": "Nous travaillons avec des entreprises germanophones en fournissant une expertise en recrutement de niveau exécutif avec une connaissance approfondie du marché allemand, de la culture d'entreprise et des standards de recrutement.",
-      "details": "Notre travail est livré en allemand et en anglais et est structuré pour une collaboration internationale, permettant aux clients en Allemagne d'accéder à un support de recrutement spécialisé sans les contraintes d'un prestataire lié localement."
-    },
-    "swiss": {
-      "title": "Accompagnement des organisations suisses",
-      "description": "Nous accompagnons les organisations basées en Suisse en identifiant et en approchant des professionnels de l'ingénierie qualifiés basés en Allemagne, ouverts aux opportunités de carrière transfrontalières.",
-      "details": "Notre mandat se concentre sur la recherche, la pré-qualification et le conseil aux candidats dans le cadre contractuel et réglementaire allemand, tout en facilitant les présentations aux employeurs suisses pour des postes où la relocalisation ou l'emploi transfrontalier est initié par le candidat.",
-      "benefit": "Cette approche garantit une conformité totale côté sourcing, un processus transparent pour toutes les parties et l'accès à un vivier de talents hautement pertinent, familier avec le marché suisse et l'environnement de travail."
+      "description": "Skytz Consulting opère sous Laurasia LLC (Wyoming, USA) comme base stratégique. Nous garantissons une conformité totale avec toutes les exigences légales UE (y compris RGPD) et américaines applicables. Philipp Hoffschröer est le partenaire exécutif pour tous les mandats."
     }
   },
   "contact": {

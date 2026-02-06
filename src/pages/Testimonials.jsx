@@ -3,7 +3,9 @@ import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Award, Users, Quote, ArrowRight, Building2, CheckCircle } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
-import SEO, { pageSEOConfig } from '../components/SEO';
+import SEO from '../components/SEO';
+import { pageSEOConfig } from '../content/pageSEOConfig';
+import { assetUrl } from '../utils/assetUrl';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -90,17 +92,17 @@ export default function Testimonials() {
                       <div className="flex items-center gap-4 mb-4">
                         <div className="flex h-24 w-48 items-center justify-center rounded-xl bg-blueprint-50 p-3 shrink-0">
                           {c.key === 'megger' ? (
-                            <img src="/recommendation/Megger_logo_without_slogan.svg" alt="Megger" className="max-h-16 max-w-40 object-contain" />
+                            <img src={assetUrl('recommendation/Megger_logo_without_slogan.svg')} alt="Megger" className="max-h-16 max-w-40 object-contain" />
                           ) : c.key === 'eurasiagroup' ? (
-                            <img src="/recommendation/Eurasia-logo.png" alt="Eurasia Group" className="max-h-20 max-w-44 object-contain" />
+                            <img src={assetUrl('recommendation/Eurasia-logo.png')} alt="Eurasia Group" className="max-h-20 max-w-44 object-contain" />
                           ) : c.key === 'swr' ? (
-                            <img src="/recommendation/SWR_logo.jpeg" alt="SWR" className="max-h-16 max-w-40 object-contain" />
+                            <img src={assetUrl('recommendation/SWR_logo.jpeg')} alt="SWR" className="max-h-16 max-w-40 object-contain" />
                           ) : c.key === 'sebakmt' ? (
-                            <img src="/recommendation/sebakmt-logo-black-rgb-scaled.png" alt="SebaKMT" className="max-h-16 max-w-40 object-contain" />
+                            <img src={assetUrl('recommendation/sebakmt-logo-black-rgb-scaled.png')} alt="SebaKMT" className="max-h-16 max-w-40 object-contain" />
                           ) : c.key === 'otopront' ? (
-                            <img src="/recommendation/otopront-logo.png" alt="Otopront" className="max-h-16 max-w-40 object-contain" />
+                            <img src={assetUrl('recommendation/otopront-logo.png')} alt="Otopront" className="max-h-16 max-w-40 object-contain" />
                           ) : c.key === 'box02' ? (
-                            <img src="/recommendation/Logo-box02.png" alt="Box02" className="max-h-16 max-w-40 object-contain" />
+                            <img src={assetUrl('recommendation/Logo-box02.png')} alt="Box02" className="max-h-16 max-w-40 object-contain" />
                           ) : (
                             <Building2 className="h-12 w-12 text-blueprint-600" />
                           )}

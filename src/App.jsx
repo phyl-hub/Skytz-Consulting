@@ -1,17 +1,18 @@
-import { Suspense } from 'react';
+import { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './i18n';
 
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
-import Home from './pages/Home';
-import Testimonials from './pages/Testimonials';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Privacy from './pages/Privacy';
-import Terms from './pages/Terms';
-import Vacancies from './pages/Vacancies';
+
+const Home = lazy(() => import('./pages/Home'));
+const Testimonials = lazy(() => import('./pages/Testimonials'));
+const About = lazy(() => import('./pages/About'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Privacy = lazy(() => import('./pages/Privacy'));
+const Terms = lazy(() => import('./pages/Terms'));
+const Vacancies = lazy(() => import('./pages/Vacancies'));
 
 function LoadingFallback() {
   return (
@@ -53,7 +54,7 @@ function DetectedRedirect({ suffix = '' }) {
 export default function App() {
   return (
     <Suspense fallback={<LoadingFallback />}>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           {/* Language-prefixed routes */}
           <Route path="/:lang" element={<Layout><Home /></Layout>} />

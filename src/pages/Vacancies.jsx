@@ -3,7 +3,8 @@ import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Download, MapPin, Building2 } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
-import SEO, { pageSEOConfig } from '../components/SEO';
+import SEO from '../components/SEO';
+import { pageSEOConfig } from '../content/pageSEOConfig';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -28,6 +29,10 @@ const VACANCIES = [
   {
     key: 'bauueberwachung',
     pdfPath: '/Bauueberwachung.pdf',
+  },
+  {
+    key: 'technischerZeichner',
+    pdfPath: '/Technischer-Zeichner.pdf',
   },
 ];
 

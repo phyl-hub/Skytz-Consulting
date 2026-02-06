@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useRef } from 'react';
 import { Quote, CheckCircle2 } from 'lucide-react';
 import BentoCard from '../ui/BentoCard';
+import { assetUrl } from '../../utils/assetUrl';
 
 const accentConfig = {
   blueprint: { badge: 'bg-blueprint-100 text-blueprint-700', border: 'border-blueprint-200' },
@@ -49,7 +50,7 @@ export default function TrustMatrix() {
               {t('testimonials.clients.megger.badge')}
             </span>
             
-            <img src="/recommendation/Megger_logo_without_slogan.svg" alt="Megger Group" className="h-12 mb-4 object-contain" />
+            <img src={assetUrl('recommendation/Megger_logo_without_slogan.svg')} alt="Megger Group" className="h-12 mb-4 object-contain" />
             <p className="text-blueprint-600 text-sm font-medium mb-4">{t('testimonials.clients.megger.outcome')}</p>
             
             <div className="flex gap-3 mb-4">

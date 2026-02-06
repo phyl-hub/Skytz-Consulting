@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Skytz Consulting | Direktsuche für Sales Engineering & Executive Leadership",
-    "description": "Ich besetze umsatzkritische Engineering-Führungspositionen und Sales Engineers für anspruchsvollste Technologieunternehmen. Direktsuche, keine Datenbanken. DACH & USA."
+    "description": "Ich besetze umsatzkritische Engineering-Führungspositionen und Sales Engineers für anspruchsvolle Technologieunternehmen. Direktsuche, keine Datenbanken. DACH & USA."
   },
   "nav": {
     "home": "Startseite",
@@ -32,6 +32,12 @@
         "company": "Baubranche",
         "location": "Deutschland",
         "summary": "Rollenprofil als PDF zum Download."
+      },
+      "technischerZeichner": {
+        "title": "Technischer Zeichner (CAD)",
+        "company": "Baubranche",
+        "location": "Deutschland",
+        "summary": "Rollenprofil als PDF zum Download."
       }
     }
   },
@@ -47,9 +53,9 @@
   },
   "stats": {
     "passive": {
-      "value": "Direkt",
-      "label": "Suchansatz",
-      "subtext": "Die meisten Besetzungen durch Direktansprache"
+      "value": "50+",
+      "label": "Besetzungen seit 2015",
+      "subtext": "Die meisten waren nicht aktiv auf Jobsuche"
     }
   },
   "footer": {
@@ -84,6 +90,7 @@
 "eurasiagroup": {
         "company": "Eurasia Group AG",
         "industry": "Agrarwesen & Finanz-Holding",
+  "badge": "Holding Europa & Asien",
         "contact": "Mustafa Sahin",
         "role": "Chief Executive Officer",
         "quote": "Herr Hoffschröer entwickelte schnell ein präzises Verständnis für unsere Struktur und die Anforderungen der CFO-Rolle. Der Prozess verlief effizient und strukturiert, die Kommunikation war jederzeit klar und verlässlich. Die finale Besetzung hat unsere Erwartungen voll erfüllt.",
@@ -97,9 +104,11 @@
       "swr": {
         "company": "Südwestdeutsche Rohrleitungsbau GmbH",
         "industry": "Rohrleitungsbau",
+        "badge": "Mehrfachbesetzungen",
         "contact": "Dirk Heesen",
         "role": "Geschäftsführer",
         "quote": "... sorgfältige Auswahl von Kandidaten, die nicht nur die erforderlichen Fähigkeiten besitzen, sondern auch optimal zu unserer Unternehmenskultur passen.",
+        "outcome": "Wachstumspartner seit 2016",
         "highlights": [
           "Mehrere Bauleiterpostionen besetzt",
           "Operative und Fach-Rollen rekrutiert",
@@ -152,51 +161,62 @@
   "about": {
     "title": "Über Skytz Consulting",
     "subtitle": "Seit 2015",
-    "description": "Spezialisierte Personalberatung für Sales Engineering und Führungspositionen in technologiegetriebenen Unternehmen.",
-    "beliefsTitle": "Was ich glaube",
+    "description": "Skytz Consulting ist eine spezialisierte Personalberatung für Sales Engineering und Führungspositionen in technologiegetriebenen Unternehmen. Wir besetzen Rollen, die über den wirtschaftlichen Erfolg komplexer Produkte entscheiden.",
+    "beliefsTitle": "Wofür ich stehe (Thesen zur Besetzungsqualität)",
     "beliefs": {
       "expertise": {
-        "title": "Sales Engineering ist mehr als 'Vertrieb mit Tech-Titel'",
-        "description": "Es erfordert Domain-Expertise, technische Glaubwürdigkeit und kaufmännisches Gespür."
+        "title": "Sales Engineering ist eine Schlüsselrolle, kein Etikett",
+        "description": "SE ist keine Vertriebsvariante, sondern eine kritische Schnittstelle. Erfolgreiche Kandidaten benötigen technische Autorität, Entscheidungsreife und kommerzielles Kalkül. Wer hier nach 'Gefühl' einstellt, kauft das Risiko technischer Unglaubwürdigkeit."
       },
       "alignment": {
-        "title": "Führungskräfte scheitern häufiger an Missalignment als an Kompetenz",
-        "description": "Deshalb dokumentiere ich Risiken frühzeitig."
+        "title": "Alignment schlägt Lebenslauf",
+        "description": "Die meisten Fehlbesetzungen basieren nicht auf fehlender Kompetenz, sondern auf strukturellen Zielkonflikten und Erwartungsbrüchen. Ich identifiziere diese Risiken, bevor sie teuer werden."
       },
       "decision": {
-        "title": "Gute Personalberatung ist Entscheidungsunterstützung",
-        "description": "Sie sollten wissen, warum ich jemanden empfehle – und warum nicht."
+        "title": "Recruiting ist Entscheidungsarchitektur",
+        "description": "Mein Job ist die Lieferung einer belastbaren Entscheidungsgrundlage. Das beinhaltet explizite Gegenargumente. Wenn sich meine Einschätzung eines Kandidaten im Prozess ändert, kommuniziere ich das sofort – auch wenn es den Deal gefährdet."
       }
     },
     "operationsTitle": "Wie ich arbeite",
     "operations": {
       "direct": {
-        "title": "Direktsuche",
-        "description": "Die meisten Besetzungen kommen von Kandidaten, die ich direkt anspreche."
+        "title": "Direktsuche statt Hoffnung",
+        "description": "Relevante Kandidaten bewerben sich nicht. Die Mehrheit meiner Platzierungen entsteht durch gezielte, diskrete Direktansprache. 'Post and Pray' überlassen wir anderen."
       },
       "documented": {
         "title": "Dokumentierte Abwägungen",
-        "description": "Jeder Kandidat kommt mit Risikohinweisen und Begründung."
+        "description": "Jedes Profil kommt mit einer Analyse der Trade-offs. Keine Buzzwords, keine Beschönigung. Sie erfahren, wo der Kandidat glänzt und wo er Reibung erzeugen wird."
       },
       "honest": {
-        "title": "Ehrliches Feedback",
-        "description": "Wenn Erwartungen nicht zur Realität passen, sage ich das direkt."
+        "title": "Radikale Ehrlichkeit",
+        "description": "Wenn Anforderungen unrealistisch sind oder die Marktrealität nicht mit Ihren Zielen korreliert, sage ich Ihnen das im ersten Gespräch. Zeit ist Ihr teuerstes Asset."
+      }
+    },
+    "founder": {
+      "title": "Über den Gründer",
+      "intro": "Meine Perspektive ist die eines Unternehmers, nicht die eines Personalers.",
+      "background": "Drei Jahre KPMG (Finance Advisory), Strategie-Rollen bei Lufthansa und Deichmann.",
+      "dna": "Gründer und Geschäftsführer von Startups (u. a. emteria GmbH, Studo GmbH). Ich verstehe, wie CEOs denken, wie Budgets verantwortet werden und warum Personalentscheidungen in der Praxis oft an der Realität vorbeigehen.",
+      "feesNote": "Ich biete Senior-Level-Betreuung und belastbare Ergebnisse. Ich bin keine Budget-Option. Mandanten beauftragen mich, wenn die Kosten des Nicht-Findens oder der Fehlbesetzung die Beratergebühr bei weitem übersteigen."
+    },
+    "regional": {
+      "title": "Regionale Expertise & Global Reach",
+      "dach": {
+        "title": "DACH-Region",
+        "description": "Tiefes Verständnis der deutschen Geschäftskultur kombiniert mit der Effizienz einer internationalen Struktur."
+      },
+      "usa": {
+        "title": "Transatlantische Brücke (USA)",
+        "description": "Wir begleiten DACH-Unternehmen beim US-Markteintritt und US-Tech-Firmen bei der Expansion nach Europa. Wir kennen die Unterschiede in Incentivierung, Speed und Kultur."
+      },
+      "swiss": {
+        "title": "Fokus Schweiz",
+        "description": "Gezielte Identifikation von Engineering-Fachkräften in Deutschland für Schweizer Arbeitgeber – unter Berücksichtigung aller grenzüberschreitenden Regulierungen."
       }
     },
     "legal": {
       "title": "Rechtliche Struktur & Compliance",
-      "description": "Skytz Consulting operiert unter Laurasia LLC (Wyoming, USA) als strategische Basis. Wir erfüllen alle anwendbaren europäischen (einschließlich DSGVO) und US-amerikanischen Rechtsvorschriften. Philipp Hoffschröer ist der Executive Partner für alle DACH-Mandate."
-    },
-    "german": {
-      "title": "Zusammenarbeit mit deutschsprachigen Unternehmen",
-      "description": "Wir arbeiten mit deutschsprachigen Unternehmen zusammen und bieten Rekrutierungsexpertise auf Führungsebene mit tiefgreifender Kenntnis des deutschen Marktes, der Geschäftskultur und der Einstellungsstandards.",
-      "details": "Unsere Arbeit wird auf Deutsch und Englisch erbracht und ist für internationale Zusammenarbeit strukturiert. So erhalten Kunden in Deutschland Zugang zu spezialisierter Rekrutierungsunterstützung ohne die Einschränkungen eines lokal gebundenen Anbieters."
-    },
-    "swiss": {
-      "title": "Unterstützung für Schweizer Unternehmen",
-      "description": "Wir unterstützen Schweizer Unternehmen bei der Identifikation und Ansprache qualifizierter Engineering-Fachkräfte mit Sitz in Deutschland, die offen für grenzüberschreitende Karrieremöglichkeiten sind.",
-      "details": "Unser Mandat umfasst die Suche, Vorqualifizierung und Beratung von Kandidaten im Rahmen deutscher Vertrags- und Regulierungsvorschriften, während wir die Vorstellung bei Schweizer Arbeitgebern für Positionen ermöglichen, bei denen Umzug oder grenzüberschreitende Beschäftigung vom Kandidaten initiiert wird.",
-      "benefit": "Dieser Ansatz gewährleistet volle Compliance auf der Sourcing-Seite, einen transparenten Prozess für alle Beteiligten und Zugang zu einem hochrelevanten Talentpool, der mit dem Schweizer Markt und Arbeitsumfeld vertraut ist."
+      "description": "Skytz Consulting operiert unter Laurasia LLC (Wyoming, USA) als strategische Basis. Wir garantieren volle Compliance mit allen anwendbaren EU- (inkl. DSGVO) und US-amerikanischen Rechtsvorschriften. Philipp Hoffschröer ist der Executive Partner für alle Mandate."
     }
   },
   "contact": {

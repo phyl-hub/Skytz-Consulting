@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Skytz Consulting | Direct Search for Sales Engineering & Executive Leadership",
-    "description": "I secure revenue-critical engineering leadership and Sales Engineers for the world's most demanding technical firms. Direct Search. No databases. DACH & USA."
+    "description": "I secure revenue-critical engineering leadership and Sales Engineers for demanding technical firms. Direct Search. No databases. DACH & USA."
   },
   "nav": {
     "home": "Home",
@@ -32,6 +32,12 @@
         "company": "Construction industry",
         "location": "Germany",
         "summary": "Role brief available as PDF."
+      },
+      "technischerZeichner": {
+        "title": "Technical Draftsman (CAD)",
+        "company": "Construction industry",
+        "location": "Germany",
+        "summary": "Role brief available as PDF."
       }
     }
   },
@@ -47,9 +53,9 @@
   },
   "stats": {
     "passive": {
-      "value": "Direct",
-      "label": "Search Approach",
-      "subtext": "Most placements from direct outreach"
+      "value": "50+",
+      "label": "Placements Since 2015",
+      "subtext": "Most were not actively looking"
     }
   },
   "footer": {
@@ -84,6 +90,7 @@
       "eurasiagroup": {
         "company": "Eurasia Group AG",
         "industry": "Agriculture & Financial Holding",
+        "badge": "Europe & Asia Holding",
         "contact": "Mustafa Sahin",
         "role": "Chief Executive Officer",
         "quote": "Mr. Hoffschröer quickly developed a precise understanding of our structure and the requirements of the CFO role. The candidates presented were well targeted and professionally pre-qualified. The process was efficient and well managed, communication was clear and reliable throughout, and the final placement fully met our expectations.",
@@ -97,9 +104,11 @@
       "swr": {
         "company": "SWR Engineering",
         "industry": "Industrial Bulk Measurement",
+        "badge": "Multiple Placements",
         "contact": "Dirk Heesen",
         "role": "Managing Director",
         "quote": "What sets him apart is his meticulous selection of candidates who not only possess the required skills but also align well with our corporate culture.",
+        "outcome": "Growth partner since 2016",
         "highlights": [
           "Multiple site manager positions filled",
           "Operational and specialist roles recruited",
@@ -153,52 +162,63 @@
   },
   "about": {
     "title": "About Skytz Consulting",
-    "subtitle": "Since 2015",
-    "description": "Specialist recruitment for Sales Engineering and leadership roles in engineering-driven companies.",
-    "beliefsTitle": "What I Believe",
+    "subtitle": "Established 2015",
+    "description": "Skytz Consulting is a specialized executive search firm focused on Sales Engineering and leadership roles within technology-driven organizations. We fill positions that define the commercial success of complex products.",
+    "beliefsTitle": "Core Beliefs (On Hiring Quality)",
     "beliefs": {
       "expertise": {
-        "title": "Sales Engineering is not 'sales with a tech title'",
-        "description": "It requires domain expertise, technical credibility, and commercial instinct."
+        "title": "Sales Engineering is a Mission-Critical Function, Not a Title",
+        "description": "SE is not a 'sales variant'—it's a high-stakes interface. Success requires technical authority, decision-making maturity, and commercial acumen. Hiring for 'charisma' over 'credibility' is a recipe for technical failure."
       },
       "alignment": {
-        "title": "Leadership hires fail more often due to misalignment than skill",
-        "description": "That's why I document risks early."
+        "title": "Alignment Trumps Resume",
+        "description": "Most hiring failures aren't due to a lack of skill, but rather structural misalignment and unmet expectations. I identify these risks before they become expensive liabilities."
       },
       "decision": {
-        "title": "Good recruiting is decision support",
-        "description": "You should know why I recommend someone — and why not."
+        "title": "Recruiting is Decision Architecture",
+        "description": "My job is to provide a robust foundation for your decision. This includes providing explicit counter-arguments. If my assessment of a candidate changes during the process, I communicate it immediately—even if it puts the placement at risk."
       }
     },
-    "operationsTitle": "How I Operate",
+    "operationsTitle": "Methodology",
     "operations": {
       "direct": {
-        "title": "Direct Search",
-        "description": "Most placements come from candidates I approach directly."
+        "title": "Direct Search Over Hope",
+        "description": "Top-tier talent does not apply for jobs. The majority of my placements result from targeted, discreet direct outreach. We don't 'Post and Pray.'"
       },
       "documented": {
         "title": "Documented Trade-offs",
-        "description": "Every candidate comes with risk notes and reasoning."
+        "description": "Every candidate profile comes with a risk assessment. No buzzwords, no fluff. You will know exactly where a candidate shines and where they might cause friction."
       },
       "honest": {
-        "title": "Honest Pushback",
-        "description": "If expectations don't match reality, I tell you upfront."
+        "title": "Radical Candor",
+        "description": "If your requirements are unrealistic or market realities don't align with your goals, I will tell you in the first meeting. Time is your most expensive asset."
+      }
+    },
+    "founder": {
+      "title": "About the Founder",
+      "intro": "I approach recruiting as an entrepreneur, not an HR agent.",
+      "background": "Three years at KPMG (Finance Advisory), followed by strategic roles at Lufthansa and Deichmann.",
+      "dna": "Founder and CEO of tech startups (e.g., emteria GmbH, Studo GmbH). I understand how CEOs think, how budgets are managed, and exactly where hiring processes typically fail in the real world.",
+      "feesNote": "I provide senior-level consulting and high-stakes results. I am not a budget option. Clients engage me when the cost of a vacancy or a bad hire far outweighs the consultancy fee."
+    },
+    "regional": {
+      "title": "Regional Expertise & Global Reach",
+      "dach": {
+        "title": "DACH Region",
+        "description": "Deep understanding of German business culture combined with the agility of an international structure."
+      },
+      "usa": {
+        "title": "Transatlantic Bridge (USA)",
+        "description": "We support DACH companies entering the US market and US tech firms expanding into Europe. We navigate the differences in compensation, speed, and corporate culture."
+      },
+      "swiss": {
+        "title": "Switzerland Focus",
+        "description": "Targeted identification of German engineering talent for Swiss employers, ensuring compliance with cross-border regulations."
       }
     },
     "legal": {
       "title": "Legal Structure & Compliance",
-      "description": "Skytz Consulting operates under Laurasia LLC (Wyoming, USA) as its strategic global base. We comply with all applicable European (including GDPR) and U.S. legal requirements. Philipp Hoffschröer serves as the executive partner for all DACH region mandates."
-    },
-    "german": {
-      "title": "Working with German-Speaking Companies",
-      "description": "We work with German-speaking companies by providing executive-level recruitment expertise with deep familiarity of the German market, business culture, and hiring standards.",
-      "details": "Our work is delivered in German and English and is structured for international collaboration, allowing clients in Germany to access specialized recruiting support without the constraints of a locally bound provider."
-    },
-    "swiss": {
-      "title": "Supporting Swiss Organizations",
-      "description": "We support Swiss-based organizations by identifying and engaging qualified engineering professionals based in Germany who are open to cross-border career opportunities.",
-      "details": "Our mandate focuses on sourcing, pre-qualifying, and advising candidates under German contractual and regulatory frameworks, while facilitating introductions to Swiss employers for roles where relocation or cross-border employment is initiated by the candidate.",
-      "benefit": "This approach ensures full compliance on the sourcing side, a transparent process for all parties, and access to a highly relevant talent pool familiar with the Swiss market and working environment."
+      "description": "Skytz Consulting operates under Laurasia LLC (Wyoming, USA) as its strategic base. We ensure full compliance with all applicable EU (including GDPR) and US legal requirements. Philipp Hoffschröer serves as the Executive Partner for all mandates."
     }
   },
   "contact": {
