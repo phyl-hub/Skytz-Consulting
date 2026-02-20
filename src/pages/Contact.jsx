@@ -71,7 +71,7 @@ export default function Contact() {
               <div className="grid md:grid-cols-3 gap-6">
                 {/* Calendar - Primary - Takes 2 columns */}
                 <a 
-                  href="https://calendar.app.google/UCMkTD9Qe2Y4TMMF7"
+                  href="https://calendly.com/philipp-ho/meet"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="md:col-span-2 flex flex-col items-center justify-center p-10 rounded-2xl bg-gradient-to-br from-blueprint-600 to-blueprint-700 hover:from-blueprint-700 hover:to-blueprint-800 transition-all shadow-xl shadow-blueprint-600/30 hover:shadow-2xl hover:shadow-blueprint-600/40 border border-blueprint-500 group"

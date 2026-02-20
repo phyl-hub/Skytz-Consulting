@@ -34,12 +34,12 @@ export default function Home() {
       eurasiagroup: {
         src: assetUrl('recommendation/Eurasia-logo.png'),
         alt: 'Eurasia Group',
-        className: 'h-16',
+        className: 'h-24',
       },
       swr: {
         src: assetUrl('recommendation/SWR_logo.jpeg'),
         alt: 'SWR Engineering',
-        className: 'h-16',
+        className: 'h-24',
       },
     }),
     []
@@ -136,7 +136,7 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
-                href="https://calendar.app.google/UCMkTD9Qe2Y4TMMF7"
+                href="https://calendly.com/philipp-ho/meet"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-7 py-3.5 bg-blueprint-600 hover:bg-blueprint-700 text-white font-semibold rounded-xl transition-all shadow-lg shadow-blueprint-600/25 hover:shadow-xl hover:shadow-blueprint-600/30"

@@ -34,7 +34,7 @@ export default function Testimonials() {
   }, [t]);
 
   // Client keys to iterate over
-  const clientKeys = ['megger', 'eurasiagroup', 'swr', 'sebakmt', 'otopront', 'box02'];
+  const clientKeys = ['megger', 'eurasiagroup', 'swr', 'sebakmt', 'otopront', 'box02', 'gef'];
   
   const cases = clientKeys.map(key => ({
     key,
@@ -103,6 +103,8 @@ export default function Testimonials() {
                             <img src={assetUrl('recommendation/otopront-logo.png')} alt="Otopront" className="max-h-16 max-w-40 object-contain" />
                           ) : c.key === 'box02' ? (
                             <img src={assetUrl('recommendation/Logo-box02.png')} alt="Box02" className="max-h-16 max-w-40 object-contain" />
+                          ) : c.key === 'gef' ? (
+                            <img src={assetUrl('recommendation/Logo-gef.png')} alt="GEF Ingenieur AG" className="max-h-16 max-w-40 object-contain" />
                           ) : (
                             <Building2 className="h-12 w-12 text-blueprint-600" />
                           )}

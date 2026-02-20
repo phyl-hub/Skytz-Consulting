@@ -53,9 +53,9 @@
   },
   "stats": {
     "passive": {
-      "value": "50+",
-      "label": "Besetzungen seit 2015",
-      "subtext": "Die meisten waren nicht aktiv auf Jobsuche"
+      "value": "100%",
+      "label": "Wiederbauftragungsquote",
+      "subtext": "Jeder Kunde hat mich mindestens zwei Mal beauftragt"
     }
   },
   "footer": {
@@ -108,7 +108,6 @@
         "contact": "Dirk Heesen",
         "role": "Geschäftsführer",
         "quote": "... sorgfältige Auswahl von Kandidaten, die nicht nur die erforderlichen Fähigkeiten besitzen, sondern auch optimal zu unserer Unternehmenskultur passen.",
-        "outcome": "Wachstumspartner seit 2016",
         "highlights": [
           "Mehrere Bauleiterpostionen besetzt",
           "Operative und Fach-Rollen rekrutiert",
@@ -149,6 +148,18 @@
           "Zwei Marketing-Manager erfolgreich besetzt",
           "Effizienter, strukturierter Rekrutierungsprozess",
           "Passgenaue Kandidatenauswahl"
+        ]
+      },
+      "gef": {
+        "company": "GEF Ingenieur AG",
+        "industry": "Ingenieurdienstleistungen / Trassenplanung",
+        "contact": "Dipl.-Ing. (FH) Timo Che Banning",
+        "role": "Prokurist, Bereichsleitung Trassenplanung",
+        "quote": "Herr Hoffschröer überzeugte insbesondere durch ein gutes Verständnis unserer technischen Anforderungen, eine strukturierte Vorauswahl geeigneter Profile sowie eine verlässliche und transparente Kommunikation während des gesamten Prozesses.",
+        "highlights": [
+          "Tiefes Verständnis technischer Anforderungen",
+          "Strukturierte Vorauswahl geeigneter Kandidaten",
+          "Verlässliche und transparente Kommunikation"
         ]
       }
     },

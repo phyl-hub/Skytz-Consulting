@@ -53,9 +53,9 @@
   },
   "stats": {
     "passive": {
-      "value": "50+",
-      "label": "Placements Since 2015",
-      "subtext": "Most were not actively looking"
+      "value": "100%",
+      "label": "Repeat Client Rate",
+      "subtext": "Every client has engaged me at least twice"
     }
   },
   "footer": {
@@ -108,7 +108,6 @@
         "contact": "Dirk Heesen",
         "role": "Managing Director",
         "quote": "What sets him apart is his meticulous selection of candidates who not only possess the required skills but also align well with our corporate culture.",
-        "outcome": "Growth partner since 2016",
         "highlights": [
           "Multiple site manager positions filled",
           "Operational and specialist roles recruited",
@@ -151,6 +150,19 @@
           "Two Marketing Managers successfully placed",
           "Efficient, structured recruitment process",
           "Precise candidate selection"
+        ]
+      },
+      "gef": {
+        "company": "GEF Ingenieur AG",
+        "industry": "Engineering Services / Route Planning",
+        "contact": "Dipl.-Ing. (FH) Timo Che Banning",
+        "role": "Authorized Signatory, Head of Route Planning",
+        "quote": "Mr. Hoffschröer impressed us in particular with his good understanding of our technical requirements, his structured pre-selection of suitable profiles, and his reliable and transparent communication throughout the entire process.",
+        "quoteNote": "Translated from German original",
+        "highlights": [
+          "Strong understanding of technical requirements",
+          "Structured pre-selection of suitable candidates",
+          "Reliable and transparent communication"
         ]
       }
     },

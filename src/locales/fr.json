@@ -53,9 +53,9 @@
   },
   "stats": {
     "passive": {
-      "value": "50+",
-      "label": "Placements depuis 2015",
-      "subtext": "La plupart n'étaient pas en recherche active"
+      "value": "100%",
+      "label": "Taux de réengagement",
+      "subtext": "Chaque client m'a missionné au moins deux fois"
     }
   },
   "footer": {
@@ -111,7 +111,6 @@
         "role": "Managing Director",
         "quote": "Ce qui le distingue, c'est sa sélection méticuleuse de candidats qui non seulement possèdent les compétences requises, mais s'intègrent également parfaitement à notre culture d'entreprise.",
         "quoteNote": "Traduit de l'original allemand",
-        "outcome": "Partenaire de croissance depuis 2016",
         "highlights": [
           "Plusieurs postes de chef de chantier pourvus",
           "Rôles opérationnels et spécialisés recrutés",
@@ -155,6 +154,19 @@
           "Deux Marketing Managers placés avec succès",
           "Processus de recrutement efficace et structuré",
           "Sélection précise des candidats"
+        ]
+      },
+      "gef": {
+        "company": "GEF Ingenieur AG",
+        "industry": "Services d'ingénierie / Planification de tracés",
+        "contact": "Dipl.-Ing. (FH) Timo Che Banning",
+        "role": "Fondé de pouvoir, Directeur de la planification de tracés",
+        "quote": "M. Hoffschröer nous a particulièrement convaincus par sa bonne compréhension de nos exigences techniques, sa présélection structurée de profils adaptés ainsi que sa communication fiable et transparente tout au long du processus.",
+        "quoteNote": "Traduit de l'original allemand",
+        "highlights": [
+          "Compréhension approfondie des exigences techniques",
+          "Présélection structurée de candidats adaptés",
+          "Communication fiable et transparente"
         ]
       }
     },
