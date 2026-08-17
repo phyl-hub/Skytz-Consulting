@@ -34,7 +34,8 @@ export default function Testimonials() {
   }, [t]);
 
   // Client keys to iterate over
-  const clientKeys = ['megger', 'eurasiagroup', 'swr', 'sebakmt', 'otopront', 'box02', 'gef'];
+  // On-niche proof first (Megger + SebaKMT, same group, deepest relationship), then breadth.
+  const clientKeys = ['megger', 'sebakmt', 'eurasiagroup', 'swr', 'otopront', 'box02', 'gef'];
   
   const cases = clientKeys.map(key => ({
     key,

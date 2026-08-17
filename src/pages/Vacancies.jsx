@@ -34,6 +34,10 @@ const VACANCIES = [
     key: 'technischerZeichner',
     pdfPath: '/Technischer-Zeichner.pdf',
   },
+  {
+    key: 'bimManagerCoordinator',
+    pdfPath: '/BIM-Manager-Coordinator.pdf',
+  },
 ];
 
 export default function Vacancies() {

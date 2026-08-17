@@ -144,7 +144,7 @@ export const site = {
     {
       company: "Megger Germany GmbH",
       contact: "Friedrich Enkert, Managing Director",
-      highlight: "Partnership since 2016. Multiple executive and sales engineering hires.",
+      highlight: "Partnership since 2015. Multiple executive and sales engineering hires.",
       outcome: "Repeat client — 8+ years",
     },
     {

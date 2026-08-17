@@ -16,7 +16,8 @@ export default function Home() {
   const lang = i18n.language || 'de';
   const seoConfig = pageSEOConfig.home[lang] || pageSEOConfig.home.en;
 
-  const carouselKeys = useMemo(() => ['megger', 'eurasiagroup', 'swr'], []);
+  // Lead with the on-niche proof (Megger + SebaKMT), then breadth.
+  const carouselKeys = useMemo(() => ['megger', 'sebakmt', 'eurasiagroup', 'swr'], []);
   const [activeSlideIdx, setActiveSlideIdx] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const [isHoverPaused, setIsHoverPaused] = useState(false);
@@ -29,6 +30,11 @@ export default function Home() {
       megger: {
         src: assetUrl('recommendation/Megger_logo_without_slogan.svg'),
         alt: 'Megger Group',
+        className: 'h-12',
+      },
+      sebakmt: {
+        src: assetUrl('recommendation/sebakmt-logo-black-rgb-scaled.png'),
+        alt: 'SebaKMT by Megger',
         className: 'h-12',
       },
       eurasiagroup: {
@@ -166,9 +172,19 @@ export default function Home() {
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-2.5 text-blueprint-600">
               <ShieldCheck size={20} strokeWidth={2.5} />
-              <span className="text-[11px] font-bold uppercase tracking-[0.2em]">
-                {t(`testimonials.clients.${activeKey}.badge`, { defaultValue: t('testimonials.subtitle') })}
-              </span>
+              {/* Same key/timing as the quote block so badge, quote and attribution never desync mid-transition. */}
+              <AnimatePresence mode="wait" initial={false}>
+                <motion.span
+                  key={activeKey}
+                  initial={{ opacity: 0, y: 8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -8 }}
+                  transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+                  className="text-[11px] font-bold uppercase tracking-[0.2em]"
+                >
+                  {t(`testimonials.clients.${activeKey}.badge`, { defaultValue: t('testimonials.subtitle') })}
+                </motion.span>
+              </AnimatePresence>
             </div>
 
             <div className="flex items-center gap-1">
@@ -215,12 +231,6 @@ export default function Home() {
                   className={`${activeLogo.className || 'h-12'} mb-4 object-contain max-w-[220px]`}
                 />
 
-                {t(`testimonials.clients.${activeKey}.outcome`, { defaultValue: '' }) ? (
-                  <p className="text-slate-500 text-sm font-semibold mb-5">
-                    {t(`testimonials.clients.${activeKey}.outcome`)}
-                  </p>
-                ) : null}
-
                 <p className="text-slate-600 italic text-sm leading-relaxed mb-6 border-l-2 border-slate-200 pl-4">
                   "{t(`testimonials.clients.${activeKey}.quote`)}"
                 </p>
@@ -229,10 +239,19 @@ export default function Home() {
           </div>
           
           <div className="pt-4 border-t border-slate-100 flex justify-between items-center">
-            <div className="text-xs text-slate-500">
-              <strong className="text-slate-900 block font-bold">{t(`testimonials.clients.${activeKey}.contact`)}</strong>
-              {t(`testimonials.clients.${activeKey}.role`)}
-            </div>
+            <AnimatePresence mode="wait" initial={false}>
+              <motion.div
+                key={activeKey}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -8 }}
+                transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+                className="text-xs text-slate-500"
+              >
+                <strong className="text-slate-900 block font-bold">{t(`testimonials.clients.${activeKey}.contact`)}</strong>
+                {t(`testimonials.clients.${activeKey}.role`)}
+              </motion.div>
+            </AnimatePresence>
 
             <div className="flex items-center gap-1.5">
               {carouselKeys.map((key, idx) => (
@@ -274,6 +293,19 @@ export default function Home() {
             </div>
             <p className="text-blueprint-100 font-medium text-lg leading-snug max-w-xs">
               {t('stats.passive.subtext')}
+            </p>
+
+            {/* Track record across all clients — deliberately not tied to any single account. */}
+            <div className="mt-8 pt-6 border-t border-white/20 flex items-baseline gap-3">
+              <span className="text-3xl font-black tracking-[-0.03em]">
+                {t('stats.placements.value')}
+              </span>
+              <span className="text-blueprint-100 font-medium">
+                {t('stats.placements.label')}
+              </span>
+            </div>
+            <p className="text-blueprint-200 text-sm mt-1">
+              {t('stats.placements.subtext')}
             </p>
           </div>
         </motion.div>

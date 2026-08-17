@@ -58,6 +58,12 @@ export default function Footer() {
               >
                 {t('footer.links.terms')}
               </Link>
+              <Link
+                to={getLocalizedPath('imprint')}
+                className="block text-slate-600 hover:text-blueprint-600 transition-colors"
+              >
+                {t('footer.links.imprint')}
+              </Link>
             </div>
           </div>
         </div>

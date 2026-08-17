@@ -20,17 +20,17 @@ export const pageSEOConfig = {
     en: {
       title: 'Client References & Case Studies | Sales Engineer Recruitment Success',
       description:
-        'Proven track record with reference clients since 2016. 10+ placements at Megger Group. Real testimonials from managing directors and CEOs. Request reference calls.',
+        'Proven track record with reference clients since 2015. 10+ placements at Megger Group. Real testimonials from managing directors and CEOs. Request reference calls.',
     },
     de: {
       title: 'Kundenreferenzen & Erfolgsgeschichten | Sales Engineer Recruiting Erfolge',
       description:
-        'Nachgewiesene Erfolgsbilanz mit Referenzkunden seit 2016. 10+ Besetzungen bei der Megger Group. Echte Testimonials von Geschäftsführern und CEOs.',
+        'Nachgewiesene Erfolgsbilanz mit Referenzkunden seit 2015. 10+ Besetzungen bei der Megger Group. Echte Testimonials von Geschäftsführern und CEOs.',
     },
     fr: {
       title: 'Références Clients & Études de Cas | Succès Recrutement Sales Engineer',
       description:
-        'Historique prouvé avec clients de référence depuis 2016. 10+ placements chez Megger Group. Témoignages réels de directeurs généraux.',
+        'Historique prouvé avec clients de référence depuis 2015. 10+ placements chez Megger Group. Témoignages réels de directeurs généraux.',
     },
   },
   about: {
@@ -82,6 +82,23 @@ export const pageSEOConfig = {
       title: 'Politique de Confidentialité | Conforme RGPD & CCPA',
       description:
         'Politique de confidentialité de Skytz Consulting. Traitement des données conforme au RGPD et CCPA.',
+    },
+  },
+  imprint: {
+    en: {
+      title: 'Imprint | Skytz Consulting',
+      description:
+        'Legal notice for Skytz Consulting, a brand of Laurasia LLC. Provider identification, contact details and responsibility for content.',
+    },
+    de: {
+      title: 'Impressum | Skytz Consulting',
+      description:
+        'Impressum von Skytz Consulting, einer Marke der Laurasia LLC. Anbieterkennzeichnung, Kontaktdaten und Verantwortlichkeit für den Inhalt.',
+    },
+    fr: {
+      title: 'Mentions légales | Skytz Consulting',
+      description:
+        'Mentions légales de Skytz Consulting, une marque de Laurasia LLC. Identification du prestataire, coordonnées et responsabilité du contenu.',
     },
   },
   terms: {

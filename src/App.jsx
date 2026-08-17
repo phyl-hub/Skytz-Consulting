@@ -12,6 +12,7 @@ const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Privacy = lazy(() => import('./pages/Privacy'));
 const Terms = lazy(() => import('./pages/Terms'));
+const Imprint = lazy(() => import('./pages/Imprint'));
 const Vacancies = lazy(() => import('./pages/Vacancies'));
 
 function LoadingFallback() {
@@ -64,12 +65,15 @@ export default function App() {
           <Route path="/:lang/vacancies" element={<Layout><Vacancies /></Layout>} />
           <Route path="/:lang/privacy" element={<Layout><Privacy /></Layout>} />
           <Route path="/:lang/terms" element={<Layout><Terms /></Layout>} />
+          <Route path="/:lang/imprint" element={<Layout><Imprint /></Layout>} />
           
           {/* Direct access routes (without language prefix) - redirect to default language */}
           <Route path="/meet-philipp" element={<DetectedRedirect suffix="meet-philipp" />} />
           <Route path="/testimonials" element={<DetectedRedirect suffix="testimonials" />} />
           <Route path="/about" element={<DetectedRedirect suffix="about" />} />
           <Route path="/vacancies" element={<DetectedRedirect suffix="vacancies" />} />
+          <Route path="/imprint" element={<DetectedRedirect suffix="imprint" />} />
+          <Route path="/impressum" element={<DetectedRedirect suffix="imprint" />} />
           <Route path="/privacy" element={<DetectedRedirect suffix="privacy" />} />
           <Route path="/terms" element={<DetectedRedirect suffix="terms" />} />
           

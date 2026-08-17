@@ -38,6 +38,12 @@
         "company": "Construction industry",
         "location": "Germany",
         "summary": "Role brief available as PDF."
+      },
+      "bimManagerCoordinator": {
+        "title": "BIM Manager / Coordinator",
+        "company": "Construction industry",
+        "location": "USA",
+        "summary": "Role brief available as PDF."
       }
     }
   },
@@ -56,6 +62,61 @@
       "value": "100%",
       "label": "Repeat Client Rate",
       "subtext": "Every client has engaged me at least twice"
+    },
+    "placements": {
+      "value": "50+",
+      "label": "Placements",
+      "subtext": "Positions successfully filled since 2015"
+    }
+  },
+  "imprint": {
+    "title": "Imprint",
+    "provider": {
+      "title": "Information pursuant to § 5 DDG",
+      "brandNote": "Skytz Consulting is a brand of Laurasia LLC."
+    },
+    "representedBy": {
+      "title": "Represented by",
+      "name": "Philipp Hoffschröer",
+      "role": "Founder"
+    },
+    "contact": {
+      "title": "Contact",
+      "emailLabel": "Email",
+      "legalEmailLabel": "Legal enquiries",
+      "phoneLabel": "Phone",
+      "phone": "+1 307 429 0181"
+    },
+    "register": {
+      "title": "Commercial register",
+      "authorityLabel": "Registering authority",
+      "authority": "",
+      "numberLabel": "Registration number",
+      "number": ""
+    },
+    "vat": {
+      "title": "VAT identification number",
+      "value": ""
+    },
+    "responsible": {
+      "title": "Responsible for content pursuant to § 18 (2) MStV",
+      "name": "Philipp Hoffschröer"
+    },
+    "disclaimer": {
+      "title": "Liability for content",
+      "content": "The contents of these pages have been prepared with the greatest care. However, we cannot guarantee that the content is accurate, complete or up to date. As a service provider, we are responsible for our own content on these pages under general law, but we are not obliged to monitor transmitted or stored third-party information."
+    },
+    "externalLinks": {
+      "title": "Liability for links",
+      "content": "Our website contains links to external third-party websites over whose content we have no control. The respective provider or operator of the linked pages is always responsible for their content. No legal violations were apparent at the time the links were created. We will remove such links immediately if we become aware of any infringements."
+    },
+    "copyrightNotice": {
+      "title": "Copyright",
+      "content": "The content and works created by the operators on these pages are subject to copyright. Third-party contributions are marked as such. Reproduction, editing, distribution and any form of use beyond the limits of copyright law require written consent."
+    },
+    "dispute": {
+      "title": "Consumer dispute resolution",
+      "content": "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board."
     }
   },
   "footer": {
@@ -76,15 +137,15 @@
       "megger": {
         "company": "Megger Germany GmbH",
         "industry": "Electrical Testing Equipment",
-        "badge": "Partner Since 2016",
+        "badge": "Partner Since 2015",
         "contact": "Friedrich Enkert",
         "role": "Managing Director",
         "quote": "He has an impressive track record, successfully recruiting multiple qualified candidates for key positions in our company. His professionalism, deep understanding of our specific needs, and his ability to identify the best talents in the market have significantly contributed to our company's success.",
-        "outcome": "10+ placements since 2016",
+        "outcome": "10+ placements since 2015",
         "highlights": [
           "Multiple placements in key sales, commercial, and leadership positions",
           "Europe-wide placements, including subsidiaries",
-          "Continuous collaboration since 2016"
+          "Continuous collaboration since 2015"
         ]
       },
       "eurasiagroup": {
@@ -93,7 +154,7 @@
         "badge": "Europe & Asia Holding",
         "contact": "Mustafa Sahin",
         "role": "Chief Executive Officer",
-        "quote": "Mr. Hoffschröer quickly developed a precise understanding of our structure and the requirements of the CFO role. The candidates presented were well targeted and professionally pre-qualified. The process was efficient and well managed, communication was clear and reliable throughout, and the final placement fully met our expectations.",
+        "quote": "I worked with Mr. Hoffschröer during the recruitment of the Chief Financial Officer for Eurasia Group AG. He [..] supported the process through to the successful appointment of [..] as Chief Financial Officer.",
         "outcome": "CFO placement",
         "highlights": [
           "Owner-managed Swiss holding company with over 20 subsidiaries in Europe and Asia",
@@ -111,7 +172,7 @@
         "highlights": [
           "Multiple site manager positions filled",
           "Operational and specialist roles recruited",
-          "Collaboration since 2016"
+          "Collaboration since 2015"
         ]
       },
       "sebakmt": {
@@ -175,7 +236,7 @@
   "about": {
     "title": "About Skytz Consulting",
     "subtitle": "Established 2015",
-    "description": "Skytz Consulting is a specialized executive search firm focused on Sales Engineering and leadership roles within technology-driven organizations. We fill positions that define the commercial success of complex products.",
+    "description": "Skytz Consulting is a specialized executive search firm focused on Sales Engineering and leadership roles within technology-driven organizations. I fill positions that define the commercial success of complex products.",
     "beliefsTitle": "Core Beliefs (On Hiring Quality)",
     "beliefs": {
       "expertise": {
@@ -195,7 +256,7 @@
     "operations": {
       "direct": {
         "title": "Direct Search Over Hope",
-        "description": "Top-tier talent does not apply for jobs. The majority of my placements result from targeted, discreet direct outreach. We don't 'Post and Pray.'"
+        "description": "Top-tier talent does not apply for jobs. The majority of my placements result from targeted, discreet direct outreach. I don't 'Post and Pray.'"
       },
       "documented": {
         "title": "Documented Trade-offs",
@@ -221,7 +282,7 @@
       },
       "usa": {
         "title": "Transatlantic Bridge (USA)",
-        "description": "We support DACH companies entering the US market and US tech firms expanding into Europe. We navigate the differences in compensation, speed, and corporate culture."
+        "description": "I support DACH companies entering the US market and US tech firms expanding into Europe. I navigate the differences in compensation, speed, and corporate culture."
       },
       "swiss": {
         "title": "Switzerland Focus",
@@ -230,7 +291,7 @@
     },
     "legal": {
       "title": "Legal Structure & Compliance",
-      "description": "Skytz Consulting operates under Laurasia LLC (Wyoming, USA) as its strategic base. We ensure full compliance with all applicable EU (including GDPR) and US legal requirements. Philipp Hoffschröer serves as the Executive Partner for all mandates."
+      "description": "Skytz Consulting operates under Laurasia LLC (Wyoming, USA) as its strategic base. I ensure full compliance with all applicable EU (including GDPR) and US legal requirements. Philipp Hoffschröer serves as the Executive Partner for all mandates."
     }
   },
   "contact": {

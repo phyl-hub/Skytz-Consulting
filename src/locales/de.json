@@ -38,6 +38,12 @@
         "company": "Baubranche",
         "location": "Deutschland",
         "summary": "Rollenprofil als PDF zum Download."
+      },
+      "bimManagerCoordinator": {
+        "title": "BIM-Manager / Koordinator",
+        "company": "Baubranche",
+        "location": "USA",
+        "summary": "Rollenprofil als PDF zum Download."
       }
     }
   },
@@ -56,6 +62,61 @@
       "value": "100%",
       "label": "Wiederbauftragungsquote",
       "subtext": "Jeder Kunde hat mich mindestens zwei Mal beauftragt"
+    },
+    "placements": {
+      "value": "50+",
+      "label": "Besetzungen",
+      "subtext": "Erfolgreich besetzte Positionen seit 2015"
+    }
+  },
+  "imprint": {
+    "title": "Impressum",
+    "provider": {
+      "title": "Angaben gemäß § 5 DDG",
+      "brandNote": "Skytz Consulting ist eine Marke der Laurasia LLC."
+    },
+    "representedBy": {
+      "title": "Vertreten durch",
+      "name": "Philipp Hoffschröer",
+      "role": "Gründer"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "emailLabel": "E-Mail",
+      "legalEmailLabel": "Rechtliche Anfragen",
+      "phoneLabel": "Telefon",
+      "phone": "+1 307 429 0181"
+    },
+    "register": {
+      "title": "Registereintrag",
+      "authorityLabel": "Registerbehörde",
+      "authority": "",
+      "numberLabel": "Registernummer",
+      "number": ""
+    },
+    "vat": {
+      "title": "Umsatzsteuer-Identifikationsnummer",
+      "value": ""
+    },
+    "responsible": {
+      "title": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
+      "name": "Philipp Hoffschröer"
+    },
+    "disclaimer": {
+      "title": "Haftung für Inhalte",
+      "content": "Die Inhalte dieser Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich, jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen."
+    },
+    "externalLinks": {
+      "title": "Haftung für Links",
+      "content": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar. Bei Bekanntwerden von Rechtsverletzungen entfernen wir derartige Links umgehend."
+    },
+    "copyrightNotice": {
+      "title": "Urheberrecht",
+      "content": "Die durch die Betreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet. Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung."
+    },
+    "dispute": {
+      "title": "Verbraucherstreitbeilegung",
+      "content": "Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
     }
   },
   "footer": {
@@ -76,7 +137,7 @@
       "megger": {
         "company": "Megger Germany GmbH",
         "industry": "Elektrische Messtechnik",
-        "badge": "Partner seit 2016",
+        "badge": "Partner seit 2015",
         "contact": "Friedrich Enkert",
         "role": "Geschäftsführer",
         "quote": "Er hat eine beeindruckende Erfolgsbilanz vorzuweisen, indem er eine hohe Anzahl hochqualifizierter Kandidaten erfolgreich für Schlüsselpositionen in unserem Unternehmen rekrutiert hat.",
@@ -84,7 +145,7 @@
         "highlights": [
           "Mehrfachbesetzung von Vertriebs- und kaufmännischen Schlüsselrollen sowie Führungspositionen",
           "Europaweite Besetzungen, teilweise in Tochtergesellschaften",
-          "Kontinuierliche Zusammenarbeit seit 2016"
+          "Kontinuierliche Zusammenarbeit seit 2015"
         ]
       },
 "eurasiagroup": {
@@ -111,7 +172,7 @@
         "highlights": [
           "Mehrere Bauleiterpostionen besetzt",
           "Operative und Fach-Rollen rekrutiert",
-          "Zusammenarbeit seit 2016"
+          "Zusammenarbeit seit 2015"
         ]
       },
       "sebakmt": {
@@ -172,7 +233,7 @@
   "about": {
     "title": "Über Skytz Consulting",
     "subtitle": "Seit 2015",
-    "description": "Skytz Consulting ist eine spezialisierte Personalberatung für Sales Engineering und Führungspositionen in technologiegetriebenen Unternehmen. Wir besetzen Rollen, die über den wirtschaftlichen Erfolg komplexer Produkte entscheiden.",
+    "description": "Skytz Consulting ist eine spezialisierte Personalberatung für Sales Engineering und Führungspositionen in technologiegetriebenen Unternehmen. Ich besetze Rollen, die über den wirtschaftlichen Erfolg komplexer Produkte entscheiden.",
     "beliefsTitle": "Wofür ich stehe (Thesen zur Besetzungsqualität)",
     "beliefs": {
       "expertise": {
@@ -192,7 +253,7 @@
     "operations": {
       "direct": {
         "title": "Direktsuche statt Hoffnung",
-        "description": "Relevante Kandidaten bewerben sich nicht. Die Mehrheit meiner Platzierungen entsteht durch gezielte, diskrete Direktansprache. 'Post and Pray' überlassen wir anderen."
+        "description": "Relevante Kandidaten bewerben sich nicht. Die Mehrheit meiner Platzierungen entsteht durch gezielte, diskrete Direktansprache. 'Post and Pray' überlasse ich anderen."
       },
       "documented": {
         "title": "Dokumentierte Abwägungen",
@@ -218,7 +279,7 @@
       },
       "usa": {
         "title": "Transatlantische Brücke (USA)",
-        "description": "Wir begleiten DACH-Unternehmen beim US-Markteintritt und US-Tech-Firmen bei der Expansion nach Europa. Wir kennen die Unterschiede in Incentivierung, Speed und Kultur."
+        "description": "Ich begleite DACH-Unternehmen beim US-Markteintritt und US-Tech-Firmen bei der Expansion nach Europa. Ich kenne die Unterschiede in Incentivierung, Speed und Kultur."
       },
       "swiss": {
         "title": "Fokus Schweiz",
@@ -227,7 +288,7 @@
     },
     "legal": {
       "title": "Rechtliche Struktur & Compliance",
-      "description": "Skytz Consulting operiert unter Laurasia LLC (Wyoming, USA) als strategische Basis. Wir garantieren volle Compliance mit allen anwendbaren EU- (inkl. DSGVO) und US-amerikanischen Rechtsvorschriften. Philipp Hoffschröer ist der Executive Partner für alle Mandate."
+      "description": "Skytz Consulting operiert unter Laurasia LLC (Wyoming, USA) als strategische Basis. Ich garantiere volle Compliance mit allen anwendbaren EU- (inkl. DSGVO) und US-amerikanischen Rechtsvorschriften. Philipp Hoffschröer ist der Executive Partner für alle Mandate."
     }
   },
   "contact": {

@@ -38,6 +38,12 @@
         "company": "Secteur de la construction",
         "location": "Allemagne",
         "summary": "Descriptif disponible en PDF."
+      },
+      "bimManagerCoordinator": {
+        "title": "Manager / Coordinateur BIM",
+        "company": "Secteur de la construction",
+        "location": "États-Unis",
+        "summary": "Descriptif disponible en PDF."
       }
     }
   },
@@ -56,6 +62,61 @@
       "value": "100%",
       "label": "Taux de réengagement",
       "subtext": "Chaque client m'a missionné au moins deux fois"
+    },
+    "placements": {
+      "value": "50+",
+      "label": "Placements",
+      "subtext": "Postes pourvus avec succès depuis 2015"
+    }
+  },
+  "imprint": {
+    "title": "Mentions légales",
+    "provider": {
+      "title": "Informations conformément au § 5 DDG",
+      "brandNote": "Skytz Consulting est une marque de Laurasia LLC."
+    },
+    "representedBy": {
+      "title": "Représenté par",
+      "name": "Philipp Hoffschröer",
+      "role": "Fondateur"
+    },
+    "contact": {
+      "title": "Contact",
+      "emailLabel": "E-mail",
+      "legalEmailLabel": "Demandes juridiques",
+      "phoneLabel": "Téléphone",
+      "phone": "+1 307 429 0181"
+    },
+    "register": {
+      "title": "Immatriculation",
+      "authorityLabel": "Autorité d'enregistrement",
+      "authority": "",
+      "numberLabel": "Numéro d'immatriculation",
+      "number": ""
+    },
+    "vat": {
+      "title": "Numéro de TVA intracommunautaire",
+      "value": ""
+    },
+    "responsible": {
+      "title": "Responsable du contenu selon le § 18 al. 2 MStV",
+      "name": "Philipp Hoffschröer"
+    },
+    "disclaimer": {
+      "title": "Responsabilité concernant le contenu",
+      "content": "Les contenus de ces pages ont été élaborés avec le plus grand soin. Nous ne pouvons toutefois garantir leur exactitude, leur exhaustivité ni leur actualité. En tant que prestataire de services, nous sommes responsables de nos propres contenus conformément au droit commun, sans être tenus de surveiller les informations de tiers transmises ou stockées."
+    },
+    "externalLinks": {
+      "title": "Responsabilité concernant les liens",
+      "content": "Notre site contient des liens vers des sites web externes de tiers dont nous ne maîtrisons pas le contenu. Le fournisseur ou l'exploitant des pages liées est toujours responsable de leur contenu. Aucune infraction n'était apparente au moment de la création des liens. Nous supprimerons immédiatement ces liens si nous avons connaissance d'une violation."
+    },
+    "copyrightNotice": {
+      "title": "Droit d'auteur",
+      "content": "Les contenus et œuvres créés par les exploitants de ces pages sont soumis au droit d'auteur. Les contributions de tiers sont signalées comme telles. La reproduction, la modification, la diffusion et toute forme d'exploitation en dehors des limites du droit d'auteur nécessitent un accord écrit."
+    },
+    "dispute": {
+      "title": "Règlement des litiges de consommation",
+      "content": "Nous ne sommes ni disposés ni tenus de participer à une procédure de règlement des litiges devant un organisme de médiation de la consommation."
     }
   },
   "footer": {
@@ -76,16 +137,16 @@
       "megger": {
         "company": "Megger Germany GmbH",
         "industry": "Équipements de Test Électrique",
-        "badge": "Partenaire depuis 2016",
+        "badge": "Partenaire depuis 2015",
         "contact": "Friedrich Enkert",
         "role": "Managing Director",
         "quote": "Il possède un palmarès impressionnant, ayant recruté avec succès de nombreux candidats qualifiés pour des postes clés au sein de notre entreprise. Son professionnalisme, sa compréhension approfondie de nos besoins spécifiques et sa capacité à identifier les meilleurs talents du marché ont contribué de manière significative au succès de notre entreprise.",
         "quoteNote": "Traduit de l'original anglais",
-        "outcome": "10+ placements depuis 2016",
+        "outcome": "10+ placements depuis 2015",
         "highlights": [
           "Placements multiples dans des postes clés de vente, commerciaux et de direction",
           "Placements à l'échelle européenne, y compris dans les filiales",
-          "Collaboration continue depuis 2016"
+          "Collaboration continue depuis 2015"
         ]
       },
       "eurasiagroup": {
@@ -94,7 +155,7 @@
         "badge": "Holding Europe & Asie",
         "contact": "Mustafa Sahin",
         "role": "Chief Executive Officer",
-        "quote": "M. Hoffschröer a rapidement acquis une compréhension précise de notre structure et des exigences du poste de directeur financier. Les candidats présentés étaient bien ciblés et avaient été présélectionnés de manière professionnelle. Le processus a été efficace et bien géré, la communication a été claire et fiable tout au long du processus, et le placement final a pleinement répondu à nos attentes.",
+        "quote": "J'ai travaillé avec M. Hoffschröer lors du recrutement du directeur financier d'Eurasia Group AG. Il [..] a accompagné le processus jusqu'à la nomination réussie de [..] au poste de directeur financier.",
         "quoteNote": "Traduit de l'original anglais",
         "outcome": "Recrutement d'un directeur financier (CFO)",
         "highlights": [
@@ -114,7 +175,7 @@
         "highlights": [
           "Plusieurs postes de chef de chantier pourvus",
           "Rôles opérationnels et spécialisés recrutés",
-          "Collaboration depuis 2016"
+          "Collaboration depuis 2015"
         ]
       },
       "sebakmt": {
@@ -179,7 +240,7 @@
   "about": {
     "title": "À propos de Skytz Consulting",
     "subtitle": "Depuis 2015",
-    "description": "Skytz Consulting est un cabinet de recrutement spécialisé dans le Sales Engineering et les postes de direction au sein d'organisations technologiques. Nous pourvoyons des postes qui définissent le succès commercial de produits complexes.",
+    "description": "Skytz Consulting est un cabinet de recrutement spécialisé dans le Sales Engineering et les postes de direction au sein d'organisations technologiques. Je pourvois des postes qui définissent le succès commercial de produits complexes.",
     "beliefsTitle": "Convictions fondamentales (Sur la qualité du recrutement)",
     "beliefs": {
       "expertise": {
@@ -199,7 +260,7 @@
     "operations": {
       "direct": {
         "title": "Recherche directe plutôt qu'espoir",
-        "description": "Les talents de premier plan ne postulent pas. La majorité de mes placements résultent d'une approche directe ciblée et discrète. Nous ne pratiquons pas le 'Post and Pray'."
+        "description": "Les talents de premier plan ne postulent pas. La majorité de mes placements résultent d'une approche directe ciblée et discrète. Je ne pratique pas le 'Post and Pray'."
       },
       "documented": {
         "title": "Compromis documentés",
@@ -225,7 +286,7 @@
       },
       "usa": {
         "title": "Pont transatlantique (USA)",
-        "description": "Nous accompagnons les entreprises DACH dans leur entrée sur le marché américain et les entreprises tech américaines dans leur expansion en Europe. Nous maîtrisons les différences de rémunération, de rapidité et de culture d'entreprise."
+        "description": "J'accompagne les entreprises DACH dans leur entrée sur le marché américain et les entreprises tech américaines dans leur expansion en Europe. Je maîtrise les différences de rémunération, de rapidité et de culture d'entreprise."
       },
       "swiss": {
         "title": "Focus Suisse",
@@ -234,7 +295,7 @@
     },
     "legal": {
       "title": "Structure juridique & conformité",
-      "description": "Skytz Consulting opère sous Laurasia LLC (Wyoming, USA) comme base stratégique. Nous garantissons une conformité totale avec toutes les exigences légales UE (y compris RGPD) et américaines applicables. Philipp Hoffschröer est le partenaire exécutif pour tous les mandats."
+      "description": "Skytz Consulting opère sous Laurasia LLC (Wyoming, USA) comme base stratégique. Je garantis une conformité totale avec toutes les exigences légales UE (y compris RGPD) et américaines applicables. Philipp Hoffschröer est le partenaire exécutif pour tous les mandats."
     }
   },
   "contact": {
