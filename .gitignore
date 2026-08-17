@@ -12,11 +12,8 @@ dist
 dist-ssr
 *.local
 
-# Firebase
-.firebase/
-.firebaserc
-firebase-debug.log
-firebase-debug.*.log
+# Vercel
+.vercel
 
 # Environment files
 .env
