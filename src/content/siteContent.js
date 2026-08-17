@@ -23,8 +23,8 @@ export const site = {
       description:
         "Executive search for Sales Engineering and commercial leadership roles. 85%+ placements via direct outreach. Engineering companies only.",
     },
-    caseStudies: {
-      title: "Case Studies – Sales Engineering & Leadership Search | Skytz Consulting",
+    testimonials: {
+      title: "Testimonials – Sales Engineering & Leadership Search | Skytz Consulting",
       description:
         "Reference clients include Megger, Happersberger Otopront, SWR. Multi-year recruiting partnerships. Reference calls available.",
     },
@@ -144,7 +144,7 @@ export const site = {
     {
       company: "Megger Germany GmbH",
       contact: "Friedrich Enkert, Managing Director",
-      highlight: "Partnership since 2016. Multiple executive and sales engineering hires.",
+      highlight: "Partnership since 2015. Multiple executive and sales engineering hires.",
       outcome: "Repeat client — 8+ years",
     },
     {
@@ -183,6 +183,6 @@ export const site = {
 
   cta: {
     primary: { label: "Discuss a Search", to: "/hire" },
-    secondary: { label: "See References", to: "/case-studies" },
+    secondary: { label: "See References", to: "/testimonials" },
   },
 };

@@ -14,10 +14,11 @@ export default function Navbar() {
   const location = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const logoSrc = `${import.meta.env.BASE_URL}brand/Logo-Skytz-Consulting.png`;
 
   const navLinks = [
     { to: '/', label: t('nav.home') },
-    { to: '/case-studies', label: t('nav.caseStudies') },
+    { to: '/testimonials', label: t('nav.testimonials') },
     { to: '/about', label: t('nav.about') },
     { to: '/contact', label: t('nav.contact') },
   ];
@@ -31,12 +32,23 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800/50">
-      <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2">
-          <span className="text-xl font-bold text-white">Skytz</span>
-          <span className="text-emerald-400 font-medium">Consulting</span>
+        <Link to="/" className="flex items-center gap-3 group">
+          <img
+            src={logoSrc}
+            alt="Skytz Consulting"
+            className="h-[52px] w-auto object-contain"
+            style={{ filter: 'drop-shadow(0 1px 1px rgba(0,0,0,0.05))' }}
+            draggable="false"
+            loading="eager"
+            decoding="sync"
+          />
+          <div className="hidden sm:flex items-baseline leading-none">
+            <span className="text-2xl font-bold text-white tracking-tight">Skytz</span>
+            <span className="ml-1.5 text-2xl font-medium text-blueprint-400">Consulting</span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}
@@ -47,7 +59,7 @@ export default function Navbar() {
               to={link.to}
               className={`text-sm font-medium transition-colors ${
                 location.pathname === link.to
-                  ? 'text-emerald-400'
+                  ? 'text-blueprint-400'
                   : 'text-slate-300 hover:text-white'
               }`}
             >
@@ -86,7 +98,7 @@ export default function Navbar() {
                       key={lang.code}
                       onClick={() => switchLanguage(lang.code)}
                       className={`w-full px-4 py-2 text-left text-sm flex items-center gap-2 hover:bg-slate-800 transition-colors ${
-                        lang.code === i18n.language ? 'text-emerald-400' : 'text-slate-300'
+                        lang.code === i18n.language ? 'text-blueprint-400' : 'text-slate-300'
                       }`}
                     >
                       <span>{lang.flag}</span>
@@ -101,7 +113,7 @@ export default function Navbar() {
           {/* CTA Button */}
           <Link
             to="/contact"
-            className="hidden sm:inline-flex items-center px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-slate-900 text-sm font-semibold rounded-lg transition-colors"
+            className="hidden sm:inline-flex items-center px-5 py-2.5 bg-blueprint-500 hover:bg-blueprint-400 text-slate-900 text-sm font-semibold rounded-lg transition-colors"
           >
             {t('hero.cta.primary')}
           </Link>
@@ -141,7 +153,7 @@ export default function Navbar() {
                   onClick={() => setMobileOpen(false)}
                   className={`block py-2 text-sm font-medium ${
                     location.pathname === link.to
-                      ? 'text-emerald-400'
+                      ? 'text-blueprint-400'
                       : 'text-slate-300'
                   }`}
                 >
@@ -151,7 +163,7 @@ export default function Navbar() {
               <Link
                 to="/contact"
                 onClick={() => setMobileOpen(false)}
-                className="block w-full mt-4 px-5 py-3 bg-emerald-500 text-slate-900 text-sm font-semibold rounded-lg text-center"
+                className="block w-full mt-4 px-5 py-3 bg-blueprint-500 text-slate-900 text-sm font-semibold rounded-lg text-center"
               >
                 {t('hero.cta.primary')}
               </Link>

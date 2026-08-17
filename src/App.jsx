@@ -1,15 +1,19 @@
-import { Suspense, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Navigate, useLocation, useParams } from 'react-router-dom';
+import { Suspense, lazy } from 'react';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import './i18n';
 
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
-import Home from './pages/Home';
-import CaseStudies from './pages/CaseStudies';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Privacy from './pages/Privacy';
-import Terms from './pages/Terms';
+
+const Home = lazy(() => import('./pages/Home'));
+const Testimonials = lazy(() => import('./pages/Testimonials'));
+const About = lazy(() => import('./pages/About'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Privacy = lazy(() => import('./pages/Privacy'));
+const Terms = lazy(() => import('./pages/Terms'));
+const Imprint = lazy(() => import('./pages/Imprint'));
+const Vacancies = lazy(() => import('./pages/Vacancies'));
 
 function LoadingFallback() {
   return (
@@ -19,76 +23,63 @@ function LoadingFallback() {
   );
 }
 
-// Hreflang SEO: Injects proper link tags for Google's language detection
-function HreflangTags() {
-  const location = useLocation();
-  const { lang } = useParams();
-  const basePath = location.pathname.replace(`/${lang}`, '') || '/';
-  const baseUrl = 'https://skytz-consulting.com';
-  
-  useEffect(() => {
-    // Remove existing hreflang tags
-    document.querySelectorAll('link[hreflang]').forEach(el => el.remove());
-    
-    // Language mappings with regional targets
-    const languages = [
-      { code: 'de', hreflang: 'de-DE' },
-      { code: 'de', hreflang: 'de-CH' },
-      { code: 'de', hreflang: 'de-AT' },
-      { code: 'en', hreflang: 'en-US' },
-      { code: 'en', hreflang: 'en-GB' },
-      { code: 'fr', hreflang: 'fr-CH' },
-      { code: 'fr', hreflang: 'fr-FR' },
-    ];
-    
-    languages.forEach(({ code, hreflang }) => {
-      const link = document.createElement('link');
-      link.rel = 'alternate';
-      link.hreflang = hreflang;
-      link.href = `${baseUrl}/${code}${basePath === '/' ? '' : basePath}`;
-      document.head.appendChild(link);
-    });
-    
-    // x-default fallback
-    const defaultLink = document.createElement('link');
-    defaultLink.rel = 'alternate';
-    defaultLink.hreflang = 'x-default';
-    defaultLink.href = `${baseUrl}/de${basePath === '/' ? '' : basePath}`;
-    document.head.appendChild(defaultLink);
-    
-  }, [location.pathname, lang, basePath]);
-  
-  return null;
-}
-
 // Layout wrapper for language-prefixed routes
 function Layout({ children }) {
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
       <Header />
-      <HreflangTags />
       <main className="flex-1">{children}</main>
       <Footer />
     </div>
   );
 }
 
+const SUPPORTED_LANGS = ['en', 'de', 'fr'];
+const DEFAULT_LANG = 'de';
+
+function normalizeLang(lang) {
+  if (!lang) return null;
+  const code = String(lang).toLowerCase().split('-')[0];
+  return SUPPORTED_LANGS.includes(code) ? code : null;
+}
+
+function DetectedRedirect({ suffix = '' }) {
+  const { i18n } = useTranslation();
+  const detected = normalizeLang(i18n.resolvedLanguage || i18n.language) || DEFAULT_LANG;
+  const hostname = typeof window !== 'undefined' ? window.location.hostname : '';
+  const effectiveSuffix = suffix || (hostname.startsWith('vacancies.') ? 'vacancies' : '');
+  const path = effectiveSuffix ? `/${detected}/${effectiveSuffix}` : `/${detected}`;
+  return <Navigate to={path} replace />;
+}
+
 export default function App() {
   return (
     <Suspense fallback={<LoadingFallback />}>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           {/* Language-prefixed routes */}
           <Route path="/:lang" element={<Layout><Home /></Layout>} />
-          <Route path="/:lang/case-studies" element={<Layout><CaseStudies /></Layout>} />
+          <Route path="/:lang/testimonials" element={<Layout><Testimonials /></Layout>} />
           <Route path="/:lang/about" element={<Layout><About /></Layout>} />
-          <Route path="/:lang/contact" element={<Layout><Contact /></Layout>} />
+          <Route path="/:lang/meet-philipp" element={<Layout><Contact /></Layout>} />
+          <Route path="/:lang/vacancies" element={<Layout><Vacancies /></Layout>} />
           <Route path="/:lang/privacy" element={<Layout><Privacy /></Layout>} />
           <Route path="/:lang/terms" element={<Layout><Terms /></Layout>} />
+          <Route path="/:lang/imprint" element={<Layout><Imprint /></Layout>} />
+          
+          {/* Direct access routes (without language prefix) - redirect to default language */}
+          <Route path="/meet-philipp" element={<DetectedRedirect suffix="meet-philipp" />} />
+          <Route path="/testimonials" element={<DetectedRedirect suffix="testimonials" />} />
+          <Route path="/about" element={<DetectedRedirect suffix="about" />} />
+          <Route path="/vacancies" element={<DetectedRedirect suffix="vacancies" />} />
+          <Route path="/imprint" element={<DetectedRedirect suffix="imprint" />} />
+          <Route path="/impressum" element={<DetectedRedirect suffix="imprint" />} />
+          <Route path="/privacy" element={<DetectedRedirect suffix="privacy" />} />
+          <Route path="/terms" element={<DetectedRedirect suffix="terms" />} />
           
           {/* Redirect root to default language */}
-          <Route path="/" element={<Navigate to="/de" replace />} />
-          <Route path="*" element={<Navigate to="/de" replace />} />
+          <Route path="/" element={<DetectedRedirect />} />
+          <Route path="*" element={<DetectedRedirect />} />
         </Routes>
       </BrowserRouter>
     </Suspense>

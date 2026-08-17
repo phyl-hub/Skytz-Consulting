@@ -26,24 +26,18 @@ export default function Footer() {
             </address>
           </div>
 
-          {/* Contact - DACH Partner */}
+          {/* Contact */}
           <div>
             <h4 className="text-slate-900 font-semibold mb-4">
-              {currentLang === 'en' ? 'DACH Executive Partner' : currentLang === 'de' ? 'DACH Executive Partner' : 'Partenaire Exécutif DACH'}
+              {currentLang === 'en' ? 'Contact' : currentLang === 'de' ? 'Kontakt' : 'Contact'}
             </h4>
             <div className="space-y-2 text-sm">
-              <p className="text-slate-700 font-medium">Philipp Hoffschröer</p>
+              <p className="text-slate-700 font-medium">Philipp Hoffschröer, Founder</p>
               <a 
-                href="mailto:philipp@skytz.de" 
+                href="mailto:info@skytz-consulting.com" 
                 className="block text-slate-600 hover:text-blueprint-600 transition-colors"
               >
-                philipp@skytz.de
-              </a>
-              <a 
-                href="tel:+4917680178907" 
-                className="block text-slate-600 hover:text-blueprint-600 transition-colors"
-              >
-                +49 176 8017 8907
+                info@skytz-consulting.com
               </a>
             </div>
           </div>
@@ -63,6 +57,12 @@ export default function Footer() {
                 className="block text-slate-600 hover:text-blueprint-600 transition-colors"
               >
                 {t('footer.links.terms')}
+              </Link>
+              <Link
+                to={getLocalizedPath('imprint')}
+                className="block text-slate-600 hover:text-blueprint-600 transition-colors"
+              >
+                {t('footer.links.imprint')}
               </Link>
             </div>
           </div>

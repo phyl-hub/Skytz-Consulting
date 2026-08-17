@@ -1,8 +1,10 @@
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Target, Shield, Users, TrendingUp, Award, Lightbulb, Building2 } from 'lucide-react';
+import { Target, Shield, Users, TrendingUp, Award, Lightbulb, Building2, Globe, Briefcase, MapPin } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
+import SEO from '../components/SEO';
+import { pageSEOConfig } from '../content/pageSEOConfig';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -20,7 +22,9 @@ const stagger = {
 };
 
 export default function About() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language || 'de';
+  const seoConfig = pageSEOConfig.about[lang] || pageSEOConfig.about.en;
 
   useEffect(() => {
     document.title = `${t('nav.about')} | Skytz Consulting`;
@@ -63,7 +67,9 @@ export default function About() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <>
+      <SEO title={seoConfig.title} description={seoConfig.description} />
+      <div className="min-h-screen bg-slate-50">
       {/* Hero */}
       <section className="py-20 md:py-28">
         <div className="mx-auto max-w-7xl px-6">
@@ -151,7 +157,88 @@ export default function About() {
         </div>
       </section>
 
-      {/* Legal Entity - Strategic Global vs Local Partner */}
+      {/* Founder Background */}
+      <section className="border-t border-slate-200 bg-white py-16">
+        <div className="mx-auto max-w-7xl px-6">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeIn}
+          >
+            <BentoCard className="max-w-3xl">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-blueprint-50">
+                  <Briefcase className="h-5 w-5 text-blueprint-600" />
+                </div>
+                <h2 className="text-xl font-bold text-slate-900">{t('about.founder.title')}</h2>
+              </div>
+              <div className="space-y-4">
+                <p className="text-slate-700 font-medium italic">{t('about.founder.intro')}</p>
+                <div className="space-y-3 text-slate-600">
+                  <p><strong className="text-slate-800">Background:</strong> {t('about.founder.background')}</p>
+                  <p><strong className="text-slate-800">DNA:</strong> {t('about.founder.dna')}</p>
+                </div>
+                <p className="text-slate-700 font-medium bg-blueprint-50 p-4 rounded-xl border border-blueprint-100">
+                  <strong>Note on Fees:</strong> {t('about.founder.feesNote')}
+                </p>
+              </div>
+            </BentoCard>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Regional Expertise & Global Reach */}
+      <section className="border-t border-slate-200 bg-slate-50 py-16">
+        <div className="mx-auto max-w-7xl px-6">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeIn}
+          >
+            <BentoCard className="max-w-3xl">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-50">
+                  <Globe className="h-5 w-5 text-emerald-600" />
+                </div>
+                <h2 className="text-xl font-bold text-slate-900">{t('about.regional.title')}</h2>
+              </div>
+              <div className="space-y-6">
+                <div className="flex gap-4">
+                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-slate-100">
+                    <MapPin className="h-4 w-4 text-slate-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-slate-900">{t('about.regional.dach.title')}</h3>
+                    <p className="mt-1 text-sm text-slate-600">{t('about.regional.dach.description')}</p>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-slate-100">
+                    <span className="text-sm">🇺🇸</span>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-slate-900">{t('about.regional.usa.title')}</h3>
+                    <p className="mt-1 text-sm text-slate-600">{t('about.regional.usa.description')}</p>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-slate-100">
+                    <span className="text-sm">🇨🇭</span>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-slate-900">{t('about.regional.swiss.title')}</h3>
+                    <p className="mt-1 text-sm text-slate-600">{t('about.regional.swiss.description')}</p>
+                  </div>
+                </div>
+              </div>
+            </BentoCard>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Legal Entity */}
       <section className="border-t border-slate-200 bg-white py-16">
         <div className="mx-auto max-w-7xl px-6">
           <motion.div
@@ -167,29 +254,12 @@ export default function About() {
                 </div>
                 <h2 className="text-xl font-bold text-slate-900">{t('about.legal.title')}</h2>
               </div>
-              <p className="text-slate-600 mb-6">{t('about.legal.description')}</p>
-              
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div className="p-4 bg-slate-50 rounded-xl">
-                  <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-1">Strategic Global Base</p>
-                  <address className="text-sm not-italic text-slate-700">
-                    Laurasia LLC<br />
-                    1309 Coffeen Avenue STE 1200<br />
-                    Sheridan, WY 82801, USA
-                  </address>
-                </div>
-                <div className="p-4 bg-blueprint-50 rounded-xl border border-blueprint-100">
-                  <p className="text-xs font-bold uppercase tracking-wider text-blueprint-600 mb-1">DACH Executive Partner</p>
-                  <p className="text-sm text-slate-700 font-medium">
-                    Philipp Hoffschröer<br />
-                    Germany · Switzerland · Austria
-                  </p>
-                </div>
-              </div>
+              <p className="text-slate-600">{t('about.legal.description')}</p>
             </BentoCard>
           </motion.div>
         </div>
       </section>
     </div>
+    </>
   );
 }

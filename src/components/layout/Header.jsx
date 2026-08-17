@@ -9,14 +9,15 @@ import useLanguage from '../../hooks/useLanguage';
 export default function Header() {
   const { t } = useTranslation();
   const location = useLocation();
-  const { getLocalizedPath, currentLang } = useLanguage();
+  const { getLocalizedPath } = useLanguage();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const logoSrc = `${import.meta.env.BASE_URL}brand/Logo-Skytz-Consulting.png`;
 
   const navLinks = [
     { to: '', label: t('nav.home') },
-    { to: 'case-studies', label: t('nav.caseStudies') },
+    { to: 'testimonials', label: t('nav.testimonials') },
     { to: 'about', label: t('nav.about') },
-    { to: 'contact', label: t('nav.contact') },
+    { to: 'meet-philipp', label: t('nav.contact') },
   ];
 
   const isActive = (path) => {
@@ -26,12 +27,23 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-slate-50/90 backdrop-blur-md border-b border-slate-200">
-      <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         
         {/* Logo */}
-        <Link to={getLocalizedPath('')} className="flex items-center gap-1.5">
-          <span className="text-xl font-bold text-slate-900">Skytz</span>
-          <span className="text-blueprint-600 font-semibold">Consulting</span>
+        <Link to={getLocalizedPath('')} className="flex items-center gap-3 group">
+          <img
+            src={logoSrc}
+            alt="Skytz Consulting"
+            className="h-[52px] sm:h-[64px] md:h-[80px] w-auto object-contain"
+            style={{ filter: 'drop-shadow(0 1px 1px rgba(0,0,0,0.05))' }}
+            draggable="false"
+            loading="eager"
+            decoding="sync"
+          />
+          <div className="hidden sm:flex items-baseline leading-none">
+            <span className="text-2xl font-bold text-slate-900 tracking-tight">Skytz</span>
+            <span className="ml-1.5 text-2xl font-medium text-blueprint-600">Consulting</span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}
@@ -56,7 +68,7 @@ export default function Header() {
           <LanguageSwitcher />
 
           <Link
-            to={getLocalizedPath('contact')}
+            to={getLocalizedPath('meet-philipp')}
             className="hidden sm:inline-flex items-center px-5 py-2.5 bg-blueprint-600 hover:bg-blueprint-700 text-white text-sm font-semibold rounded-lg transition-colors"
           >
             {t('hero.cta.primary')}
@@ -95,7 +107,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                to={getLocalizedPath('contact')}
+                to={getLocalizedPath('meet-philipp')}
                 onClick={() => setMobileOpen(false)}
                 className="block w-full mt-4 px-5 py-3 bg-blueprint-600 text-white text-sm font-semibold rounded-lg text-center"
               >
