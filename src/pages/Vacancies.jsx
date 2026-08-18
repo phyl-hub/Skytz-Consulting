@@ -42,7 +42,7 @@ const VACANCIES = [
 
 export default function Vacancies() {
   const { t, i18n } = useTranslation();
-  const lang = i18n.language || 'de';
+  const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.vacancies?.[lang] || pageSEOConfig.vacancies?.en;
 
   useEffect(() => {
@@ -51,7 +51,7 @@ export default function Vacancies() {
 
   return (
     <>
-      {seoConfig && <SEO title={seoConfig.title} description={seoConfig.description} />}
+      {seoConfig && <SEO title={seoConfig.title} description={seoConfig.description} noindex />}
 
       <div className="min-h-screen bg-slate-50">
         <section className="py-20 md:py-28">

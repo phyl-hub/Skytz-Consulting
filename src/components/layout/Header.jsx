@@ -13,8 +13,9 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const logoSrc = `${import.meta.env.BASE_URL}brand/Logo-Skytz-Consulting.png`;
 
+  // The logo already returns home, so "Home" is dropped to buy back header space.
   const navLinks = [
-    { to: '', label: t('nav.home') },
+    { to: 'industries', label: t('nav.industries') },
     { to: 'testimonials', label: t('nav.testimonials') },
     { to: 'about', label: t('nav.about') },
     { to: 'meet-philipp', label: t('nav.contact') },
@@ -34,20 +35,32 @@ export default function Header() {
           <img
             src={logoSrc}
             alt="Skytz Consulting"
-            className="h-[52px] sm:h-[64px] md:h-[80px] w-auto object-contain"
+            className="h-[44px] sm:h-[52px] lg:h-[60px] w-auto object-contain"
             style={{ filter: 'drop-shadow(0 1px 1px rgba(0,0,0,0.05))' }}
             draggable="false"
+            /* Above-the-fold and almost certainly the LCP element on every
+               page, so it stays eager (lazy-loading it would delay LCP
+               further, not help) — the real fix for the 2MB source file is
+               replacing/compressing the asset itself; see audit notes.
+               decoding="async" (was "sync") stops the decode from blocking
+               the main thread while that file is still this large.
+               width/height give the browser the real intrinsic aspect
+               ratio so it can reserve layout space before the (currently
+               2MB, slow-to-arrive) image loads, reducing layout shift. */
+            width={1536}
+            height={1024}
             loading="eager"
-            decoding="sync"
+            decoding="async"
+            fetchPriority="high"
           />
-          <div className="hidden sm:flex items-baseline leading-none">
+          <div className="hidden xl:flex items-baseline leading-none">
             <span className="text-2xl font-bold text-slate-900 tracking-tight">Skytz</span>
             <span className="ml-1.5 text-2xl font-medium text-blueprint-600">Consulting</span>
           </div>
         </Link>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-6 xl:gap-8">
           {navLinks.map(link => (
             <Link
               key={link.to}
@@ -69,7 +82,7 @@ export default function Header() {
 
           <Link
             to={getLocalizedPath('meet-philipp')}
-            className="hidden sm:inline-flex items-center px-5 py-2.5 bg-blueprint-600 hover:bg-blueprint-700 text-white text-sm font-semibold rounded-lg transition-colors"
+            className="hidden sm:inline-flex items-center px-4 py-2.5 bg-blueprint-600 hover:bg-blueprint-700 text-white text-sm font-semibold rounded-lg transition-colors text-center leading-tight"
           >
             {t('hero.cta.primary')}
           </Link>
@@ -77,7 +90,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="md:hidden p-2 text-slate-600 hover:text-slate-900"
+            className="lg:hidden p-2 text-slate-600 hover:text-slate-900"
           >
             {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -91,7 +104,7 @@ export default function Header() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden border-t border-slate-200 bg-white"
+            className="lg:hidden border-t border-slate-200 bg-white"
           >
             <div className="px-6 py-4 space-y-3">
               {navLinks.map(link => (

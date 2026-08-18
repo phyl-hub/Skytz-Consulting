@@ -15,7 +15,7 @@ const fadeIn = {
 
 export default function Imprint() {
   const { t, i18n } = useTranslation();
-  const lang = i18n.language || 'de';
+  const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.imprint[lang] || pageSEOConfig.imprint.en;
 
   useEffect(() => {
@@ -27,6 +27,13 @@ export default function Imprint() {
   const registerAuthority = t('imprint.register.authority');
   const registerNumber = t('imprint.register.number');
   const vat = t('imprint.vat.value');
+
+  // German and Austrian law require the § blocks below; the English locale
+  // leaves them empty so U.S. readers get a plain legal notice instead.
+  const responsibleTitle = t('imprint.responsible.title');
+  const disclaimerTitle = t('imprint.disclaimer.title');
+  const externalLinksTitle = t('imprint.externalLinks.title');
+  const disputeTitle = t('imprint.dispute.title');
 
   return (
     <>
@@ -103,25 +110,41 @@ export default function Imprint() {
                   </>
                 )}
 
-                <h2 className="mt-8 text-xl font-bold text-slate-900">{t('imprint.responsible.title')}</h2>
-                <address className="mt-2 text-slate-600 not-italic leading-relaxed">
-                  {t('imprint.responsible.name')}<br />
-                  1309 Coffeen Avenue STE 1200<br />
-                  Sheridan, WY 82801<br />
-                  United States
-                </address>
+                {responsibleTitle && (
+                  <>
+                    <h2 className="mt-8 text-xl font-bold text-slate-900">{responsibleTitle}</h2>
+                    <address className="mt-2 text-slate-600 not-italic leading-relaxed">
+                      {t('imprint.responsible.name')}<br />
+                      1309 Coffeen Avenue STE 1200<br />
+                      Sheridan, WY 82801<br />
+                      United States
+                    </address>
+                  </>
+                )}
 
-                <h2 className="mt-8 text-xl font-bold text-slate-900">{t('imprint.disclaimer.title')}</h2>
-                <p className="mt-2 text-slate-600 leading-relaxed">{t('imprint.disclaimer.content')}</p>
+                {disclaimerTitle && (
+                  <>
+                    <h2 className="mt-8 text-xl font-bold text-slate-900">{disclaimerTitle}</h2>
+                    <p className="mt-2 text-slate-600 leading-relaxed">{t('imprint.disclaimer.content')}</p>
+                  </>
+                )}
 
-                <h2 className="mt-8 text-xl font-bold text-slate-900">{t('imprint.externalLinks.title')}</h2>
-                <p className="mt-2 text-slate-600 leading-relaxed">{t('imprint.externalLinks.content')}</p>
+                {externalLinksTitle && (
+                  <>
+                    <h2 className="mt-8 text-xl font-bold text-slate-900">{externalLinksTitle}</h2>
+                    <p className="mt-2 text-slate-600 leading-relaxed">{t('imprint.externalLinks.content')}</p>
+                  </>
+                )}
 
                 <h2 className="mt-8 text-xl font-bold text-slate-900">{t('imprint.copyrightNotice.title')}</h2>
                 <p className="mt-2 text-slate-600 leading-relaxed">{t('imprint.copyrightNotice.content')}</p>
 
-                <h2 className="mt-8 text-xl font-bold text-slate-900">{t('imprint.dispute.title')}</h2>
-                <p className="mt-2 text-slate-600 leading-relaxed">{t('imprint.dispute.content')}</p>
+                {disputeTitle && (
+                  <>
+                    <h2 className="mt-8 text-xl font-bold text-slate-900">{disputeTitle}</h2>
+                    <p className="mt-2 text-slate-600 leading-relaxed">{t('imprint.dispute.content')}</p>
+                  </>
+                )}
               </div>
             </motion.div>
           </div>

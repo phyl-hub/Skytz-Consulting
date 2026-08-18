@@ -1,16 +1,17 @@
 {
   "meta": {
-    "title": "Skytz Consulting | Direct Search for Sales Engineering & Executive Leadership",
-    "description": "I secure revenue-critical engineering leadership and Sales Engineers for demanding technical firms. Direct Search. No databases. DACH & USA."
+    "title": "Skytz Consulting | Sales Engineer Recruiting for Industrial Manufacturers",
+    "description": "Technical sales recruiting for measurement and test equipment manufacturers since 2015. Industrial automation, sensors, drives, and process instrumentation. Germany and the United States."
   },
   "nav": {
     "home": "Home",
-    "testimonials": "Testimonials",
+    "testimonials": "References",
     "about": "About",
     "vacancies": "Open Positions",
-    "contact": "Meet Philipp",
+    "contact": "Contact",
     "privacy": "Privacy",
-    "terms": "Terms"
+    "terms": "Terms",
+    "industries": "Industries"
   },
   "vacancies": {
     "title": "Open Positions",
@@ -42,38 +43,293 @@
       "bimManagerCoordinator": {
         "title": "BIM Manager / Coordinator",
         "company": "Construction industry",
-        "location": "USA",
+        "location": "United States",
         "summary": "Role brief available as PDF."
       }
     }
   },
   "hero": {
-    "tagline": "Germany · Switzerland · United States",
-    "headline": "Engineering Talent.\nPrecision Placed.",
-    "subhead": "I secure revenue-critical engineering leadership and Sales Engineers for demanding technical firms. Most of my placements were never actively looking.",
+    "tagline": "Industrial automation · Instrumentation · Test and measurement",
+    "headline": "I recruit sales engineers for German manufacturers' U.S. operations.",
+    "subhead": "Technical sales recruiting for measurement and test equipment manufacturers since 2015. Three searches running right now in industrial automation and sensors, motion control and drives, and process instrumentation. Most of the people I place were not looking for a job when I called them.",
     "cta": {
-      "primary": "Schedule a Call",
-      "secondary": "View Case Studies"
+      "primary": "Contact Philipp"
     },
-    "signature": "Philipp Hoffschröer, Founder"
-  },
-  "stats": {
-    "passive": {
-      "value": "100%",
-      "label": "Repeat Client Rate",
-      "subtext": "Every client has engaged me at least twice"
-    },
-    "placements": {
-      "value": "50+",
-      "label": "Placements",
-      "subtext": "Positions successfully filled since 2015"
+    "signature": "Philipp Hoffschröer, Founder",
+    "reach": {
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "linkedinLabel": "LinkedIn"
     }
   },
+  "stats": {
+    "placements": {
+      "value": "50+",
+      "label": "Hires since 2015",
+      "subtext": "Sales engineers, technical sales leads, business unit heads, and site management."
+    },
+    "letters": {
+      "value": "4",
+      "label": "signed reference letters",
+      "subtext": "On company letterhead, with names and dates. Read them yourself.",
+      "linkLabel": "Read the letters"
+    },
+    "repeat": "Every client I have worked with has hired through me more than once."
+  },
+  "metrics": {
+    "title": "US searches, measured",
+    "items": [
+      {
+        "value": "5",
+        "label": "business days to shortlist",
+        "detail": "From signed engagement to three or more qualified candidates in your inbox."
+      },
+      {
+        "value": "~20",
+        "label": "days to a signed offer",
+        "detail": "Calendar days from engagement to written acceptance. The start date follows two to four weeks later."
+      },
+      {
+        "value": "92%",
+        "label": "still there at 12 months",
+        "detail": "Placed candidates still employed by the client, or promoted inside it, a year after starting."
+      },
+      {
+        "value": "90",
+        "label": "day replacement guarantee",
+        "detail": "If it does not work out inside 90 days, I run the search again at no fee."
+      }
+    ],
+    "methodLabel": "How I measure this",
+    "germanNote": "These are US figures. German and Swiss searches run on a different clock — see how the two markets differ."
+  },
+  "searches": {
+    "title": "Searches running now",
+    "items": [
+      "Sales Engineer — industrial automation and sensor technologies — Southeast, Upper Midwest, Mountain West, Northeast",
+      "Sales Engineer — motion control and drives — Midwest and Southeast districts",
+      "Sales Engineer — process instrumentation and valve automation — Texas Gulf Coast"
+    ],
+    "note": "These are live searches, not samples. The full briefs go to candidates only. If this is your market, email me and I'll tell you what I'm seeing in it."
+  },
+  "process": {
+    "title": "How a search runs",
+    "note": "US searches typically run six to ten weeks from the intake call to a signed offer, and US notice periods are short, so the start date follows quickly. German searches run longer and are governed by notice periods — see how the two markets differ.",
+    "steps": [
+      {
+        "title": "Intake call, 45 minutes",
+        "text": "The role, the territory, the compensation band, and what a good first year looks like. If I think the role cannot be filled as written, you hear it here rather than in month three."
+      },
+      {
+        "title": "Market map",
+        "text": "The list of companies where the right background actually sits: your competitors, adjacent product categories, the distributors. You see that list before I start calling."
+      },
+      {
+        "title": "Direct approach",
+        "text": "I make the calls myself. No advertising, no database dump. You get an anonymized summary of each person first, and no candidate's name reaches you before they have agreed to it."
+      },
+      {
+        "title": "Shortlist",
+        "text": "Three to five people you can actually hire, each with the problems written down alongside the strengths."
+      }
+    ]
+  },
+  "deliverable": {
+    "title": "What you get on every candidate",
+    "items": [
+      "A written summary you can forward to your parent company without rewriting it",
+      "Compensation expectations in writing, before you spend an hour interviewing",
+      "What is wrong with them, not only what is right",
+      "Why they would move, and what would make them stay where they are",
+      "Notice period and a realistic start date"
+    ]
+  },
+  "whyNot": {
+    "title": "Why not a generalist agency",
+    "themLabel": "A generalist agency",
+    "meLabel": "Working with me",
+    "rows": [
+      {
+        "topic": "Who does the work",
+        "them": "A researcher you never meet, then an account manager who sells.",
+        "me": "Me. Every call, every profile, start to finish."
+      },
+      {
+        "topic": "Where candidates come from",
+        "them": "Job boards, a database, and whoever answers.",
+        "me": "Direct approach to people currently doing the job at companies like yours."
+      },
+      {
+        "topic": "What lands in your inbox",
+        "them": "A stack of resumes, forwarded fast.",
+        "me": "Three to five people, with the risks written down."
+      },
+      {
+        "topic": "Talking to your parent company",
+        "them": "Not their problem.",
+        "me": "I do it, in German, if that moves the decision along."
+      }
+    ]
+  },
+  "method": {
+    "title": "How I measure this",
+    "intro": "A number without a definition is marketing. Here is exactly what each figure counts, and what it leaves out.",
+    "items": [
+      {
+        "metric": "Days to shortlist",
+        "definition": "Business days from signed engagement to delivery of the first shortlist of three or more qualified candidates.",
+        "excludes": "Client-side delays longer than three business days, and searches rescoped after kickoff."
+      },
+      {
+        "metric": "Days to a signed offer",
+        "definition": "Calendar days from signed engagement to written offer acceptance. This is not the start date — in the US that normally follows two to four weeks later, after notice.",
+        "excludes": "Searches cancelled, frozen, or materially rescoped mid-process, and offers withdrawn by the client."
+      },
+      {
+        "metric": "12-month retention",
+        "definition": "Placed candidates still employed by the client, or promoted within it, twelve months after their first day, divided by the placements old enough to have reached twelve months.",
+        "excludes": "Layoffs, restructures, role eliminations and site closures — departures the candidate did not choose and I could not have predicted."
+      },
+      {
+        "metric": "Replacement guarantee",
+        "definition": "If a placement leaves or is terminated within 90 days of starting, I run the search again at no additional fee. The clock starts on the candidate's first day, and the guarantee is written into the engagement agreement before the search begins.",
+        "excludes": "Nothing is excluded by role elimination or a change of plan on your side — if you no longer need the role, you owe me nothing further."
+      }
+    ],
+    "window": "Figures cover placements since 2015 and are reviewed each quarter. If you want the underlying counts before you sign anything, ask me on the first call and I will send them.",
+    "benchmarkNote": "For context: SHRM's 2026 benchmark puts median US time-to-fill at 39 days across non-executive roles, and published benchmarks for industrial and manufacturing sales run 45 to 75 days. A specialist working one market with a live network should beat that, and this is by how much.",
+    "excludesLabel": "Not counted"
+  },
+  "markets": {
+    "title": "A US search and a German search do not run the same way",
+    "intro": "If you report into a German parent, this is the difference you will spend the most time explaining to them. It is worth knowing before you set a start date.",
+    "usLabel": "United States",
+    "deLabel": "Germany and Switzerland",
+    "rows": [
+      {
+        "topic": "Notice period",
+        "us": "Two weeks is customary. Some senior people give four.",
+        "de": "Three months to the end of a quarter is normal in specialist and management contracts. Six months happens."
+      },
+      {
+        "topic": "From signed offer to first day",
+        "us": "Two to four weeks.",
+        "de": "Three to six months, and it is set by the contract, not by willingness."
+      },
+      {
+        "topic": "Counter-offers",
+        "us": "Common, usually money, usually fast.",
+        "de": "Slower, and more often about title, scope, or a company car than base salary."
+      },
+      {
+        "topic": "What kills a deal late",
+        "us": "A competing offer that moves faster than yours.",
+        "de": "Relocation inside Germany, and the family conversation that goes with it."
+      },
+      {
+        "topic": "What this means for you",
+        "us": "Move quickly or lose people. A slow internal approval loop is the main reason US searches fail.",
+        "de": "Plan the start date backwards from the quarter. Pushing a German candidate to start sooner does not work."
+      }
+    ],
+    "note": "German federal statistics put the average time a reported vacancy stays open at around 95 days for roles requiring a degree and about 140 days for skilled trades. Neither number includes the notice period that follows."
+  },
+  "industries": {
+    "title": "The industries I work in",
+    "subtitle": "What I actually screen for",
+    "intro": "I recruit commercial and technical people for industrial manufacturers. These are the four areas I work, the roles inside them, and the questions I use to tell a credible candidate from a plausible one.",
+    "sectors": [
+      {
+        "name": "Industrial automation and sensor technologies",
+        "roles": "Sales engineers, application engineers, regional sales managers",
+        "tech": "Sensing, industrial connectivity, safety and control components, PLCs and I/O, control architecture, robotics, factory automation",
+        "channel": "OEM and end-user accounts, run alongside distribution",
+        "screen": "Can they walk a production floor, work out why the sensing is failing, and close the fix? Do they know where sensing sits in a control architecture well enough to hold that conversation with a controls engineer?"
+      },
+      {
+        "name": "Motion control and drives",
+        "roles": "District and territory sales, OEM account management, channel management",
+        "tech": "Gear motors, variable-frequency drives, motion control systems, power transmission; sizing from torque, speed, duty cycle and ambient conditions",
+        "channel": "Direct OEM and stocking distributors at the same time, which need different handling",
+        "screen": "Can they size a gearbox from an application sheet and defend the math? Have they genuinely run direct and distribution in parallel, or only one of the two?"
+      },
+      {
+        "name": "Process instrumentation and valve automation",
+        "roles": "Account managers and sales engineers into refining, petrochemical and midstream",
+        "tech": "Control valves, isolation valves, flow measurement, actuation and materials selection; how DCS, PLC and SCADA relate to the instrumentation",
+        "channel": "Project and MRO in parallel, EPC bid packages, turnaround and outage support",
+        "screen": "Have they walked a unit during a turnaround? Do they know which EPC writes the spec and which one forwards the package?"
+      },
+      {
+        "name": "Test and measurement",
+        "roles": "Sales and commercial leadership, business unit management",
+        "tech": "Electrical test equipment, cable fault location, pipeline leak detection, bulk and process measurement",
+        "channel": "Direct and subsidiary sales organizations across Europe and the US",
+        "screen": "This is where my longest client relationships sit, including Megger since 2016. The reference letters on the references page come from this sector."
+      }
+    ],
+    "note": "If your product line sits next to one of these rather than inside it, say so on the first call. I would rather tell you it is not my patch than learn it in week six.",
+    "labels": {
+      "roles": "Roles",
+      "tech": "Products and technology",
+      "channel": "Channel",
+      "screen": "What I screen for"
+    }
+  },
+  "faq": {
+    "title": "Questions I get asked",
+    "items": [
+      {
+        "q": "How do you charge?",
+        "a": "A percentage of first-year total compensation, agreed in writing before I start. You get the number on the first call. That call is free and nothing follows from it automatically."
+      },
+      {
+        "q": "What happens if the hire does not work out?",
+        "a": "A written 90-day replacement guarantee: if the person leaves or is let go within 90 days of their first day, I run the search again at no additional fee. Ninety days is the US standard — around 85% of agency guarantees fall in the 30-to-90-day band, and most are replacement-only rather than a refund. The clock starts on the candidate's first day, and it is in the engagement agreement before the search begins."
+      },
+      {
+        "q": "Do you work exclusively?",
+        "a": "Usually, and the search is better for it. I will not spend eight weeks mapping a market in order to race three other agencies to the same five people. If exclusivity is a problem, say so and we will talk it through."
+      },
+      {
+        "q": "Can you really recruit in the US from Germany?",
+        "a": "Yes. US searches run by phone and video, and I work your morning. If someone needs to be met in person, I say so and we plan for it."
+      },
+      {
+        "q": "Will you understand our products?",
+        "a": "I have recruited for measurement, test and instrumentation manufacturers since 2015. I will not pretend to know your product line better than you do. After the intake call I will know enough to hold a credible conversation with an engineer who does."
+      },
+      {
+        "q": "Who actually does the work?",
+        "a": "I do. There is no research team, no account manager, and nobody hands you off after the sale. That is the trade: one experienced person rather than a bench."
+      },
+      {
+        "q": "How fast will I see candidates?",
+        "a": "For a US search, a shortlist of three or more inside five business days of a signed engagement, and typically about twenty days to a written offer acceptance. For a German or Swiss search, expect a shortlist in three to four weeks and a start date three to six months out, because notice periods there run to the end of a quarter."
+      },
+      {
+        "q": "Where do you find people, if not job boards?",
+        "a": "I map the companies where the right background actually sits — your competitors, adjacent product categories, the distribution channel — and approach those people directly, mostly through LinkedIn Recruiter and the phone. Almost nobody I place was looking when I called."
+      },
+      {
+        "q": "Are you a staffing agency?",
+        "a": "No. Staffing agencies place contractors and temporary workers at volume and bill hourly. I run individual permanent searches, one at a time, and I am paid once on a successful hire."
+      },
+      {
+        "q": "How do you judge whether a technical candidate is credible?",
+        "a": "I ask them to do the work in conversation. Size the gearbox from the application sheet. Explain why the sensing is failing on that line. Tell me which EPC writes the spec. People who have done the job answer immediately, and people who have been near it do not."
+      },
+      {
+        "q": "How do we start?",
+        "a": "One call, forty-five minutes, no charge. We go through the role, the territory, the compensation band and what a good first year looks like. You get the fee and the guarantee in writing after that call, and nothing happens until you sign it."
+      }
+    ]
+  },
   "imprint": {
-    "title": "Imprint",
+    "title": "Legal Notice",
     "provider": {
-      "title": "Information pursuant to § 5 DDG",
-      "brandNote": "Skytz Consulting is a brand of Laurasia LLC."
+      "title": "Company",
+      "brandNote": "Skytz Consulting is a trade name of Laurasia LLC."
     },
     "representedBy": {
       "title": "Represented by",
@@ -83,7 +339,7 @@
     "contact": {
       "title": "Contact",
       "emailLabel": "Email",
-      "legalEmailLabel": "Legal enquiries",
+      "legalEmailLabel": "Legal inquiries",
       "phoneLabel": "Phone",
       "phone": "+1 307 429 0181"
     },
@@ -99,355 +355,353 @@
       "value": ""
     },
     "responsible": {
-      "title": "Responsible for content pursuant to § 18 (2) MStV",
-      "name": "Philipp Hoffschröer"
+      "title": "",
+      "name": ""
     },
     "disclaimer": {
-      "title": "Liability for content",
-      "content": "The contents of these pages have been prepared with the greatest care. However, we cannot guarantee that the content is accurate, complete or up to date. As a service provider, we are responsible for our own content on these pages under general law, but we are not obliged to monitor transmitted or stored third-party information."
+      "title": "",
+      "content": ""
     },
     "externalLinks": {
-      "title": "Liability for links",
-      "content": "Our website contains links to external third-party websites over whose content we have no control. The respective provider or operator of the linked pages is always responsible for their content. No legal violations were apparent at the time the links were created. We will remove such links immediately if we become aware of any infringements."
+      "title": "",
+      "content": ""
     },
     "copyrightNotice": {
       "title": "Copyright",
-      "content": "The content and works created by the operators on these pages are subject to copyright. Third-party contributions are marked as such. Reproduction, editing, distribution and any form of use beyond the limits of copyright law require written consent."
+      "content": "Content on this site is owned by Laurasia LLC or its licensors. Third-party material is marked as such. Reproduction or redistribution requires written permission."
     },
     "dispute": {
-      "title": "Consumer dispute resolution",
-      "content": "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+      "title": "",
+      "content": ""
     }
   },
   "footer": {
-    "legal": "Skytz Consulting (a brand of Laurasia LLC)",
-    "address": "1309 Coffeen Avenue STE 1200, Sheridan, WY 82801, USA",
+    "legal": "Skytz Consulting is a trade name of Laurasia LLC.",
+    "addressLabel": "Registered office",
+    "address": "1309 Coffeen Avenue STE 1200, Sheridan, WY 82801, United States",
+    "linkedin": "LinkedIn",
     "links": {
       "privacy": "Privacy Policy",
       "terms": "Terms & Conditions",
-      "imprint": "Imprint"
+      "imprint": "Legal Notice"
     },
     "copyright": "© {{year}} Skytz Consulting. All rights reserved."
   },
   "testimonials": {
     "title": "Reference Clients",
-    "subtitle": "Proven Track Record",
-    "description": "Real engagements. Reference calls available on request.",
+    "subtitle": "Named clients, signed letters",
+    "description": "Named clients, named contacts, and the signed letters they wrote. The clients without a letter here will take a reference call if you ask.",
+    "letterLabel": "Signed reference letter (PDF)",
+    "letterLabelGerman": "Signed reference letter (PDF, in German)",
+    "redactionNote": "The placed executive's name is redacted.",
     "clients": {
       "megger": {
         "company": "Megger Germany GmbH",
-        "industry": "Electrical Testing Equipment",
-        "badge": "Partner Since 2015",
+        "industry": "Electrical test and measurement equipment",
+        "badge": "Client since 2016",
         "contact": "Friedrich Enkert",
-        "role": "Managing Director",
+        "role": "VP Global Sales CI, Managing Director Megger Germany GmbH",
         "quote": "He has an impressive track record, successfully recruiting multiple qualified candidates for key positions in our company. His professionalism, deep understanding of our specific needs, and his ability to identify the best talents in the market have significantly contributed to our company's success.",
-        "outcome": "10+ placements since 2015",
+        "quoteNote": "",
+        "outcome": "10+ placements since 2016",
         "highlights": [
-          "Multiple placements in key sales, commercial, and leadership positions",
-          "Europe-wide placements, including subsidiaries",
-          "Continuous collaboration since 2015"
+          "Sales, commercial, and leadership roles filled repeatedly",
+          "Placements across Europe, including subsidiaries",
+          "Working together since 2016"
         ]
       },
       "eurasiagroup": {
         "company": "Eurasia Group AG",
-        "industry": "Agriculture & Financial Holding",
-        "badge": "Europe & Asia Holding",
+        "industry": "Agriculture and financial holding, Switzerland",
+        "badge": "CFO search",
         "contact": "Mustafa Sahin",
         "role": "Chief Executive Officer",
-        "quote": "I worked with Mr. Hoffschröer during the recruitment of the Chief Financial Officer for Eurasia Group AG. He [..] supported the process through to the successful appointment of [..] as Chief Financial Officer.",
+        "quote": "He was responsible for the search, pre-selection, and candidate outreach, and supported the process through to the successful appointment of our Chief Financial Officer. The candidates presented were well targeted and professionally pre-qualified. The final placement fully met our expectations.",
+        "quoteNote": "",
         "outcome": "CFO placement",
         "highlights": [
-          "Owner-managed Swiss holding company with over 20 subsidiaries in Europe and Asia",
-          "High standards of financial management and international governance",
-          "Targeted selection and professional pre-qualification at executive level"
+          "Owner-led Swiss holding with more than 20 investments across Europe and Asia",
+          "Core business in agriculture, in partnership with John Deere in Central Asia",
+          "Executive-level search and pre-qualification"
         ]
       },
       "swr": {
-        "company": "SWR Engineering",
-        "industry": "Industrial Bulk Measurement",
-        "badge": "Multiple Placements",
+        "company": "SWR · Südwestdeutsche Rohrleitungsbau GmbH",
+        "industry": "Pipeline and district heating construction, Frankfurt",
+        "badge": "Multiple placements",
         "contact": "Dirk Heesen",
         "role": "Managing Director",
         "quote": "What sets him apart is his meticulous selection of candidates who not only possess the required skills but also align well with our corporate culture.",
+        "quoteNote": "",
         "highlights": [
           "Multiple site manager positions filled",
           "Operational and specialist roles recruited",
-          "Collaboration since 2015"
+          "Ongoing collaboration"
         ]
       },
       "sebakmt": {
         "company": "SebaKMT by Megger",
-        "industry": "Measurement and locating technology for pipelines",
+        "industry": "Cable fault location and pipeline leak detection",
         "contact": "Sascha Kuflik",
-        "role": "Business Unit Director",
-        "quote": "I first had the opportunity to know Philipp from the perspective of a candidate. His thorough understanding of my professional aspirations and his adeptness in aligning them with the right opportunities were truly remarkable.",
+        "role": "Business Unit Director at the time",
+        "quote": "I first had the opportunity to know Philipp from the perspective of a candidate. Subsequently, as a Business Unit Leader at SebaKMT, I engaged Philipp's services as an external recruiter. From this dual perspective, I can attest to the fact that Philipp consistently delivers outstanding results.",
         "quoteNote": "",
         "highlights": [
-          "Placed as candidate in 2018",
-          "Became a client",
+          "Placed as a candidate in 2018",
+          "Later became a client",
           "Long-standing collaboration"
         ]
       },
       "otopront": {
         "company": "Happersberger Otopront GmbH",
-        "industry": "Medical Technology / ENT",
+        "industry": "Medical technology, ENT",
         "contact": "Carlo Happersberger",
         "role": "CEO",
         "quote": "During our collaboration, Philipp successfully completed two hires. The collaboration was professional, discreet, and characterized by a structured and efficient hiring process.",
-        "quoteNote": "Translated from German original",
+        "quoteNote": "",
         "highlights": [
-          "International Sales Leadership",
+          "International sales leadership",
           "High discretion",
-          "Successful placement"
+          "Two successful placements"
         ]
       },
       "box02": {
         "company": "Box02 LLC",
-        "industry": "E-Commerce",
+        "industry": "E-commerce",
         "contact": "Sebastian Wolff",
         "role": "Founder & CEO",
         "quote": "Philipp supported us in filling two Marketing Manager positions. The process was efficient, well-structured, and resulted in candidates who were a great fit both professionally and culturally.",
+        "quoteNote": "",
         "highlights": [
-          "Two Marketing Managers successfully placed",
-          "Efficient, structured recruitment process",
+          "Two Marketing Managers placed",
+          "Efficient, structured process",
           "Precise candidate selection"
         ]
       },
       "gef": {
         "company": "GEF Ingenieur AG",
-        "industry": "Engineering Services / Route Planning",
+        "industry": "Engineering services, district heating networks",
         "contact": "Dipl.-Ing. (FH) Timo Che Banning",
         "role": "Authorized Signatory, Head of Route Planning",
         "quote": "Mr. Hoffschröer impressed us in particular with his good understanding of our technical requirements, his structured pre-selection of suitable profiles, and his reliable and transparent communication throughout the entire process.",
-        "quoteNote": "Translated from German original",
+        "quoteNote": "",
+        "outcome": "Project engineer placed",
         "highlights": [
-          "Strong understanding of technical requirements",
-          "Structured pre-selection of suitable candidates",
-          "Reliable and transparent communication"
+          "Working together since October 2025",
+          "Project engineer placed, further roles in progress",
+          "Structured pre-selection of suitable candidates"
         ]
       }
     },
     "cta": {
-      "title": "Want full reference letters?",
-      "description": "I can provide written references and arrange calls with past clients.",
-      "button": "Request References"
+      "title": "Want to talk to a client instead of reading about one?",
+      "description": "I can share further reference letters and put you on a call with a past client.",
+      "button": "Ask for a reference"
     }
   },
   "about": {
-    "title": "About Skytz Consulting",
-    "subtitle": "Established 2015",
-    "description": "Skytz Consulting is a specialized executive search firm focused on Sales Engineering and leadership roles within technology-driven organizations. I fill positions that define the commercial success of complex products.",
-    "beliefsTitle": "Core Beliefs (On Hiring Quality)",
-    "beliefs": {
-      "expertise": {
-        "title": "Sales Engineering is a Mission-Critical Function, Not a Title",
-        "description": "SE is not a 'sales variant'—it's a high-stakes interface. Success requires technical authority, decision-making maturity, and commercial acumen. Hiring for 'charisma' over 'credibility' is a recipe for technical failure."
-      },
-      "alignment": {
-        "title": "Alignment Trumps Resume",
-        "description": "Most hiring failures aren't due to a lack of skill, but rather structural misalignment and unmet expectations. I identify these risks before they become expensive liabilities."
-      },
-      "decision": {
-        "title": "Recruiting is Decision Architecture",
-        "description": "My job is to provide a robust foundation for your decision. This includes providing explicit counter-arguments. If my assessment of a candidate changes during the process, I communicate it immediately—even if it puts the placement at risk."
-      }
+    "title": "About",
+    "subtitle": "Philipp Hoffschröer, Founder",
+    "description": "I'm Philipp Hoffschröer. I have recruited technical sales and engineering people since 2015 — part-time at first, alongside operating roles at two software companies, and full-time on it now. I work mainly with manufacturers of measuring and test equipment.",
+    "body": {
+      "market": "Most of my clients are German manufacturers with U.S. operations, or U.S. subsidiaries reporting into a German parent. That is a specific hiring problem. The role needs someone who can hold a technical conversation with a plant engineer in Ohio and a product conversation with a development team in Baden-Württemberg, who understands how a German parent makes decisions, and who will still be in the seat in three years. The people who can do that are employed, and they are not on job boards.",
+      "placed": "What I have placed: sales engineers and application engineers, regional and national sales managers, business unit heads, and site management. Megger Germany has hired through me repeatedly since 2016 — their managing director's signed reference letter is on the references page.",
+      "reach": "I am based in Germany and work U.S. hours through midday Eastern. Email is the fastest way to reach me, and it reaches me, not an assistant.",
+      "numbers": "Of the candidates I have placed, 92% are still with the client twelve months later, or have been promoted inside it. How I count that is set out below."
     },
-    "operationsTitle": "Methodology",
+    "operationsTitle": "How I work",
     "operations": {
       "direct": {
-        "title": "Direct Search Over Hope",
-        "description": "Top-tier talent does not apply for jobs. The majority of my placements result from targeted, discreet direct outreach. I don't 'Post and Pray.'"
+        "title": "I go find people",
+        "description": "Most of the people I place were not looking. I map the companies where the right background sits, approach people directly, and work references. I don't post an ad and wait to see what arrives."
       },
       "documented": {
-        "title": "Documented Trade-offs",
-        "description": "Every candidate profile comes with a risk assessment. No buzzwords, no fluff. You will know exactly where a candidate shines and where they might cause friction."
+        "title": "You see the downside too",
+        "description": "Every profile I send says where the candidate is weak, not only where they are strong: compensation gaps, relocation reluctance, where they will need support in the first year."
       },
       "honest": {
-        "title": "Radical Candor",
-        "description": "If your requirements are unrealistic or market realities don't align with your goals, I will tell you in the first meeting. Time is your most expensive asset."
+        "title": "I tell you when it won't work",
+        "description": "If the band is below market, the timeline is unrealistic, or the role isn't placeable as written, you hear it on the first call — not after six months of invoices."
+      },
+      "discretion": {
+        "title": "Nobody's name moves without permission",
+        "description": "Your search stays confidential. No candidate's name reaches you until they have agreed to it, and you see an anonymized summary first."
       }
     },
-    "founder": {
-      "title": "About the Founder",
-      "intro": "I approach recruiting as an entrepreneur, not an HR agent.",
-      "background": "Three years at KPMG (Finance Advisory), followed by strategic roles at Lufthansa and Deichmann.",
-      "dna": "Founder and CEO of tech startups (e.g., emteria GmbH, Studo GmbH). I understand how CEOs think, how budgets are managed, and exactly where hiring processes typically fail in the real world.",
-      "feesNote": "I provide senior-level consulting and high-stakes results. I am not a budget option. Clients engage me when the cost of a vacancy or a bad hire far outweighs the consultancy fee."
-    },
-    "regional": {
-      "title": "Regional Expertise & Global Reach",
-      "dach": {
-        "title": "DACH Region",
-        "description": "Deep understanding of German business culture combined with the agility of an international structure."
-      },
-      "usa": {
-        "title": "Transatlantic Bridge (USA)",
-        "description": "I support DACH companies entering the US market and US tech firms expanding into Europe. I navigate the differences in compensation, speed, and corporate culture."
-      },
-      "swiss": {
-        "title": "Switzerland Focus",
-        "description": "Targeted identification of German engineering talent for Swiss employers, ensuring compliance with cross-border regulations."
-      }
-    },
+    "backgroundTitle": "Before recruiting",
+    "background": "Three years at KPMG in finance advisory, then commercial roles at Lufthansa and Deichmann. Co-Founder and Chief Business Development Officer at emteria GmbH, and CEO Germany at Studo.",
     "legal": {
-      "title": "Legal Structure & Compliance",
-      "description": "Skytz Consulting operates under Laurasia LLC (Wyoming, USA) as its strategic base. I ensure full compliance with all applicable EU (including GDPR) and US legal requirements. Philipp Hoffschröer serves as the Executive Partner for all mandates."
+      "title": "Company",
+      "description": "Skytz Consulting is a trade name of Laurasia LLC. Registered office: 1309 Coffeen Avenue STE 1200, Sheridan, WY 82801, United States."
     }
   },
   "contact": {
-    "title": "Let's Talk",
-    "subtitle": "Direct & Simple",
-    "description": "No forms, no gatekeepers. Direct conversation about your requirements.",
+    "title": "Contact",
+    "subtitle": "One person, no gatekeepers",
+    "description": "There is no form on this page. Email me or call me.",
+    "person": {
+      "role": "Founder, Skytz Consulting",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "phoneNote": "If I don't pick up, leave a message. I check voicemail daily.",
+      "linkedinLabel": "LinkedIn"
+    },
     "getInTouch": {
-      "title": "Get in Touch",
-      "description": "The fastest way to discuss your hiring requirements."
+      "title": "Email",
+      "description": "The fastest way to reach me. Same-day reply."
     },
     "booking": {
-      "label": "Schedule a Call",
-      "action": "Book a time directly"
+      "label": "Schedule a call",
+      "action": "Pick a time in my calendar"
     },
-    "phone": "Phone",
-    "noCommitment": "No commitment. Initial conversations always free.",
+    "noCommitment": "No commitment. First conversations are free.",
     "fasterAlignment": {
-      "title": "For Faster Alignment",
-      "description": "If you're reaching out about a specific search, include:",
+      "title": "To save a round trip",
+      "description": "If you're writing about a specific search, include:",
       "items": {
         "roleTitle": "Role title and scope",
-        "location": "Location / region",
+        "location": "Location or territory",
         "seniority": "Seniority level",
-        "timeline": "Urgency / timeline",
-        "compensation": "Compensation band (if known)"
+        "timeline": "Timeline and urgency",
+        "compensation": "Compensation band, if you know it"
       }
     },
     "office": {
-      "title": "Office"
+      "title": "Registered office",
+      "note": "Laurasia LLC is the legal entity behind Skytz Consulting."
     },
     "hours": {
-      "title": "Availability",
-      "weekdays": "Mon–Fri: 09:00–18:00",
-      "timezone": "Timezone: CET / CEST"
+      "title": "When I'm reachable",
+      "weekdays": "Monday–Friday, 8:00 a.m. – 5:00 p.m. Central European Time",
+      "timezone": "That's 2:00 a.m. – 11:00 a.m. Eastern. Email gets a same-day reply."
     }
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: January 2026",
-    "intro": "Skytz Consulting (\"we\", \"us\", \"our\") is a brand operated by Laurasia LLC. We are committed to protecting your privacy and processing personal data in compliance with the EU General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other applicable data protection laws.",
+    "lastUpdated": "Last updated: August 2026",
+    "intro": "Skytz Consulting is a trade name of Laurasia LLC (\"we\", \"us\", \"our\"). This policy explains what personal information we collect, why, and what you can ask us to do about it. It covers U.S. state privacy laws including the California Consumer Privacy Act (CCPA/CPRA), and the EU General Data Protection Regulation (GDPR) for visitors in Europe.",
     "controller": {
-      "title": "1. Data Controller",
-      "description": "The data controller responsible for your personal data is:"
+      "title": "1. Who is responsible",
+      "description": "The company responsible for your personal information is:"
     },
     "dataCollected": {
-      "title": "2. Personal Data We Collect",
-      "intro": "We collect and process the following categories of personal data:",
+      "title": "2. What we collect",
+      "intro": "We collect and process the following categories of personal information:",
       "items": {
         "contact": "Contact information: name, email address, telephone number, company name, job title",
-        "email": "Communication data: content of emails, messages, and any attachments you send us",
+        "email": "Communication data: the content of emails, messages, and any attachments you send us",
         "technical": "Technical data: IP address, browser type and version, time zone, operating system, access times",
-        "candidate": "Professional data (for candidates): CV/resume, work history, qualifications, salary expectations",
+        "candidate": "Professional data (for candidates): resume, work history, qualifications, compensation expectations",
         "usage": "Usage data: pages visited, time spent on pages, referral source"
       }
     },
     "purpose": {
-      "title": "3. Purpose of Processing",
-      "intro": "We process your personal data for the following purposes:",
+      "title": "3. Why we collect it",
+      "intro": "We process personal information for the following purposes:",
       "items": {
         "inquiries": "Responding to inquiries and providing information about our services",
-        "services": "Performing recruitment services including candidate sourcing, evaluation, and placement",
+        "services": "Performing recruiting work including candidate sourcing, evaluation, and placement",
         "website": "Operating, maintaining, and improving this website",
         "legal": "Complying with legal obligations and protecting our legal rights",
-        "communication": "Communicating with you about relevant opportunities or services"
+        "communication": "Contacting you about relevant opportunities or services"
       }
+    },
+    "usRights": {
+      "title": "4. Your rights in the United States",
+      "description": "We do not sell or share personal information, and we do not process it for cross-context behavioral advertising. California residents have the right to know what personal information we collect, to request a copy, to request correction or deletion, and to be free from retaliation for exercising those rights. Residents of other U.S. states with comparable privacy laws have equivalent rights. To exercise any of them, email us using the address in section 11 — we will verify your identity and respond within the period your state's law requires."
     },
     "legalBasis": {
-      "title": "4. Legal Basis for Processing (GDPR)",
-      "intro": "For individuals in the European Economic Area (EEA), UK, and Switzerland, we process personal data on the following legal bases:",
+      "title": "5. If you are in Europe (GDPR)",
+      "intro": "For individuals in the European Economic Area, the United Kingdom, and Switzerland, we process personal data on the following legal bases:",
       "items": {
-        "consent": "Consent (Art. 6(1)(a) GDPR): Where you have given explicit consent for specific processing activities",
-        "contract": "Contractual necessity (Art. 6(1)(b) GDPR): Where processing is necessary to perform a contract or take pre-contractual steps",
-        "legitimate": "Legitimate interest (Art. 6(1)(f) GDPR): Where processing is necessary for our legitimate business interests, such as direct marketing, fraud prevention, and service improvement",
-        "legal": "Legal obligation (Art. 6(1)(c) GDPR): Where processing is required to comply with applicable laws"
-      }
+        "consent": "Consent (Art. 6(1)(a) GDPR): where you have given explicit consent for specific processing",
+        "contract": "Contractual necessity (Art. 6(1)(b) GDPR): where processing is necessary to perform a contract or take pre-contractual steps",
+        "legitimate": "Legitimate interest (Art. 6(1)(f) GDPR): where processing is necessary for our legitimate business interests, such as direct outreach, fraud prevention, and service improvement",
+        "legal": "Legal obligation (Art. 6(1)(c) GDPR): where processing is required by applicable law"
+      },
+      "rights": "You also have the right of access, rectification, erasure, restriction, data portability, objection, withdrawal of consent, and the right to complain to a supervisory authority."
     },
     "sharing": {
-      "title": "5. Data Sharing & International Transfers",
-      "description": "We do not sell your personal data. We may share data with: (a) clients, solely for recruitment purposes and only with your consent; (b) service providers who assist our operations under strict confidentiality agreements; (c) authorities when required by law. Data may be transferred to the United States where Laurasia LLC is based. Such transfers are conducted in compliance with GDPR requirements, including the use of Standard Contractual Clauses (SCCs) where applicable."
+      "title": "6. Who we share it with",
+      "description": "We do not sell personal information. We may share it with: (a) clients, solely for recruiting purposes and only with your consent; (b) service providers who support our operations under confidentiality agreements; (c) authorities where required by law. Data may be transferred to the United States, where Laurasia LLC is registered. Transfers from Europe are made under Standard Contractual Clauses where applicable."
     },
     "retention": {
-      "title": "6. Data Retention",
-      "description": "We retain personal data only as long as necessary for the purposes described, typically: (a) client and candidate data for the duration of our business relationship plus 6 years for legal compliance; (b) website usage data for up to 26 months; (c) communication records for 3 years after last contact. You may request earlier deletion subject to legal retention requirements."
-    },
-    "rights": {
-      "title": "7. Your Data Protection Rights",
-      "description": "Depending on your jurisdiction, you have the following rights: Right of access (to obtain a copy of your data), Right to rectification (to correct inaccurate data), Right to erasure ('right to be forgotten'), Right to restrict processing, Right to data portability, Right to object to processing, Right to withdraw consent at any time, Right to lodge a complaint with a supervisory authority. California residents have additional rights under CCPA, including the right to know what personal information is collected and the right to opt-out of the sale of personal information (we do not sell personal data)."
+      "title": "7. How long we keep it",
+      "description": "We keep personal information only as long as necessary: (a) client and candidate data for the duration of the business relationship plus 6 years for legal compliance; (b) website usage data for up to 26 months; (c) communication records for 3 years after last contact. You can ask us to delete it earlier, subject to legal retention requirements."
     },
     "security": {
-      "title": "8. Data Security",
-      "description": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. These include encryption, access controls, and regular security assessments."
+      "title": "8. Security",
+      "description": "We use appropriate technical and organizational measures to protect personal information against unauthorized access, alteration, disclosure, or destruction, including encryption and access controls."
     },
     "cookies": {
-      "title": "9. Cookies & Tracking",
-      "description": "This website uses only essential cookies necessary for site functionality. We do not use advertising cookies or third-party tracking services. Any analytics tools used are configured to anonymize IP addresses."
+      "title": "9. Cookies and analytics",
+      "description": "This site uses Google Tag Manager and Google Analytics to measure traffic. These set cookies and process your IP address; IP anonymization is enabled. We do not run advertising cookies and we do not sell or share the data with advertisers. You can block these cookies in your browser or with an ad blocker without losing any functionality of this site."
     },
     "changes": {
-      "title": "10. Changes to This Policy",
-      "description": "We may update this Privacy Policy periodically. Material changes will be communicated via our website. Continued use of our services after changes constitutes acceptance."
+      "title": "10. Changes",
+      "description": "We may update this policy. Material changes will be posted on this page with a new date at the top."
     },
     "contact": {
-      "title": "11. Contact & Data Protection Inquiries",
-      "description": "For privacy-related inquiries, data subject requests, or complaints, please contact us at"
+      "title": "11. Contact",
+      "description": "For privacy questions, data requests, or complaints, contact us at"
     }
   },
   "terms": {
     "title": "Terms & Conditions",
-    "lastUpdated": "Last updated: January 2026",
-    "intro": "These Terms and Conditions (\"Terms\") govern your use of the Skytz Consulting website and any services provided by Laurasia LLC d/b/a Skytz Consulting. By accessing this website or engaging our services, you agree to be bound by these Terms.",
+    "lastUpdated": "Last updated: August 2026",
+    "intro": "These Terms govern your use of the Skytz Consulting website and any services provided by Laurasia LLC, doing business as Skytz Consulting. By using this website or engaging our services, you agree to these Terms.",
     "scope": {
       "title": "1. Scope of Services",
-      "description": "Skytz Consulting provides executive recruitment and talent advisory services. This website offers general information about our services and does not constitute a binding offer or contract. All recruitment engagements are subject to separate written agreements."
+      "description": "Skytz Consulting provides recruiting and talent advisory services. This website offers general information and is not a binding offer or contract. All recruiting engagements are subject to a separate written agreement."
     },
     "noGuarantee": {
       "title": "2. No Guarantee of Results",
-      "description": "Recruitment outcomes depend on market conditions, candidate availability, client decisions, and factors beyond our control. While we commit to professional diligence, no specific placement, timeline, or outcome is guaranteed unless explicitly stated in a written agreement. Past results do not guarantee future performance."
+      "description": "Recruiting outcomes depend on market conditions, candidate availability, client decisions, and factors outside our control. We commit to professional diligence, but no specific placement, timeline, or outcome is guaranteed unless stated in a written agreement. Past results do not guarantee future performance."
     },
     "ip": {
       "title": "3. Intellectual Property",
-      "description": "All content on this website, including text, graphics, logos, and design, is the property of Laurasia LLC or its licensors and is protected by copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works without prior written consent."
+      "description": "Content on this website, including text, graphics, logos, and design, is the property of Laurasia LLC or its licensors and is protected by copyright and trademark law. Client logos and reference letters are reproduced with permission and remain the property of their owners. You may not reproduce, distribute, or modify this material without written consent."
     },
     "confidentiality": {
       "title": "4. Confidentiality",
-      "description": "Information shared with us regarding positions, candidates, or business operations is treated as confidential. We do not disclose client or candidate information to third parties without consent, except as required by law. Candidates are only presented to clients after appropriate consent is obtained."
+      "description": "Information shared with us about positions, candidates, or business operations is treated as confidential. We do not disclose client or candidate information to third parties without consent, except where required by law. Candidates are presented to clients only after they have consented."
     },
     "liability": {
       "title": "5. Limitation of Liability",
-      "description": "To the maximum extent permitted by law, Laurasia LLC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from: (a) use of this website; (b) reliance on any information provided; (c) recruitment services rendered. Our total liability shall not exceed the fees paid for the specific service giving rise to the claim. Nothing in these Terms excludes liability for death or personal injury caused by negligence, fraud, or any other liability that cannot be excluded by law."
+      "description": "To the maximum extent permitted by law, Laurasia LLC is not liable for indirect, incidental, special, consequential, or punitive damages arising from: (a) use of this website; (b) reliance on information provided here; (c) recruiting services rendered. Our total liability will not exceed the fees paid for the service giving rise to the claim. Nothing here excludes liability for death or personal injury caused by negligence, for fraud, or for any liability that cannot be excluded by law."
     },
     "indemnification": {
       "title": "6. Indemnification",
-      "description": "You agree to indemnify and hold harmless Laurasia LLC, its officers, employees, and agents from any claims, damages, losses, or expenses arising from: (a) your violation of these Terms; (b) your violation of any third-party rights; (c) any misrepresentation made by you."
+      "description": "You agree to indemnify and hold harmless Laurasia LLC, its officers, employees, and agents from claims, damages, losses, or expenses arising from: (a) your violation of these Terms; (b) your violation of third-party rights; (c) any misrepresentation you make."
     },
     "externalLinks": {
       "title": "7. External Links",
-      "description": "This website may contain links to third-party websites. We are not responsible for the content, accuracy, or privacy practices of external sites. Links do not imply endorsement."
+      "description": "This website may link to third-party websites. We are not responsible for their content, accuracy, or privacy practices. A link does not imply endorsement."
     },
     "compliance": {
       "title": "8. Legal Compliance",
-      "description": "Laurasia LLC operates in compliance with applicable U.S. federal and state laws, as well as European regulations including GDPR when serving clients and candidates in the EEA, UK, and Switzerland. We are committed to non-discrimination and equal opportunity principles in all recruitment activities."
+      "description": "Laurasia LLC operates in compliance with applicable U.S. federal and state law, and with European regulations including GDPR when serving clients and candidates in the EEA, UK, and Switzerland. We are committed to non-discrimination and equal opportunity in all recruiting activity."
     },
     "governing": {
-      "title": "9. Governing Law & Jurisdiction",
-      "description": "These Terms are governed by the laws of the State of Wyoming, United States, without regard to conflict-of-law principles. Any disputes shall be resolved in the courts of Wyoming. For EU-based individuals, mandatory consumer protection laws of your country of residence may apply, and you may have the right to bring proceedings in your local courts."
+      "title": "9. Governing Law",
+      "description": "These Terms are governed by the laws of the State of Wyoming, United States, without regard to conflict-of-law principles. Disputes will be resolved in the courts of Wyoming. For individuals in the EU, mandatory consumer protection law in your country of residence may also apply."
     },
     "severability": {
       "title": "10. Severability",
-      "description": "If any provision of these Terms is found to be unenforceable, the remaining provisions shall continue in full force and effect."
+      "description": "If any provision of these Terms is unenforceable, the remaining provisions stay in full force."
     },
     "amendments": {
       "title": "11. Amendments",
-      "description": "We reserve the right to modify these Terms at any time. Changes become effective upon posting to this website. Continued use constitutes acceptance of modified Terms."
+      "description": "We may modify these Terms. Changes take effect when posted to this website."
     },
     "contact": {
       "title": "12. Contact",
-      "description": "For legal inquiries or questions about these Terms, please contact us at"
+      "description": "For legal questions or questions about these Terms, contact us at"
     }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or may have moved.",
+    "cta": "Back to homepage"
   }
 }

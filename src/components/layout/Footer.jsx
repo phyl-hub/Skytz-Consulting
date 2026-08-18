@@ -2,9 +2,11 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import useLanguage from '../../hooks/useLanguage';
 
+const LINKEDIN_URL = 'https://www.linkedin.com/in/philipp-hoffschroer/';
+
 export default function Footer() {
   const { t } = useTranslation();
-  const { getLocalizedPath, currentLang } = useLanguage();
+  const { getLocalizedPath } = useLanguage();
   const year = new Date().getFullYear();
 
   return (
@@ -22,22 +24,38 @@ export default function Footer() {
               {t('footer.legal')}
             </p>
             <address className="text-slate-400 text-xs not-italic leading-relaxed">
-              {t('footer.address')}
+              {t('footer.addressLabel')}: {t('footer.address')}
             </address>
           </div>
 
           {/* Contact */}
           <div>
             <h4 className="text-slate-900 font-semibold mb-4">
-              {currentLang === 'en' ? 'Contact' : currentLang === 'de' ? 'Kontakt' : 'Contact'}
+              {t('contact.title')}
             </h4>
             <div className="space-y-2 text-sm">
-              <p className="text-slate-700 font-medium">Philipp Hoffschröer, Founder</p>
-              <a 
-                href="mailto:info@skytz-consulting.com" 
+              <p className="text-slate-700 font-medium">
+                Philipp Hoffschröer, {t('imprint.representedBy.role')}
+              </p>
+              <a
+                href="mailto:info@skytz-consulting.com"
                 className="block text-slate-600 hover:text-blueprint-600 transition-colors"
               >
                 info@skytz-consulting.com
+              </a>
+              <a
+                href="tel:+13074290181"
+                className="block text-slate-600 hover:text-blueprint-600 transition-colors"
+              >
+                +1 307 429 0181
+              </a>
+              <a
+                href={LINKEDIN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-slate-600 hover:text-blueprint-600 transition-colors"
+              >
+                {t('footer.linkedin')}
               </a>
             </div>
           </div>

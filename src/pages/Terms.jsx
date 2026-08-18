@@ -15,7 +15,7 @@ const fadeIn = {
 
 export default function Terms() {
   const { t, i18n } = useTranslation();
-  const lang = i18n.language || 'de';
+  const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.terms[lang] || pageSEOConfig.terms.en;
 
   useEffect(() => {

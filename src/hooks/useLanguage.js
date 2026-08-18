@@ -2,8 +2,8 @@ import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-const SUPPORTED_LANGS = ['en', 'de', 'fr'];
-const DEFAULT_LANG = 'de'; // Germany is main market
+const SUPPORTED_LANGS = ['en', 'de'];
+const DEFAULT_LANG = 'en'; // English is the primary language of the site
 
 export function useLanguage() {
   const { i18n } = useTranslation();

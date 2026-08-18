@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Award, Users, Quote, ArrowRight, Building2, CheckCircle } from 'lucide-react';
+import { Quote, ArrowRight, Building2, CheckCircle, FileText } from 'lucide-react';
 import BentoCard from '../components/ui/BentoCard';
 import SEO from '../components/SEO';
 import { pageSEOConfig } from '../content/pageSEOConfig';
@@ -26,7 +26,7 @@ const stagger = {
 
 export default function Testimonials() {
   const { t, i18n } = useTranslation();
-  const lang = i18n.language || 'de';
+  const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.testimonials[lang] || pageSEOConfig.testimonials.en;
 
   useEffect(() => {
@@ -36,9 +36,25 @@ export default function Testimonials() {
   // Client keys to iterate over
   // On-niche proof first (Megger + SebaKMT, same group, deepest relationship), then breadth.
   const clientKeys = ['megger', 'sebakmt', 'eurasiagroup', 'swr', 'otopront', 'box02', 'gef'];
-  
+
+  // Published letters must be signed and on letterhead. Box02's is excluded on
+  // purpose: its letterhead carries a Sheridan, WY registered-agent address.
+  const letterByClient = {
+    megger: { url: assetUrl('recommendation/Megger-Reference-Friedrich-Enkert.pdf') },
+    swr: { url: assetUrl('recommendation/SWR-Reference-Dirk-Heesen.pdf') },
+    eurasiagroup: {
+      url: assetUrl('recommendation/Eurasia-Reference-Mustafa-Sahin.pdf'),
+      redacted: true,
+    },
+    otopront: {
+      url: assetUrl('recommendation/Otopront-Reference-Carlo-Happersberger-DE.pdf'),
+      german: true,
+    },
+  };
+
   const cases = clientKeys.map(key => ({
     key,
+    letter: letterByClient[key],
     company: t(`testimonials.clients.${key}.company`),
     industry: t(`testimonials.clients.${key}.industry`),
     person: t(`testimonials.clients.${key}.contact`),
@@ -97,7 +113,7 @@ export default function Testimonials() {
                           ) : c.key === 'eurasiagroup' ? (
                             <img src={assetUrl('recommendation/Eurasia-logo.png')} alt="Eurasia Group" className="max-h-20 max-w-44 object-contain" />
                           ) : c.key === 'swr' ? (
-                            <img src={assetUrl('recommendation/SWR_logo.jpeg')} alt="SWR" className="max-h-16 max-w-40 object-contain" />
+                            <img src={assetUrl('recommendation/SWR_logo.jpeg')} alt="SWR Südwestdeutsche Rohrleitungsbau" className="max-h-16 max-w-40 object-contain" />
                           ) : c.key === 'sebakmt' ? (
                             <img src={assetUrl('recommendation/sebakmt-logo-black-rgb-scaled.png')} alt="SebaKMT" className="max-h-16 max-w-40 object-contain" />
                           ) : c.key === 'otopront' ? (
@@ -125,6 +141,27 @@ export default function Testimonials() {
                         <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1.5">
                           <CheckCircle className="h-4 w-4 text-emerald-600" />
                           <span className="text-sm font-medium text-emerald-700">{c.outcome}</span>
+                        </div>
+                      )}
+
+                      {c.letter && (
+                        <div className="mt-4">
+                          <a
+                            href={c.letter.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 text-sm font-semibold text-blueprint-600 hover:text-blueprint-700 transition-colors"
+                          >
+                            <FileText className="h-4 w-4 shrink-0" />
+                            {c.letter.german
+                              ? t('testimonials.letterLabelGerman')
+                              : t('testimonials.letterLabel')}
+                          </a>
+                          {c.letter.redacted && (
+                            <p className="mt-1 text-xs text-slate-500">
+                              {t('testimonials.redactionNote')}
+                            </p>
+                          )}
                         </div>
                       )}
                     </div>

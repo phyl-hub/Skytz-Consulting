@@ -1,16 +1,17 @@
 {
   "meta": {
-    "title": "Skytz Consulting | Direktsuche für Sales Engineering & Executive Leadership",
-    "description": "Ich besetze umsatzkritische Engineering-Führungspositionen und Sales Engineers für anspruchsvolle Technologieunternehmen. Direktsuche, keine Datenbanken. DACH & USA."
+    "title": "Skytz Consulting | Personalberatung für technischen Vertrieb und Engineering",
+    "description": "Persönliche Personalberatung für Hersteller, Ingenieurbüros und Bauunternehmen in Deutschland und der Schweiz. Direktansprache statt Anzeigen. Philipp Hoffschröer, seit 2015."
   },
   "nav": {
-    "home": "Startseite",
     "testimonials": "Referenzen",
-    "about": "Über uns",
+    "about": "Über mich",
     "vacancies": "Offene Positionen",
-    "contact": "Philipp treffen",
+    "contact": "Kontakt",
     "privacy": "Datenschutz",
-    "terms": "AGB"
+    "terms": "AGB",
+    "industries": "Branchen",
+    "home": "Startseite"
   },
   "vacancies": {
     "title": "Offene Positionen",
@@ -48,26 +49,253 @@
     }
   },
   "hero": {
-    "tagline": "Deutschland · Schweiz · USA",
-    "headline": "Engineering Talent.\nPräzise Platziert.",
-    "subhead": "Ich besetze umsatzkritische Schlüsselpositionen im Sales Engineering und der technischen Führung – mit 10 Jahren Projekterfahrung und höchster Diskretion. Die meisten meiner Platzierungen waren nie aktiv auf Jobsuche.",
+    "tagline": "Personalberatung · Deutschland · Schweiz",
+    "headline": "Positionen im technischen Vertrieb und im Engineering.",
+    "subhead": "Mein Name ist Philipp Hoffschröer. Seit 2015 besetze ich Positionen im technischen Vertrieb und im Engineering — für Hersteller von Mess- und Prüftechnik, für Ingenieurbüros und für Unternehmen im Tief- und Rohrleitungsbau. Ich arbeite allein: Sie sprechen mit mir, nicht mit einem Researcher, und jedes Profil kommt von mir persönlich. Die meisten Kandidaten, die ich vermittle, waren nicht auf Jobsuche, als ich sie angesprochen habe.",
     "cta": {
-      "primary": "Gespräch vereinbaren",
-      "secondary": "Referenzen ansehen"
+      "primary": "Vakanz vertraulich besprechen"
     },
-    "signature": "Philipp Hoffschröer, Gründer"
+    "signature": "Philipp Hoffschröer, Gründer",
+    "reach": {
+      "emailLabel": "E-Mail",
+      "phoneLabel": "Telefon",
+      "linkedinLabel": "LinkedIn"
+    }
   },
   "stats": {
-    "passive": {
-      "value": "100%",
-      "label": "Wiederbauftragungsquote",
-      "subtext": "Jeder Kunde hat mich mindestens zwei Mal beauftragt"
-    },
     "placements": {
       "value": "50+",
-      "label": "Besetzungen",
-      "subtext": "Erfolgreich besetzte Positionen seit 2015"
+      "label": "Besetzungen seit 2015",
+      "subtext": "Technischer Vertrieb, Vertriebsleitung, Geschäftsbereichsleitung und Bauleitung."
+    },
+    "letters": {
+      "value": "4",
+      "label": "unterschriebene Referenzschreiben",
+      "subtext": "Auf Firmenbogen, mit Namen und Datum. Lesen Sie sie selbst.",
+      "linkLabel": "Referenzschreiben lesen"
+    },
+    "repeat": "Jeder Auftraggeber, mit dem ich gearbeitet habe, hat mich mehr als einmal beauftragt."
+  },
+  "metrics": {
+    "title": "Zahlen",
+    "items": [],
+    "methodLabel": "Wie ich das messe",
+    "germanNote": ""
+  },
+  "searches": {
+    "title": "Aktuelle Mandate",
+    "items": [
+      "Projektingenieur — Nah- und Fernwärmenetze — Baden-Württemberg",
+      "Bauleitung und Bauüberwachung — Tief- und Rohrleitungsbau — Frankfurt am Main",
+      "Technischer Zeichner (CAD) — Baubranche — Deutschland",
+      "Assistenz der Geschäftsführung — Tief- und Rohrleitungsbau — Frankfurt am Main",
+      "Parallel dazu drei Suchen in den USA: Industrieautomation und Sensorik, Antriebstechnik, Prozessmesstechnik"
+    ],
+    "note": "Das sind laufende Mandate, keine Beispiele. Die vollständigen Profile gehen ausschließlich an Kandidaten. Wenn das Ihr Markt ist, schreiben Sie mir — ich sage Ihnen, was ich dort gerade sehe."
+  },
+  "process": {
+    "title": "So läuft eine Suche ab",
+    "note": "Die Shortlist steht in der Regel nach drei bis vier Wochen, die Unterschrift nach acht bis sechzehn Wochen. Bis zum ersten Arbeitstag kommen danach die Kündigungsfristen dazu, meist drei Monate zum Quartalsende.",
+    "steps": [
+      {
+        "title": "Erstgespräch, 45 Minuten",
+        "text": "Die Position, das Vertriebsgebiet, der Gehaltsrahmen und wie ein gutes erstes Jahr aussieht. Wenn ich die Position so nicht für besetzbar halte, sage ich Ihnen das im ersten Gespräch und nicht im dritten Monat."
+      },
+      {
+        "title": "Zielfirmenliste",
+        "text": "Die Unternehmen, in denen der passende Hintergrund tatsächlich sitzt: Ihre Wettbewerber, angrenzende Produktfelder, der Handel. Sie sehen die Liste, bevor ich mit der Ansprache beginne."
+      },
+      {
+        "title": "Direktansprache",
+        "text": "Ich spreche die Kandidaten selbst an. Keine Anzeigen, kein Datenbankabzug. Zu jeder Person erhalten Sie zuerst ein anonymisiertes Profil; kein Name geht an Sie, bevor der Kandidat zugestimmt hat."
+      },
+      {
+        "title": "Shortlist",
+        "text": "Drei bis fünf Kandidaten, die Sie tatsächlich einstellen können — mit den Schwächen ebenso schriftlich wie den Stärken."
+      }
+    ]
+  },
+  "deliverable": {
+    "title": "Was Sie zu jedem Kandidaten erhalten",
+    "items": [
+      "Ein schriftliches Profil, das Sie ohne Nacharbeit in Ihre Geschäftsführung geben können",
+      "Gehaltsvorstellungen schriftlich, bevor Sie Zeit in Gespräche investieren",
+      "Was gegen den Kandidaten spricht, nicht nur was für ihn spricht",
+      "Den Wechselgrund und das, was die Person beim jetzigen Arbeitgeber halten würde",
+      "Kündigungsfrist und ein realistisches Eintrittsdatum"
+    ]
+  },
+  "whyNot": {
+    "title": "Warum keine große Personalberatung",
+    "themLabel": "Große Beratung",
+    "meLabel": "Zusammenarbeit mit mir",
+    "rows": [
+      {
+        "topic": "Wer die Arbeit macht",
+        "them": "Ein Researcher, den Sie nie sprechen, und ein Partner, der den Termin macht.",
+        "me": "Ich. Jedes Gespräch, jedes Profil, von Anfang bis Ende."
+      },
+      {
+        "topic": "Woher die Kandidaten kommen",
+        "them": "Datenbank, Anzeigen und wer sich meldet.",
+        "me": "Direktansprache von Menschen, die die Aufgabe heute bei vergleichbaren Unternehmen machen."
+      },
+      {
+        "topic": "Was Sie bekommen",
+        "them": "Ein Stapel Profile, schnell weitergeleitet.",
+        "me": "Drei bis fünf Kandidaten, mit schriftlich dokumentierten Risiken."
+      },
+      {
+        "topic": "Diskretion",
+        "them": "Ihre Vakanz ist nach zwei Wochen im Markt bekannt.",
+        "me": "Ich spreche Kandidaten an, ohne Ihren Namen zu nennen, solange Sie das so wollen."
+      }
+    ]
+  },
+  "method": {
+    "title": "Wie ich das messe",
+    "intro": "Eine Zahl ohne Definition ist Werbung. Hier steht, was ich zähle und was ich ausklammere.",
+    "excludesLabel": "Nicht gezählt",
+    "items": [
+      {
+        "metric": "Wochen bis zur Shortlist",
+        "definition": "Wochen von der Beauftragung bis zur Übergabe der ersten Shortlist mit drei oder mehr geeigneten Kandidaten. In Deutschland und der Schweiz sind das in der Regel drei bis vier Wochen.",
+        "excludes": "Wartezeiten auf Kundenseite von mehr als einer Woche und Mandate, die nach dem Start neu zugeschnitten werden."
+      },
+      {
+        "metric": "Wochen bis zur Unterschrift",
+        "definition": "Wochen von der Beauftragung bis zur unterschriebenen Zusage, in der Regel acht bis sechzehn. Das ist nicht der Eintrittstermin — dazwischen liegt die Kündigungsfrist.",
+        "excludes": "Abgebrochene, ausgesetzte oder wesentlich veränderte Mandate."
+      },
+      {
+        "metric": "Verbleib nach zwölf Monaten",
+        "definition": "Vermittelte Kandidaten, die zwölf Monate nach ihrem ersten Arbeitstag noch beim Auftraggeber arbeiten oder dort befördert wurden, geteilt durch alle Vermittlungen, die zwölf Monate erreichen konnten. Aktuell 92 Prozent.",
+        "excludes": "Betriebsbedingte Kündigungen, Restrukturierungen, Stellenstreichungen und Standortschließungen."
+      }
+    ],
+    "window": "Die Zahlen umfassen Vermittlungen seit 2015 und werden quartalsweise überprüft. Wenn Sie die Fallzahlen dahinter sehen möchten, fragen Sie im ersten Gespräch.",
+    "benchmarkNote": "Zur Einordnung: Die Bundesagentur für Arbeit weist für gemeldete Stellen eine durchschnittliche Vakanzzeit von rund 95 Tagen bei akademischen Berufen und rund 140 Tagen bei Fachkräften mit Berufsausbildung aus. Die Kündigungsfrist kommt danach noch dazu."
+  },
+  "markets": {
+    "title": "Eine Suche in Deutschland und eine in den USA laufen unterschiedlich",
+    "intro": "Wenn Sie in beiden Märkten besetzen oder Ihrer US-Tochter erklären müssen, warum es hier länger dauert: Das sind die Unterschiede, die den Zeitplan bestimmen.",
+    "usLabel": "USA",
+    "deLabel": "Deutschland und Schweiz",
+    "rows": [
+      {
+        "topic": "Kündigungsfrist",
+        "us": "Zwei Wochen sind üblich, bei erfahrenen Kandidaten manchmal vier.",
+        "de": "Drei Monate zum Quartalsende sind in Fach- und Führungsverträgen die Regel. Sechs Monate kommen vor."
+      },
+      {
+        "topic": "Von der Zusage bis zum ersten Tag",
+        "us": "Zwei bis vier Wochen.",
+        "de": "Drei bis sechs Monate. Das bestimmt der Vertrag, nicht der gute Wille."
+      },
+      {
+        "topic": "Gegenangebote",
+        "us": "Häufig, meist über Geld, meist innerhalb weniger Tage.",
+        "de": "Seltener und langsamer, und häufiger über Verantwortung oder Titel als über das Grundgehalt."
+      },
+      {
+        "topic": "Woran es spät scheitert",
+        "us": "Ein konkurrierendes Angebot, das schneller war als Ihres.",
+        "de": "Ein Umzug und das Familiengespräch, das dazugehört."
+      },
+      {
+        "topic": "Was das für Sie heißt",
+        "us": "Schnell entscheiden. Lange interne Freigaben sind der häufigste Grund, warum US-Suchen scheitern.",
+        "de": "Den Eintrittstermin vom Quartal her rückwärts planen. Druck auf den Kandidaten ändert die Frist nicht."
+      }
+    ],
+    "note": "Beides mache ich, aber nicht mit derselben Erwartung an das Tempo."
+  },
+  "industries": {
+    "title": "Branchen, in denen ich arbeite",
+    "subtitle": "Worauf ich tatsächlich prüfe",
+    "intro": "Ich besetze technische und kaufmännische Positionen für Industrieunternehmen und Ingenieurbüros. Das sind die Felder, die Positionen darin und die Fragen, mit denen ich einen glaubwürdigen von einem plausiblen Kandidaten unterscheide.",
+    "sectors": [
+      {
+        "name": "Industrieautomation und Sensorik",
+        "roles": "Vertriebsingenieure, Applikationsingenieure, regionale Vertriebsleitung",
+        "tech": "Sensorik, industrielle Konnektivität, Sicherheits- und Steuerungskomponenten, SPS und I/O, Steuerungsarchitektur, Robotik, Fabrikautomation",
+        "channel": "OEM- und Endkunden, parallel zum Handel",
+        "screen": "Kann die Person durch eine Fertigung gehen, erkennen, warum die Sensorik ausfällt, und die Lösung verkaufen? Weiß sie genug über Steuerungsarchitektur, um dieses Gespräch mit einem Steuerungstechniker zu führen?"
+      },
+      {
+        "name": "Antriebs- und Bewegungstechnik",
+        "roles": "Gebietsverkauf, OEM-Betreuung, Handelsvertriebssteuerung",
+        "tech": "Getriebemotoren, Frequenzumrichter, Motion-Control-Systeme, Antriebstechnik; Auslegung nach Drehmoment, Drehzahl, Einschaltdauer und Umgebungsbedingungen",
+        "channel": "Direkter OEM-Vertrieb und Lagerhändler gleichzeitig, mit unterschiedlicher Behandlung",
+        "screen": "Kann die Person ein Getriebe aus einem Anwendungsdatenblatt auslegen und die Rechnung begründen? Hat sie Direktvertrieb und Handel wirklich parallel geführt oder nur eines von beidem?"
+      },
+      {
+        "name": "Prozessmesstechnik und Armaturenautomation",
+        "roles": "Key-Account-Management und Vertriebsingenieure für Raffinerie, Petrochemie und Midstream",
+        "tech": "Regel- und Absperrarmaturen, Durchflussmessung, Antriebe und Werkstoffauswahl; das Zusammenspiel von DCS, SPS und SCADA mit der Messtechnik",
+        "channel": "Projekt- und MRO-Geschäft parallel, EPC-Ausschreibungen, Turnaround- und Stillstandsbetreuung",
+        "screen": "War die Person während eines Turnarounds in der Anlage? Weiß sie, welcher EPC die Spezifikation schreibt und welcher das Paket nur weiterreicht?"
+      },
+      {
+        "name": "Mess- und Prüftechnik",
+        "roles": "Vertrieb und kaufmännische Führung, Geschäftsbereichsleitung",
+        "tech": "Elektrische Prüftechnik, Kabelfehlerortung, Leckortung in Rohrnetzen, Schüttgut- und Prozessmessung",
+        "channel": "Direktvertrieb und Tochtergesellschaften in Europa und den USA",
+        "screen": "Hier liegen meine längsten Kundenbeziehungen, darunter Megger seit 2016. Die Referenzschreiben auf der Referenzseite stammen aus diesem Bereich."
+      }
+    ],
+    "note": "Wenn Ihr Produktprogramm daneben statt mittendrin liegt, sagen Sie es im ersten Gespräch. Mir ist lieber, ich sage Ihnen, dass es nicht mein Feld ist, als dass ich es in Woche sechs merke.",
+    "labels": {
+      "roles": "Rollen",
+      "tech": "Produkte und Technik",
+      "channel": "Vertriebsweg",
+      "screen": "Worauf ich prüfe"
     }
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Wie rechnen Sie ab?",
+        "a": "Ein Prozentsatz der Jahreszielvergütung, schriftlich vereinbart, bevor ich beginne. Die Zahl nenne ich Ihnen im ersten Gespräch. Das Gespräch ist kostenfrei und verpflichtet zu nichts."
+      },
+      {
+        "q": "Was passiert, wenn die Besetzung nicht funktioniert?",
+        "a": "Das regeln wir individuell und schriftlich, bevor die Suche beginnt. Die Bedingungen unterscheiden sich zwischen dem deutschen und dem US-Markt, deshalb nenne ich hier keine pauschale Frist. Fragen Sie im ersten Gespräch, dann sage ich Ihnen genau, was für Ihre Suche gilt."
+      },
+      {
+        "q": "Arbeiten Sie exklusiv?",
+        "a": "In der Regel ja, und die Suche wird dadurch besser. Ich analysiere keinen Markt acht Wochen lang, um anschließend mit drei weiteren Beratungen um dieselben fünf Kandidaten zu konkurrieren. Wenn Exklusivität für Sie nicht infrage kommt, sprechen wir darüber."
+      },
+      {
+        "q": "Wie lange dauert eine Suche?",
+        "a": "Die Shortlist steht meist nach drei bis vier Wochen, die Unterschrift nach acht bis sechzehn Wochen. Bis zum ersten Arbeitstag kommt die Kündigungsfrist dazu, in der Regel drei Monate zum Quartalsende. Wenn Ihre Position davon abweicht, sage ich Ihnen das vorher."
+      },
+      {
+        "q": "Wo finden Sie Kandidaten, wenn nicht über Jobbörsen?",
+        "a": "Ich sehe mir an, in welchen Unternehmen der passende Hintergrund sitzt — Ihre Wettbewerber, angrenzende Produktfelder, der Handel — und spreche diese Menschen direkt an, über LinkedIn Recruiter und am Telefon."
+      },
+      {
+        "q": "Sind Sie eine Zeitarbeitsfirma?",
+        "a": "Nein. Zeitarbeit überlässt Personal auf Zeit und rechnet nach Stunden ab. Ich besetze einzelne Festanstellungen und werde einmal bezahlt, wenn die Besetzung zustande kommt."
+      },
+      {
+        "q": "Wie prüfen Sie, ob ein technischer Kandidat wirklich etwas kann?",
+        "a": "Ich lasse ihn im Gespräch arbeiten. Ein Getriebe aus dem Anwendungsdatenblatt auslegen. Erklären, warum die Sensorik auf dieser Linie ausfällt. Wer die Aufgabe gemacht hat, antwortet sofort. Wer nur daneben gestanden hat, nicht."
+      },
+      {
+        "q": "Verstehen Sie unsere Produkte?",
+        "a": "Ich arbeite seit 2015 für Hersteller von Mess-, Prüf- und Prozesstechnik. Ich werde nicht behaupten, Ihr Produktprogramm besser zu kennen als Sie. Nach dem Erstgespräch weiß ich genug, um mit einem Ingenieur ein Gespräch zu führen, das er ernst nimmt."
+      },
+      {
+        "q": "Wer macht die Arbeit tatsächlich?",
+        "a": "Ich. Es gibt kein Research-Team, keinen Account Manager und niemanden, der Sie nach Vertragsabschluss weiterreicht. Das ist der Handel: eine erfahrene Person statt einer Mannschaft."
+      },
+      {
+        "q": "Wie fangen wir an?",
+        "a": "Ein Gespräch, 45 Minuten, kostenfrei. Wir gehen die Position durch, das Gebiet, den Gehaltsrahmen und wie ein gutes erstes Jahr aussieht. Honorar und Vertragsbedingungen bekommen Sie danach schriftlich, und es passiert nichts, bevor Sie unterschrieben haben."
+      }
+    ]
   },
   "imprint": {
     "title": "Impressum",
@@ -112,7 +340,7 @@
     },
     "copyrightNotice": {
       "title": "Urheberrecht",
-      "content": "Die durch die Betreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet. Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung."
+      "content": "Die durch die Betreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet. Logos und Referenzschreiben von Kunden werden mit deren Zustimmung verwendet und bleiben Eigentum der jeweiligen Inhaber. Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung."
     },
     "dispute": {
       "title": "Verbraucherstreitbeilegung",
@@ -120,8 +348,10 @@
     }
   },
   "footer": {
-    "legal": "Skytz Consulting (eine Marke der Laurasia LLC)",
+    "legal": "Skytz Consulting ist eine Marke der Laurasia LLC.",
+    "addressLabel": "Sitz der Gesellschaft",
     "address": "1309 Coffeen Avenue STE 1200, Sheridan, WY 82801, USA",
+    "linkedin": "LinkedIn",
     "links": {
       "privacy": "Datenschutz",
       "terms": "AGB",
@@ -131,57 +361,63 @@
   },
   "testimonials": {
     "title": "Referenzkunden",
-    "subtitle": "Nachgewiesene Erfolge",
-    "description": "Echte Mandate. Referenzgespräche auf Anfrage verfügbar.",
+    "subtitle": "Namentliche Kunden, unterschriebene Schreiben",
+    "description": "Namentliche Auftraggeber, namentliche Ansprechpartner und die unterschriebenen Schreiben, die sie verfasst haben. Auftraggeber ohne Schreiben stehen für ein Referenzgespräch zur Verfügung.",
+    "letterLabel": "Unterschriebenes Referenzschreiben (PDF)",
+    "letterLabelGerman": "Unterschriebenes Referenzschreiben (PDF, auf Deutsch)",
+    "redactionNote": "Der Name der besetzten Führungskraft ist geschwärzt.",
     "clients": {
       "megger": {
         "company": "Megger Germany GmbH",
-        "industry": "Elektrische Messtechnik",
-        "badge": "Partner seit 2015",
+        "industry": "Elektrische Mess- und Prüftechnik",
+        "badge": "Kunde seit 2016",
         "contact": "Friedrich Enkert",
-        "role": "Geschäftsführer",
+        "role": "VP Global Sales CI, Geschäftsführer Megger Germany GmbH",
         "quote": "Er hat eine beeindruckende Erfolgsbilanz vorzuweisen, indem er eine hohe Anzahl hochqualifizierter Kandidaten erfolgreich für Schlüsselpositionen in unserem Unternehmen rekrutiert hat.",
-        "outcome": "10+ Besetzungen",
+        "quoteNote": "",
+        "outcome": "10+ Besetzungen seit 2016",
         "highlights": [
           "Mehrfachbesetzung von Vertriebs- und kaufmännischen Schlüsselrollen sowie Führungspositionen",
           "Europaweite Besetzungen, teilweise in Tochtergesellschaften",
-          "Kontinuierliche Zusammenarbeit seit 2015"
+          "Zusammenarbeit seit 2016"
         ]
       },
-"eurasiagroup": {
+      "eurasiagroup": {
         "company": "Eurasia Group AG",
-        "industry": "Agrarwesen & Finanz-Holding",
-  "badge": "Holding Europa & Asien",
+        "industry": "Agrarwesen und Finanz-Holding, Schweiz",
+        "badge": "CFO-Suche",
         "contact": "Mustafa Sahin",
         "role": "Chief Executive Officer",
-        "quote": "Herr Hoffschröer entwickelte schnell ein präzises Verständnis für unsere Struktur und die Anforderungen der CFO-Rolle. Der Prozess verlief effizient und strukturiert, die Kommunikation war jederzeit klar und verlässlich. Die finale Besetzung hat unsere Erwartungen voll erfüllt.",
+        "quote": "Herr Hoffschröer verantwortete die Suche, Vorauswahl und Ansprache geeigneter Kandidaten und begleitete den Prozess bis zur erfolgreichen Besetzung unserer CFO-Position. Die vorgestellten Kandidaten waren zielgerichtet ausgewählt und professionell vorqualifiziert. Die finale Besetzung hat unsere Erwartungen voll erfüllt.",
+        "quoteNote": "",
         "outcome": "CFO-Besetzung",
         "highlights": [
           "Inhabergeführte Schweizer Holding mit über 20 Beteiligungen in Europa und Asien",
-          "Hohe Anforderungen an finanzielle Führung und internationale Governance",
-          "Gezielte Auswahl und professionelle Vorqualifizierung auf Executive-Ebene"
+          "Kerngeschäft Agrarwesen, in Partnerschaft mit John Deere in Zentralasien",
+          "Gezielte Auswahl und Vorqualifizierung auf Executive-Ebene"
         ]
       },
       "swr": {
-        "company": "Südwestdeutsche Rohrleitungsbau GmbH",
-        "industry": "Rohrleitungsbau",
+        "company": "SWR · Südwestdeutsche Rohrleitungsbau GmbH",
+        "industry": "Rohrleitungs- und Fernwärmebau, Frankfurt",
         "badge": "Mehrfachbesetzungen",
         "contact": "Dirk Heesen",
         "role": "Geschäftsführer",
-        "quote": "... sorgfältige Auswahl von Kandidaten, die nicht nur die erforderlichen Fähigkeiten besitzen, sondern auch optimal zu unserer Unternehmenskultur passen.",
+        "quote": "Was ihn auszeichnet, ist die sorgfältige Auswahl von Kandidaten, die nicht nur die erforderlichen Fähigkeiten besitzen, sondern auch optimal zu unserer Unternehmenskultur passen.",
+        "quoteNote": "",
         "highlights": [
-          "Mehrere Bauleiterpostionen besetzt",
-          "Operative und Fach-Rollen rekrutiert",
-          "Zusammenarbeit seit 2015"
+          "Mehrere Bauleiterpositionen besetzt",
+          "Operative und Fachrollen rekrutiert",
+          "Laufende Zusammenarbeit"
         ]
       },
       "sebakmt": {
         "company": "SebaKMT by Megger",
-        "industry": "Mess- und Ortungstechnik für Rohrnetze",
+        "industry": "Kabelfehlerortung und Leckortung in Rohrnetzen",
         "contact": "Sascha Kuflik",
-        "role": "Geschäftsbereichsleiter",
-        "quote": "Ich habe Philipp zunächst als Kandidat kennengelernt und später als Auftraggeber bei SebaKMT beauftragt. Aus dieser doppelten Perspektive kann ich bestätigen, dass seine Beratung strukturiert ist und zu belastbaren Besetzungsergebnissen führt.",
-        "quoteNote": "Übersetzung aus dem englischen Original",
+        "role": "damals Geschäftsbereichsleiter",
+        "quote": "Ich habe Philipp zunächst als Kandidat kennengelernt und später als Auftraggeber bei SebaKMT beauftragt. Aus dieser doppelten Perspektive kann ich bestätigen, dass er durchgehend überzeugende Ergebnisse liefert.",
+        "quoteNote": "",
         "highlights": [
           "2018 als Kandidat vermittelt",
           "Wurde zum Auftraggeber",
@@ -189,14 +425,16 @@
         ]
       },
       "otopront": {
-        "company": "Happersberger otopront GmbH",
+        "company": "Happersberger Otopront GmbH",
         "industry": "Medizintechnik / HNO",
         "contact": "Carlo Happersberger",
         "role": "CEO",
         "quote": "Während unserer Zusammenarbeit führte Philipp zwei erfolgreiche Personalbesetzungen durch. Die Zusammenarbeit war professionell, diskret und geprägt von einem strukturierten und effizienten Einstellungsprozess.",
+        "quoteNote": "",
         "highlights": [
-          "Internationale Vertriebsmanager-Positionen besetzt",
-          "Hohe Diskretion"
+          "Internationale Vertriebsleitung besetzt",
+          "Hohe Diskretion",
+          "Zwei erfolgreiche Besetzungen"
         ]
       },
       "box02": {
@@ -205,140 +443,125 @@
         "contact": "Sebastian Wolff",
         "role": "Founder & CEO",
         "quote": "Philipp unterstützte uns bei der Besetzung von zwei Marketing-Managern. Der Prozess war effizient, gut strukturiert und führte zu Kandidaten, die sowohl fachlich als auch kulturell passten.",
+        "quoteNote": "",
         "highlights": [
           "Zwei Marketing-Manager erfolgreich besetzt",
-          "Effizienter, strukturierter Rekrutierungsprozess",
+          "Effizienter, strukturierter Prozess",
           "Passgenaue Kandidatenauswahl"
         ]
       },
       "gef": {
         "company": "GEF Ingenieur AG",
-        "industry": "Ingenieurdienstleistungen / Trassenplanung",
+        "industry": "Ingenieurdienstleistungen, Nah- und Fernwärmenetze",
         "contact": "Dipl.-Ing. (FH) Timo Che Banning",
         "role": "Prokurist, Bereichsleitung Trassenplanung",
         "quote": "Herr Hoffschröer überzeugte insbesondere durch ein gutes Verständnis unserer technischen Anforderungen, eine strukturierte Vorauswahl geeigneter Profile sowie eine verlässliche und transparente Kommunikation während des gesamten Prozesses.",
+        "quoteNote": "",
+        "outcome": "Projektingenieur besetzt",
         "highlights": [
-          "Tiefes Verständnis technischer Anforderungen",
-          "Strukturierte Vorauswahl geeigneter Kandidaten",
-          "Verlässliche und transparente Kommunikation"
+          "Zusammenarbeit seit Oktober 2025",
+          "Projektingenieur besetzt, weitere Positionen in Arbeit",
+          "Strukturierte Vorauswahl geeigneter Kandidaten"
         ]
       }
     },
     "cta": {
-      "title": "Vollständige Referenzschreiben gewünscht?",
-      "description": "Ich kann schriftliche Referenzen bereitstellen und Gespräche mit früheren Kunden arrangieren.",
-      "button": "Referenzen anfragen"
+      "title": "Lieber mit einem Auftraggeber sprechen als über ihn lesen?",
+      "description": "Ich stelle weitere Referenzschreiben bereit und vermittle Ihnen ein Gespräch mit einem früheren Auftraggeber.",
+      "button": "Referenz anfragen"
     }
   },
   "about": {
-    "title": "Über Skytz Consulting",
-    "subtitle": "Seit 2015",
-    "description": "Skytz Consulting ist eine spezialisierte Personalberatung für Sales Engineering und Führungspositionen in technologiegetriebenen Unternehmen. Ich besetze Rollen, die über den wirtschaftlichen Erfolg komplexer Produkte entscheiden.",
-    "beliefsTitle": "Wofür ich stehe (Thesen zur Besetzungsqualität)",
-    "beliefs": {
-      "expertise": {
-        "title": "Sales Engineering ist eine Schlüsselrolle, kein Etikett",
-        "description": "SE ist keine Vertriebsvariante, sondern eine kritische Schnittstelle. Erfolgreiche Kandidaten benötigen technische Autorität, Entscheidungsreife und kommerzielles Kalkül. Wer hier nach 'Gefühl' einstellt, kauft das Risiko technischer Unglaubwürdigkeit."
-      },
-      "alignment": {
-        "title": "Alignment schlägt Lebenslauf",
-        "description": "Die meisten Fehlbesetzungen basieren nicht auf fehlender Kompetenz, sondern auf strukturellen Zielkonflikten und Erwartungsbrüchen. Ich identifiziere diese Risiken, bevor sie teuer werden."
-      },
-      "decision": {
-        "title": "Recruiting ist Entscheidungsarchitektur",
-        "description": "Mein Job ist die Lieferung einer belastbaren Entscheidungsgrundlage. Das beinhaltet explizite Gegenargumente. Wenn sich meine Einschätzung eines Kandidaten im Prozess ändert, kommuniziere ich das sofort – auch wenn es den Deal gefährdet."
-      }
+    "title": "Über mich",
+    "subtitle": "Philipp Hoffschröer, Gründer",
+    "description": "Seit 2015 besetze ich Positionen im technischen Vertrieb und im Engineering — anfangs neben Geschäftsführungsaufgaben in zwei Softwareunternehmen, heute in Vollzeit. Meine Auftraggeber sind Hersteller von Mess- und Prüftechnik, Ingenieurbüros und Unternehmen im Tief- und Rohrleitungsbau.",
+    "body": {
+      "market": "Was diese Unternehmen verbindet: Die Position, die zu besetzen ist, entscheidet über Umsatz oder über ein Projekt, und der Kreis der Menschen, die sie ausfüllen können, ist klein. Diese Menschen bewerben sich nicht. Sie sind in Arbeit, sie werden gut bezahlt, und sie wechseln nur, wenn jemand sie anspricht und die Aufgabe überzeugt.",
+      "placed": "Besetzt habe ich Vertriebs- und Applikationsingenieure, regionale und nationale Vertriebsleitungen, Geschäftsbereichsleitungen, Projektingenieure und Bauleitungen. Megger Germany beauftragt mich seit 2016 regelmäßig; das unterschriebene Referenzschreiben des Geschäftsführers finden Sie auf der Referenzseite.",
+      "numbers": "Von den Kandidaten, die ich vermittelt habe, sind 92 Prozent zwölf Monate später noch im Unternehmen oder dort befördert worden. Wie ich das rechne, steht weiter unten.",
+      "reach": "Ich sitze in Deutschland und arbeite bis in den US-Vormittag hinein. Der schnellste Weg zu mir ist eine E-Mail — sie landet bei mir und nicht bei einer Assistenz."
     },
     "operationsTitle": "Wie ich arbeite",
     "operations": {
       "direct": {
-        "title": "Direktsuche statt Hoffnung",
-        "description": "Relevante Kandidaten bewerben sich nicht. Die Mehrheit meiner Platzierungen entsteht durch gezielte, diskrete Direktansprache. 'Post and Pray' überlasse ich anderen."
+        "title": "Ich spreche Kandidaten selbst an",
+        "description": "Die meisten, die ich vermittle, haben nicht gesucht. Ich sehe mir an, in welchen Unternehmen der passende Hintergrund sitzt, und rufe dort an. Eine Anzeige zu schalten und abzuwarten, ist keine Suche."
       },
       "documented": {
-        "title": "Dokumentierte Abwägungen",
-        "description": "Jedes Profil kommt mit einer Analyse der Trade-offs. Keine Buzzwords, keine Beschönigung. Sie erfahren, wo der Kandidat glänzt und wo er Reibung erzeugen wird."
+        "title": "Sie sehen auch die Schwächen",
+        "description": "In jedem Profil steht, wo der Kandidat schwach ist, nicht nur wo er stark ist: Gehaltslücken, Umzugsbereitschaft, wo er im ersten Jahr Unterstützung braucht."
       },
       "honest": {
-        "title": "Radikale Ehrlichkeit",
-        "description": "Wenn Anforderungen unrealistisch sind oder die Marktrealität nicht mit Ihren Zielen korreliert, sage ich Ihnen das im ersten Gespräch. Zeit ist Ihr teuerstes Asset."
+        "title": "Ich sage Ihnen, wenn es nicht funktioniert",
+        "description": "Wenn der Gehaltsrahmen unter Markt liegt, der Zeitplan unrealistisch ist oder die Position so nicht besetzbar ist, hören Sie das im ersten Gespräch — nicht nach sechs Monaten."
+      },
+      "discretion": {
+        "title": "Kein Name bewegt sich ohne Zustimmung",
+        "description": "Ihre Suche bleibt vertraulich. Auf Wunsch spreche ich Kandidaten an, ohne Ihren Namen zu nennen, und kein Kandidatenname erreicht Sie, bevor die Person zugestimmt hat."
       }
     },
-    "founder": {
-      "title": "Über den Gründer",
-      "intro": "Meine Perspektive ist die eines Unternehmers, nicht die eines Personalers.",
-      "background": "Drei Jahre KPMG (Finance Advisory), Strategie-Rollen bei Lufthansa und Deichmann.",
-      "dna": "Gründer und Geschäftsführer von Startups (u. a. emteria GmbH, Studo GmbH). Ich verstehe, wie CEOs denken, wie Budgets verantwortet werden und warum Personalentscheidungen in der Praxis oft an der Realität vorbeigehen.",
-      "feesNote": "Ich biete Senior-Level-Betreuung und belastbare Ergebnisse. Ich bin keine Budget-Option. Mandanten beauftragen mich, wenn die Kosten des Nicht-Findens oder der Fehlbesetzung die Beratergebühr bei weitem übersteigen."
-    },
-    "regional": {
-      "title": "Regionale Expertise & Global Reach",
-      "dach": {
-        "title": "DACH-Region",
-        "description": "Tiefes Verständnis der deutschen Geschäftskultur kombiniert mit der Effizienz einer internationalen Struktur."
-      },
-      "usa": {
-        "title": "Transatlantische Brücke (USA)",
-        "description": "Ich begleite DACH-Unternehmen beim US-Markteintritt und US-Tech-Firmen bei der Expansion nach Europa. Ich kenne die Unterschiede in Incentivierung, Speed und Kultur."
-      },
-      "swiss": {
-        "title": "Fokus Schweiz",
-        "description": "Gezielte Identifikation von Engineering-Fachkräften in Deutschland für Schweizer Arbeitgeber – unter Berücksichtigung aller grenzüberschreitenden Regulierungen."
-      }
-    },
+    "backgroundTitle": "Vor der Personalberatung",
+    "background": "Drei Jahre KPMG im Bereich Finance Advisory, danach kaufmännische Rollen bei Lufthansa und Deichmann. Co-Founder und Chief Business Development Officer der emteria GmbH, anschließend CEO Germany bei Studo.",
     "legal": {
-      "title": "Rechtliche Struktur & Compliance",
-      "description": "Skytz Consulting operiert unter Laurasia LLC (Wyoming, USA) als strategische Basis. Ich garantiere volle Compliance mit allen anwendbaren EU- (inkl. DSGVO) und US-amerikanischen Rechtsvorschriften. Philipp Hoffschröer ist der Executive Partner für alle Mandate."
+      "title": "Unternehmen",
+      "description": "Skytz Consulting ist eine Marke der Laurasia LLC. Sitz der Gesellschaft: 1309 Coffeen Avenue STE 1200, Sheridan, WY 82801, USA."
     }
   },
   "contact": {
-    "title": "Lass uns sprechen",
-    "subtitle": "Direkt & unkompliziert",
-    "description": "Keine Formulare, keine Gatekeeper. Direkter Austausch über Ihre Anforderungen.",
+    "title": "Kontakt",
+    "subtitle": "Sie sprechen direkt mit mir",
+    "description": "Auf dieser Seite gibt es kein Formular. Rufen Sie an oder schreiben Sie mir — auch dann, wenn Sie zunächst nur unverbindlich sondieren möchten.",
+    "person": {
+      "role": "Gründer, Skytz Consulting",
+      "emailLabel": "E-Mail",
+      "phoneLabel": "Telefon",
+      "phoneNote": "Wenn ich nicht rangehe, hinterlassen Sie eine Nachricht. Ich höre die Mailbox täglich ab.",
+      "linkedinLabel": "LinkedIn"
+    },
     "getInTouch": {
-      "title": "Kontakt aufnehmen",
-      "description": "Der schnellste Weg für ein erstes Gespräch über Ihre Besetzungsanforderungen."
+      "title": "E-Mail",
+      "description": "Der schnellste Weg zu mir. Antwort am selben Tag."
     },
     "booking": {
       "label": "Termin vereinbaren",
-      "action": "Direkt einen Termin buchen"
+      "action": "Einen Termin direkt im Kalender wählen"
     },
-    "phone": "Telefon",
-    "noCommitment": "Unverbindlich. Erste Gespräche immer kostenfrei.",
+    "noCommitment": "Unverbindlich. Das erste Gespräch ist kostenfrei.",
     "fasterAlignment": {
-      "title": "Für schnellere Abstimmung",
-      "description": "Wenn Sie sich wegen einer konkreten Suche melden, nennen Sie:",
+      "title": "Damit wir eine Runde sparen",
+      "description": "Wenn Sie wegen einer konkreten Position schreiben, nennen Sie:",
       "items": {
-        "roleTitle": "Rollentitel und Verantwortungsbereich",
-        "location": "Standort / Region",
-        "seniority": "Seniorität",
-        "timeline": "Dringlichkeit / Zeitrahmen",
-        "compensation": "Gehaltsband (falls bekannt)"
+        "roleTitle": "Position und Verantwortungsbereich",
+        "location": "Standort oder Vertriebsgebiet",
+        "seniority": "Erfahrungsstufe",
+        "timeline": "Zeitrahmen und Dringlichkeit",
+        "compensation": "Gehaltsrahmen, falls bekannt"
       }
     },
     "office": {
-      "title": "Büro"
+      "title": "Sitz der Gesellschaft",
+      "note": "Laurasia LLC ist die Gesellschaft hinter Skytz Consulting."
     },
     "hours": {
       "title": "Erreichbarkeit",
-      "weekdays": "Mo–Fr: 09:00–18:00",
-      "timezone": "Zeitzone: CET / CEST"
+      "weekdays": "Montag bis Freitag, 8:00 bis 17:00 Uhr",
+      "timezone": "E-Mails beantworte ich am selben Tag."
     }
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "lastUpdated": "Zuletzt aktualisiert: Januar 2026",
-    "intro": "Skytz Consulting (\"wir\", \"uns\", \"unser\") ist eine Marke der Laurasia LLC. Wir verpflichten uns zum Schutz Ihrer Privatsphäre und verarbeiten personenbezogene Daten in Übereinstimmung mit der EU-Datenschutz-Grundverordnung (DSGVO), dem California Consumer Privacy Act (CCPA) und anderen anwendbaren Datenschutzgesetzen.",
+    "lastUpdated": "Zuletzt aktualisiert: August 2026",
+    "intro": "Skytz Consulting ist eine Marke der Laurasia LLC (\"wir\", \"uns\", \"unser\"). Diese Erklärung beschreibt, welche personenbezogenen Daten wir erheben, warum, und welche Rechte Sie haben. Sie berücksichtigt die EU-Datenschutz-Grundverordnung (DSGVO) sowie US-Datenschutzgesetze einschließlich des California Consumer Privacy Act (CCPA/CPRA).",
     "controller": {
       "title": "1. Verantwortlicher",
-      "description": "Der für Ihre personenbezogenen Daten verantwortliche Datenverantwortliche ist:"
+      "description": "Verantwortlich für Ihre personenbezogenen Daten ist:"
     },
     "dataCollected": {
-      "title": "2. Personenbezogene Daten, die wir erheben",
+      "title": "2. Welche Daten wir erheben",
       "intro": "Wir erheben und verarbeiten folgende Kategorien personenbezogener Daten:",
       "items": {
         "contact": "Kontaktdaten: Name, E-Mail-Adresse, Telefonnummer, Firmenname, Berufsbezeichnung",
-        "email": "Kommunikationsdaten: Inhalt von E-Mails, Nachrichten und allen Anhängen, die Sie uns senden",
+        "email": "Kommunikationsdaten: Inhalt von E-Mails, Nachrichten und Anhängen, die Sie uns senden",
         "technical": "Technische Daten: IP-Adresse, Browsertyp und -version, Zeitzone, Betriebssystem, Zugriffszeiten",
         "candidate": "Berufsbezogene Daten (für Kandidaten): Lebenslauf, Berufserfahrung, Qualifikationen, Gehaltsvorstellungen",
         "usage": "Nutzungsdaten: besuchte Seiten, Verweildauer, Referrer-Quelle"
@@ -348,103 +571,109 @@
       "title": "3. Zweck der Verarbeitung",
       "intro": "Wir verarbeiten Ihre personenbezogenen Daten für folgende Zwecke:",
       "items": {
-        "inquiries": "Beantwortung von Anfragen und Bereitstellung von Informationen über unsere Dienstleistungen",
-        "services": "Erbringung von Rekrutierungsdienstleistungen einschließlich Kandidatensuche, -bewertung und -vermittlung",
+        "inquiries": "Beantwortung von Anfragen und Information über unsere Leistungen",
+        "services": "Erbringung von Recruiting-Leistungen einschließlich Suche, Bewertung und Vermittlung",
         "website": "Betrieb, Wartung und Verbesserung dieser Website",
         "legal": "Erfüllung gesetzlicher Pflichten und Schutz unserer rechtlichen Interessen",
-        "communication": "Kommunikation mit Ihnen über relevante Möglichkeiten oder Dienstleistungen"
+        "communication": "Kommunikation mit Ihnen über relevante Positionen oder Leistungen"
       }
+    },
+    "usRights": {
+      "title": "4. Rechte in den Vereinigten Staaten",
+      "description": "Wir verkaufen personenbezogene Daten nicht und geben sie nicht für werbliche Zwecke weiter. Einwohner Kaliforniens haben das Recht zu erfahren, welche Daten wir erheben, eine Kopie zu verlangen, Berichtigung oder Löschung zu beantragen und deswegen nicht benachteiligt zu werden. Einwohner anderer US-Bundesstaaten mit vergleichbaren Gesetzen haben entsprechende Rechte."
     },
     "legalBasis": {
-      "title": "4. Rechtsgrundlage der Verarbeitung (DSGVO)",
-      "intro": "Für Personen im Europäischen Wirtschaftsraum (EWR), im Vereinigten Königreich und in der Schweiz verarbeiten wir personenbezogene Daten auf folgenden Rechtsgrundlagen:",
+      "title": "5. Rechtsgrundlage der Verarbeitung (DSGVO)",
+      "intro": "Für Personen im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz verarbeiten wir personenbezogene Daten auf folgenden Rechtsgrundlagen:",
       "items": {
-        "consent": "Einwilligung (Art. 6 Abs. 1 lit. a DSGVO): Wenn Sie ausdrücklich in bestimmte Verarbeitungstätigkeiten eingewilligt haben",
-        "contract": "Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO): Wenn die Verarbeitung zur Erfüllung eines Vertrags oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist",
-        "legitimate": "Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO): Wenn die Verarbeitung für unsere berechtigten geschäftlichen Interessen erforderlich ist, wie z.B. Direktmarketing, Betrugsprävention und Serviceverbesserung",
-        "legal": "Rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c DSGVO): Wenn die Verarbeitung zur Erfüllung gesetzlicher Pflichten erforderlich ist"
-      }
+        "consent": "Einwilligung (Art. 6 Abs. 1 lit. a DSGVO): wenn Sie ausdrücklich in bestimmte Verarbeitungen eingewilligt haben",
+        "contract": "Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO): wenn die Verarbeitung zur Erfüllung eines Vertrags oder für vorvertragliche Maßnahmen erforderlich ist",
+        "legitimate": "Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO): wenn die Verarbeitung für unsere berechtigten Geschäftsinteressen erforderlich ist, etwa Direktansprache, Betrugsprävention und Serviceverbesserung",
+        "legal": "Rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c DSGVO): wenn die Verarbeitung gesetzlich vorgeschrieben ist"
+      },
+      "rights": "Sie haben zudem das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerspruch, Widerruf der Einwilligung sowie das Recht auf Beschwerde bei einer Aufsichtsbehörde."
     },
     "sharing": {
-      "title": "5. Datenweitergabe & internationale Übermittlung",
-      "description": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir können Daten weitergeben an: (a) Kunden, ausschließlich für Rekrutierungszwecke und nur mit Ihrer Einwilligung; (b) Dienstleister, die unsere Geschäftstätigkeit unter strengen Vertraulichkeitsvereinbarungen unterstützen; (c) Behörden, wenn gesetzlich vorgeschrieben. Daten können in die Vereinigten Staaten übertragen werden, wo Laurasia LLC ansässig ist. Solche Übertragungen erfolgen in Übereinstimmung mit den DSGVO-Anforderungen, einschließlich der Verwendung von Standardvertragsklauseln (SCCs), soweit anwendbar."
+      "title": "6. Datenweitergabe und internationale Übermittlung",
+      "description": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir geben Daten weiter an: (a) Kunden, ausschließlich für Recruiting-Zwecke und nur mit Ihrer Einwilligung; (b) Dienstleister, die unsere Tätigkeit unter Vertraulichkeitsvereinbarungen unterstützen; (c) Behörden, wenn gesetzlich vorgeschrieben. Daten können in die Vereinigten Staaten übermittelt werden, wo die Laurasia LLC registriert ist. Übermittlungen aus Europa erfolgen, soweit anwendbar, auf Grundlage von Standardvertragsklauseln."
     },
     "retention": {
-      "title": "6. Datenspeicherung",
-      "description": "Wir speichern personenbezogene Daten nur so lange, wie es für die beschriebenen Zwecke erforderlich ist, typischerweise: (a) Kunden- und Kandidatendaten für die Dauer unserer Geschäftsbeziehung plus 6 Jahre zur rechtlichen Compliance; (b) Website-Nutzungsdaten bis zu 26 Monate; (c) Kommunikationsaufzeichnungen für 3 Jahre nach dem letzten Kontakt. Sie können eine frühere Löschung beantragen, vorbehaltlich gesetzlicher Aufbewahrungspflichten."
-    },
-    "rights": {
-      "title": "7. Ihre Datenschutzrechte",
-      "description": "Je nach Ihrer Rechtsordnung haben Sie folgende Rechte: Auskunftsrecht (um eine Kopie Ihrer Daten zu erhalten), Recht auf Berichtigung (zur Korrektur ungenauer Daten), Recht auf Löschung ('Recht auf Vergessenwerden'), Recht auf Einschränkung der Verarbeitung, Recht auf Datenübertragbarkeit, Widerspruchsrecht gegen die Verarbeitung, Recht auf Widerruf der Einwilligung jederzeit, Recht auf Beschwerde bei einer Aufsichtsbehörde. Einwohner Kaliforniens haben zusätzliche Rechte nach dem CCPA, einschließlich des Rechts zu erfahren, welche personenbezogenen Daten erhoben werden, und des Rechts, dem Verkauf personenbezogener Daten zu widersprechen (wir verkaufen keine personenbezogenen Daten)."
+      "title": "7. Speicherdauer",
+      "description": "Wir speichern personenbezogene Daten nur so lange wie nötig: (a) Kunden- und Kandidatendaten für die Dauer der Geschäftsbeziehung plus 6 Jahre zur rechtlichen Compliance; (b) Website-Nutzungsdaten bis zu 26 Monate; (c) Kommunikationsaufzeichnungen 3 Jahre nach dem letzten Kontakt. Sie können eine frühere Löschung beantragen, vorbehaltlich gesetzlicher Aufbewahrungspflichten."
     },
     "security": {
       "title": "8. Datensicherheit",
-      "description": "Wir setzen angemessene technische und organisatorische Maßnahmen um, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen. Dazu gehören Verschlüsselung, Zugriffskontrollen und regelmäßige Sicherheitsüberprüfungen."
+      "description": "Wir setzen angemessene technische und organisatorische Maßnahmen ein, um Ihre Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen, unter anderem Verschlüsselung und Zugriffskontrollen."
     },
     "cookies": {
-      "title": "9. Cookies & Tracking",
-      "description": "Diese Website verwendet nur essenzielle Cookies, die für die Funktionalität der Website notwendig sind. Wir verwenden keine Werbe-Cookies oder Tracking-Dienste von Drittanbietern. Alle verwendeten Analysetools sind so konfiguriert, dass IP-Adressen anonymisiert werden."
+      "title": "9. Cookies und Analyse",
+      "description": "Diese Website nutzt Google Tag Manager und Google Analytics zur Reichweitenmessung. Dabei werden Cookies gesetzt und Ihre IP-Adresse verarbeitet; die IP-Anonymisierung ist aktiviert. Wir setzen keine Werbe-Cookies ein und geben die Daten nicht an Werbetreibende weiter. Sie können diese Cookies im Browser oder per Adblocker blockieren, ohne dass Funktionen dieser Website verloren gehen."
     },
     "changes": {
-      "title": "10. Änderungen dieser Richtlinie",
-      "description": "Wir können diese Datenschutzerklärung regelmäßig aktualisieren. Wesentliche Änderungen werden über unsere Website kommuniziert. Die weitere Nutzung unserer Dienste nach Änderungen gilt als Zustimmung."
+      "title": "10. Änderungen dieser Erklärung",
+      "description": "Wir können diese Datenschutzerklärung aktualisieren. Wesentliche Änderungen werden auf dieser Seite mit neuem Datum veröffentlicht."
     },
     "contact": {
-      "title": "11. Kontakt & Datenschutzanfragen",
+      "title": "11. Kontakt und Datenschutzanfragen",
       "description": "Für datenschutzbezogene Anfragen, Betroffenenrechte oder Beschwerden kontaktieren Sie uns bitte unter"
     }
   },
   "terms": {
     "title": "Allgemeine Geschäftsbedingungen",
-    "lastUpdated": "Zuletzt aktualisiert: Januar 2026",
-    "intro": "Diese Allgemeinen Geschäftsbedingungen (\"AGB\") regeln Ihre Nutzung der Skytz Consulting Website und aller von Laurasia LLC d/b/a Skytz Consulting erbrachten Dienstleistungen. Durch den Zugriff auf diese Website oder die Inanspruchnahme unserer Dienstleistungen erklären Sie sich mit diesen AGB einverstanden.",
+    "lastUpdated": "Zuletzt aktualisiert: August 2026",
+    "intro": "Diese Allgemeinen Geschäftsbedingungen regeln Ihre Nutzung der Skytz Consulting Website und aller von der Laurasia LLC, handelnd als Skytz Consulting, erbrachten Leistungen. Durch die Nutzung dieser Website oder die Beauftragung erklären Sie sich mit diesen Bedingungen einverstanden.",
     "scope": {
       "title": "1. Leistungsumfang",
-      "description": "Skytz Consulting bietet Executive Recruitment und Talentberatungsdienstleistungen an. Diese Website bietet allgemeine Informationen über unsere Dienstleistungen und stellt kein verbindliches Angebot oder keinen Vertrag dar. Alle Rekrutierungsaufträge unterliegen separaten schriftlichen Vereinbarungen."
+      "description": "Skytz Consulting erbringt Recruiting- und Beratungsleistungen. Diese Website enthält allgemeine Informationen und stellt kein verbindliches Angebot dar. Alle Mandate unterliegen einer separaten schriftlichen Vereinbarung."
     },
     "noGuarantee": {
       "title": "2. Keine Ergebnisgarantie",
-      "description": "Rekrutierungsergebnisse hängen von Marktbedingungen, Kandidatenverfügbarkeit, Kundenentscheidungen und Faktoren ab, die außerhalb unserer Kontrolle liegen. Obwohl wir uns zu professioneller Sorgfalt verpflichten, wird keine bestimmte Vermittlung, kein Zeitrahmen oder Ergebnis garantiert, es sei denn, dies ist ausdrücklich in einer schriftlichen Vereinbarung festgelegt. Vergangene Ergebnisse garantieren keine zukünftige Leistung."
+      "description": "Recruiting-Ergebnisse hängen von Marktbedingungen, Kandidatenverfügbarkeit, Kundenentscheidungen und Faktoren außerhalb unserer Kontrolle ab. Wir verpflichten uns zu professioneller Sorgfalt, garantieren aber keine bestimmte Besetzung, keinen Zeitrahmen und kein Ergebnis, sofern nicht schriftlich vereinbart. Vergangene Ergebnisse garantieren keine zukünftige Leistung."
     },
     "ip": {
       "title": "3. Geistiges Eigentum",
-      "description": "Alle Inhalte auf dieser Website, einschließlich Text, Grafiken, Logos und Design, sind Eigentum der Laurasia LLC oder ihrer Lizenzgeber und durch Urheberrecht, Markenrecht und andere geistige Eigentumsrechte geschützt. Sie dürfen diese ohne vorherige schriftliche Zustimmung nicht vervielfältigen, verbreiten, ändern oder abgeleitete Werke erstellen."
+      "description": "Alle Inhalte dieser Website, einschließlich Text, Grafiken, Logos und Design, sind Eigentum der Laurasia LLC oder ihrer Lizenzgeber und urheber- und markenrechtlich geschützt. Kundenlogos und Referenzschreiben werden mit Zustimmung verwendet und bleiben Eigentum der jeweiligen Inhaber. Vervielfältigung, Verbreitung oder Bearbeitung bedarf der schriftlichen Zustimmung."
     },
     "confidentiality": {
       "title": "4. Vertraulichkeit",
-      "description": "Informationen, die uns bezüglich Positionen, Kandidaten oder Geschäftsabläufen mitgeteilt werden, werden vertraulich behandelt. Wir geben Kunden- oder Kandidateninformationen nicht ohne Einwilligung an Dritte weiter, außer wenn gesetzlich vorgeschrieben. Kandidaten werden Kunden erst nach Einholung der entsprechenden Einwilligung vorgestellt."
+      "description": "Informationen zu Positionen, Kandidaten oder Geschäftsabläufen behandeln wir vertraulich. Wir geben Kunden- oder Kandidateninformationen nicht ohne Einwilligung an Dritte weiter, außer wenn gesetzlich vorgeschrieben. Kandidaten werden Kunden erst nach deren Einwilligung vorgestellt."
     },
     "liability": {
       "title": "5. Haftungsbeschränkung",
-      "description": "Soweit gesetzlich zulässig, haftet Laurasia LLC nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die entstehen aus: (a) der Nutzung dieser Website; (b) dem Vertrauen auf bereitgestellte Informationen; (c) erbrachten Rekrutierungsdienstleistungen. Unsere Gesamthaftung ist auf die für die spezifische Dienstleistung gezahlten Gebühren beschränkt, die den Anspruch begründet. Nichts in diesen AGB schließt die Haftung für Tod oder Körperverletzung durch Fahrlässigkeit, Betrug oder andere Haftung aus, die gesetzlich nicht ausgeschlossen werden kann."
+      "description": "Soweit gesetzlich zulässig, haftet die Laurasia LLC nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden aus: (a) der Nutzung dieser Website; (b) dem Vertrauen auf hier bereitgestellte Informationen; (c) erbrachten Recruiting-Leistungen. Unsere Gesamthaftung ist auf die für die betreffende Leistung gezahlten Gebühren beschränkt. Die Haftung für Tod oder Körperverletzung durch Fahrlässigkeit, für Vorsatz sowie für gesetzlich nicht ausschließbare Fälle bleibt unberührt."
     },
     "indemnification": {
       "title": "6. Freistellung",
-      "description": "Sie erklären sich bereit, Laurasia LLC, ihre Geschäftsführer, Mitarbeiter und Vertreter von allen Ansprüchen, Schäden, Verlusten oder Kosten freizustellen, die entstehen aus: (a) Ihrer Verletzung dieser AGB; (b) Ihrer Verletzung von Rechten Dritter; (c) falschen Angaben Ihrerseits."
+      "description": "Sie stellen die Laurasia LLC, ihre Geschäftsführer, Mitarbeiter und Vertreter von Ansprüchen, Schäden, Verlusten oder Kosten frei, die entstehen aus: (a) Ihrer Verletzung dieser Bedingungen; (b) Ihrer Verletzung von Rechten Dritter; (c) falschen Angaben Ihrerseits."
     },
     "externalLinks": {
       "title": "7. Externe Links",
-      "description": "Diese Website kann Links zu Websites Dritter enthalten. Wir sind nicht verantwortlich für den Inhalt, die Richtigkeit oder die Datenschutzpraktiken externer Websites. Links stellen keine Empfehlung dar."
+      "description": "Diese Website kann auf Websites Dritter verlinken. Für deren Inhalte, Richtigkeit oder Datenschutzpraktiken sind wir nicht verantwortlich. Ein Link stellt keine Empfehlung dar."
     },
     "compliance": {
       "title": "8. Rechtliche Compliance",
-      "description": "Laurasia LLC arbeitet in Übereinstimmung mit anwendbarem US-Bundes- und Landesrecht sowie europäischen Vorschriften einschließlich der DSGVO bei der Betreuung von Kunden und Kandidaten im EWR, im Vereinigten Königreich und in der Schweiz. Wir verpflichten uns zu Antidiskriminierungs- und Chancengleichheitsgrundsätzen bei allen Rekrutierungsaktivitäten."
+      "description": "Die Laurasia LLC arbeitet im Einklang mit anwendbarem US-Bundes- und Landesrecht sowie mit europäischen Vorschriften einschließlich der DSGVO bei der Betreuung von Kunden und Kandidaten im EWR, im Vereinigten Königreich und in der Schweiz. Wir verpflichten uns zu Antidiskriminierung und Chancengleichheit in allen Recruiting-Aktivitäten."
     },
     "governing": {
-      "title": "9. Anwendbares Recht & Gerichtsstand",
-      "description": "Diese AGB unterliegen dem Recht des Staates Wyoming, Vereinigte Staaten, ohne Berücksichtigung kollisionsrechtlicher Grundsätze. Streitigkeiten werden vor den Gerichten von Wyoming beigelegt. Für EU-ansässige Personen können zwingende Verbraucherschutzgesetze Ihres Wohnsitzlandes gelten, und Sie haben möglicherweise das Recht, Verfahren vor Ihren lokalen Gerichten einzuleiten."
+      "title": "9. Anwendbares Recht",
+      "description": "Diese Bedingungen unterliegen dem Recht des Staates Wyoming, USA, ohne Berücksichtigung kollisionsrechtlicher Grundsätze. Streitigkeiten werden vor den Gerichten von Wyoming beigelegt. Für Personen in der EU können zwingende Verbraucherschutzgesetze Ihres Wohnsitzlandes zusätzlich gelten."
     },
     "severability": {
       "title": "10. Salvatorische Klausel",
-      "description": "Sollte eine Bestimmung dieser AGB für unwirksam befunden werden, bleiben die übrigen Bestimmungen in vollem Umfang wirksam."
+      "description": "Sollte eine Bestimmung unwirksam sein, bleiben die übrigen Bestimmungen in vollem Umfang wirksam."
     },
     "amendments": {
       "title": "11. Änderungen",
-      "description": "Wir behalten uns das Recht vor, diese AGB jederzeit zu ändern. Änderungen werden mit der Veröffentlichung auf dieser Website wirksam. Die weitere Nutzung gilt als Zustimmung zu den geänderten AGB."
+      "description": "Wir können diese Bedingungen ändern. Änderungen werden mit Veröffentlichung auf dieser Website wirksam."
     },
     "contact": {
       "title": "12. Kontakt",
-      "description": "Für rechtliche Anfragen oder Fragen zu diesen AGB kontaktieren Sie uns bitte unter"
+      "description": "Für rechtliche Anfragen oder Fragen zu diesen Bedingungen kontaktieren Sie uns bitte unter"
     }
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "cta": "Zurück zur Startseite"
   }
 }

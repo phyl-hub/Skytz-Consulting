@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node scripts/prerender-seo.mjs",
     "build:gh": "vite build --mode gh",
     "lint": "eslint .",
     "preview": "vite preview"

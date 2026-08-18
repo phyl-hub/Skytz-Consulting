@@ -27,18 +27,9 @@ const FlagUS = () => (
   </svg>
 );
 
-const FlagCH = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="w-5 h-4 rounded-sm shadow-sm">
-    <rect width="32" height="32" fill="#D52B1E"/>
-    <rect x="13" y="6" width="6" height="20" fill="#fff"/>
-    <rect x="6" y="13" width="20" height="6" fill="#fff"/>
-  </svg>
-);
-
 const languages = [
   { code: 'de', label: 'Deutsch', Flag: FlagDE, region: 'Deutschland' },
   { code: 'en', label: 'English', Flag: FlagUS, region: 'United States' },
-  { code: 'fr', label: 'Français', Flag: FlagCH, region: 'Suisse' },
 ];
 
 export default function LanguageSwitcher({ variant = 'default' }) {

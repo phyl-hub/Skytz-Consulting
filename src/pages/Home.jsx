@@ -1,23 +1,36 @@
 import { useTranslation } from 'react-i18next';
-import { AnimatePresence, motion, useInView } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Users, Globe, ArrowUpRight, ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
-import useLanguage from '../hooks/useLanguage';
+import { AnimatePresence, motion, useInView } from 'framer-motion';
+import { ShieldCheck, Users, Mail, Phone, Linkedin, ChevronLeft, ChevronRight, Pause, Play, Search, Route, ClipboardCheck, Gauge } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import SEO from '../components/SEO';
 import { pageSEOConfig } from '../content/pageSEOConfig';
 import { assetUrl } from '../utils/assetUrl';
+import useLanguage from '../hooks/useLanguage';
+
+const LINKEDIN_URL = 'https://www.linkedin.com/in/philipp-hoffschroer/';
+
+// The European locales publish fewer figures than the US one, so the strip
+// picks a column count that fills the row rather than leaving a ragged gap.
+const METRIC_GRID = {
+  1: 'sm:grid-cols-1 max-w-2xl',
+  2: 'sm:grid-cols-2',
+  3: 'sm:grid-cols-2 lg:grid-cols-3',
+  4: 'sm:grid-cols-2 lg:grid-cols-4',
+  default: 'sm:grid-cols-2 lg:grid-cols-4',
+};
 
 export default function Home() {
   const { t, i18n } = useTranslation();
   const { getLocalizedPath } = useLanguage();
   const heroRef = useRef(null);
   const isInView = useInView(heroRef, { once: true, margin: "-100px" });
-  const lang = i18n.language || 'de';
+  const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.home[lang] || pageSEOConfig.home.en;
 
-  // Lead with the on-niche proof (Megger + SebaKMT), then breadth.
-  const carouselKeys = useMemo(() => ['megger', 'sebakmt', 'eurasiagroup', 'swr'], []);
+  // Spread across sectors rather than stacking one account: SebaKMT is a Megger
+  // company, so leading with both reads as a single-client track record.
+  const carouselKeys = useMemo(() => ['megger', 'gef', 'swr', 'eurasiagroup'], []);
   const [activeSlideIdx, setActiveSlideIdx] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const [isHoverPaused, setIsHoverPaused] = useState(false);
@@ -32,20 +45,20 @@ export default function Home() {
         alt: 'Megger Group',
         className: 'h-12',
       },
-      sebakmt: {
-        src: assetUrl('recommendation/sebakmt-logo-black-rgb-scaled.png'),
-        alt: 'SebaKMT by Megger',
-        className: 'h-12',
-      },
-      eurasiagroup: {
-        src: assetUrl('recommendation/Eurasia-logo.png'),
-        alt: 'Eurasia Group',
-        className: 'h-24',
+      gef: {
+        src: assetUrl('recommendation/Logo-gef.png'),
+        alt: 'GEF Ingenieur AG',
+        className: 'h-14',
       },
       swr: {
         src: assetUrl('recommendation/SWR_logo.jpeg'),
-        alt: 'SWR Engineering',
-        className: 'h-24',
+        alt: 'SWR Südwestdeutsche Rohrleitungsbau',
+        className: 'h-16',
+      },
+      eurasiagroup: {
+        src: assetUrl('recommendation/Eurasia-logo.png'),
+        alt: 'Eurasia Group AG',
+        className: 'h-16',
       },
     }),
     []
@@ -53,11 +66,14 @@ export default function Home() {
 
   const activeLogo = logoByClient[activeKey] || logoByClient.megger;
 
+  const metricItems = t('metrics.items', { returnObjects: true }) || [];
+
   useEffect(() => {
     if (!isAutoplaying) return;
+    // 9s: long enough to finish reading a client quote.
     const id = setInterval(() => {
       setActiveSlideIdx((idx) => (idx + 1) % carouselKeys.length);
-    }, 3500);
+    }, 9000);
     return () => clearInterval(id);
   }, [isAutoplaying, carouselKeys.length]);
 
@@ -83,6 +99,7 @@ export default function Home() {
     <>
       <SEO title={seoConfig.title} description={seoConfig.description} />
       <div className="max-w-7xl mx-auto px-6 py-20 lg:py-28 min-h-screen">
+
       {/* 12-Column Bento Grid with Swiss Air */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8">
         
@@ -92,7 +109,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }} 
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="md:col-span-8 bg-white rounded-[2rem] p-8 lg:p-12 border border-slate-200/80 shadow-sm flex flex-col md:flex-row items-center gap-8 lg:gap-12 relative overflow-hidden"
+          className="md:col-span-8 bg-white rounded-[2rem] p-8 lg:p-10 border border-slate-200/80 shadow-sm flex flex-col lg:flex-row items-center gap-8 relative overflow-hidden"
         >
           {/* Premium Headshot with "Clarity Transition" */}
           <motion.div 
@@ -102,7 +119,7 @@ export default function Home() {
             whileHover="active"
           >
             <motion.div 
-              className="w-40 sm:w-48 lg:w-56 rounded-2xl overflow-hidden border border-slate-200/60 shadow-xl aspect-[4/5]"
+              className="w-40 sm:w-48 lg:w-44 xl:w-52 rounded-2xl overflow-hidden border border-slate-200/60 shadow-xl aspect-[4/5]"
               variants={imageVariants}
             >
               <img 
@@ -129,38 +146,48 @@ export default function Home() {
             </div>
           </motion.div>
           
-          <div className="flex-1 text-center md:text-left">
+          <div className="min-w-0 flex-1 text-center lg:text-left">
             <span className="text-blueprint-600 font-bold tracking-[0.2em] text-[11px] uppercase mb-4 block">
               {t('hero.tagline')}
             </span>
-            <h1 className="text-4xl lg:text-5xl xl:text-[3.5rem] font-extrabold text-slate-900 mb-5 leading-[1.05] tracking-[-0.03em] whitespace-pre-line">
+            <h1 className="text-3xl sm:text-4xl lg:text-[2rem] xl:text-[2.6rem] font-extrabold text-slate-900 mb-5 leading-[1.1] tracking-[-0.02em] text-balance hyphens-auto break-words">
               {t('hero.headline')}
             </h1>
-            <p className="text-slate-600 text-lg lg:text-xl leading-relaxed mb-8 max-w-xl">
+            <p className="text-slate-600 text-base leading-relaxed mb-8 max-w-xl hyphens-auto">
               {t('hero.subhead')}
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            {/* One way to reach a named person, no competing calls to action. */}
+            <div className="flex flex-col gap-2 text-sm sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6 sm:gap-y-2 justify-center lg:justify-start">
               <a
-                href="https://calendly.com/philipp-ho/meet"
+                href="mailto:info@skytz-consulting.com"
+                className="inline-flex items-center gap-2 font-semibold text-blueprint-600 hover:text-blueprint-700 transition-colors break-all sm:break-normal"
+              >
+                <Mail className="h-4 w-4" />
+                info@skytz-consulting.com
+              </a>
+              <a
+                href="tel:+13074290181"
+                className="inline-flex items-center gap-2 text-slate-600 hover:text-slate-900 transition-colors"
+              >
+                <Phone className="h-4 w-4" />
+                +1 307 429 0181
+              </a>
+              <a
+                href={LINKEDIN_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-7 py-3.5 bg-blueprint-600 hover:bg-blueprint-700 text-white font-semibold rounded-xl transition-all shadow-lg shadow-blueprint-600/25 hover:shadow-xl hover:shadow-blueprint-600/30"
+                className="inline-flex items-center gap-2 text-slate-600 hover:text-slate-900 transition-colors"
               >
-                {t('hero.cta.primary')}
-                <ArrowUpRight className="ml-2 w-4 h-4" />
+                <Linkedin className="h-4 w-4" />
+                {t('hero.reach.linkedinLabel')}
               </a>
-              <Link
-                to={getLocalizedPath('testimonials')}
-                className="inline-flex items-center justify-center px-7 py-3.5 border border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-700 font-medium rounded-xl transition-all"
-              >
-                {t('hero.cta.secondary')}
-              </Link>
             </div>
             </div>
           </motion.div>
 
-        {/* TILE 3: MEGGER TIMELINE (4 cols) - PROVEN LONGEVITY */}
+
+        {/* TILE 2: CLIENT VOICES (4 cols) - a vouching logo beside the face */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }} 
           animate={{ opacity: 1, y: 0 }}
@@ -267,9 +294,77 @@ export default function Home() {
           </div>
         </motion.div>
 
-        {/* TILE 4: PASSIVE TALENT STAT (5 cols) - THE CONVERSION HOOK */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }} 
+
+        {/* TILE 3: MEASURED RESULTS (12 cols) - US only; the German locale ships no figures */}
+        {metricItems.length > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+          className="md:col-span-12 rounded-[2rem] border border-slate-200/80 bg-white p-6 lg:p-8 shadow-sm"
+        >
+          <div className="flex items-center gap-2.5 text-blueprint-600 mb-6">
+            <Gauge size={20} strokeWidth={2.5} />
+            <h2 className="text-[11px] font-bold uppercase tracking-[0.2em]">{t('metrics.title')}</h2>
+          </div>
+
+          <dl className={`grid gap-6 ${METRIC_GRID[metricItems.length] || METRIC_GRID.default}`}>
+            {metricItems.map((item, idx) => (
+              <div key={idx} className="min-w-0">
+                <dt className="text-3xl lg:text-4xl font-black tracking-[-0.03em] text-slate-900">
+                  {item.value}
+                </dt>
+                <dd className="mt-1 font-semibold text-slate-700 leading-snug">{item.label}</dd>
+                <dd className="mt-2 text-sm text-slate-500 leading-relaxed">{item.detail}</dd>
+              </div>
+            ))}
+          </dl>
+
+          <div className="mt-6 pt-6 border-t border-slate-100 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-sm text-slate-500 max-w-2xl">{t('metrics.germanNote')}</p>
+            <Link
+              to={getLocalizedPath('about')}
+              className="shrink-0 text-sm font-semibold text-blueprint-600 hover:text-blueprint-700 transition-colors"
+            >
+              {t('metrics.methodLabel')} &rarr;
+            </Link>
+          </div>
+        </motion.div>
+
+        )}
+
+        {/* TILE 4: LIVE SEARCHES (7 cols) - proof the cold email was not a mail merge */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
+          className="md:col-span-7 self-start bg-white rounded-[2rem] p-8 lg:p-10 border border-slate-200/80 shadow-sm"
+        >
+          <div className="flex items-center gap-2.5 text-blueprint-600 mb-6">
+            <Search size={20} strokeWidth={2.5} />
+            <h2 className="text-[11px] font-bold uppercase tracking-[0.2em]">
+              {t('searches.title')}
+            </h2>
+          </div>
+
+          <ul className="space-y-4">
+            {(t('searches.items', { returnObjects: true }) || []).map((item, idx) => (
+              <li key={idx} className="flex gap-3 text-slate-700 leading-relaxed">
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blueprint-500" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+
+          <p className="mt-6 pt-6 border-t border-slate-100 text-sm text-slate-500">
+            {t('searches.note')}
+          </p>
+        </motion.div>
+
+
+        {/* TILE 5: TRACK RECORD (5 cols) - checkable proof, not percentages */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
           className="md:col-span-5 bg-blueprint-600 rounded-[2rem] p-8 lg:p-10 text-white flex flex-col justify-center relative overflow-hidden"
@@ -285,49 +380,98 @@ export default function Home() {
             <div className="flex items-center gap-3 mb-3">
               <Users className="text-blueprint-200" size={24} />
               <span className="text-blueprint-100 text-[11px] font-bold uppercase tracking-[0.2em]">
-                {t('stats.passive.label')}
-              </span>
-            </div>
-            <div className="text-6xl lg:text-7xl font-black mb-3 tracking-[-0.04em]">
-              {t('stats.passive.value')}
-            </div>
-            <p className="text-blueprint-100 font-medium text-lg leading-snug max-w-xs">
-              {t('stats.passive.subtext')}
-            </p>
-
-            {/* Track record across all clients — deliberately not tied to any single account. */}
-            <div className="mt-8 pt-6 border-t border-white/20 flex items-baseline gap-3">
-              <span className="text-3xl font-black tracking-[-0.03em]">
-                {t('stats.placements.value')}
-              </span>
-              <span className="text-blueprint-100 font-medium">
                 {t('stats.placements.label')}
               </span>
             </div>
-            <p className="text-blueprint-200 text-sm mt-1">
+            <div className="text-6xl lg:text-7xl font-black mb-3 tracking-[-0.04em]">
+              {t('stats.placements.value')}
+            </div>
+            <p className="text-blueprint-100 font-medium text-lg leading-snug max-w-xs">
               {t('stats.placements.subtext')}
+            </p>
+
+            {/* Checkable proof beats a percentage: the letters are downloadable. */}
+            <div className="mt-8 pt-6 border-t border-white/20 flex items-baseline gap-3">
+              <span className="text-3xl font-black tracking-[-0.03em]">
+                {t('stats.letters.value')}
+              </span>
+              <span className="text-blueprint-100 font-medium">
+                {t('stats.letters.label')}
+              </span>
+            </div>
+            <p className="text-blueprint-200 text-sm mt-1">
+              {t('stats.letters.subtext')}
+            </p>
+            <Link
+              to={getLocalizedPath('testimonials')}
+              className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-white underline underline-offset-4 decoration-white/40 hover:decoration-white"
+            >
+              {t('stats.letters.linkLabel')}
+            </Link>
+
+            <p className="mt-6 pt-6 border-t border-white/20 text-blueprint-100 font-medium">
+              {t('stats.repeat')}
             </p>
           </div>
         </motion.div>
 
-        {/* TILE 5: GLOBAL REACH (3 cols) - CROSS BORDER EXPERTISE */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }} 
+
+        {/* TILE 6: PROCESS (7 cols) - what actually happens after they email */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-          className="md:col-span-3 bg-white rounded-[2rem] p-8 border border-slate-200/80 shadow-sm flex flex-col justify-center items-center text-center"
+          transition={{ duration: 0.6, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
+          className="md:col-span-7 bg-white rounded-[2rem] p-8 lg:p-10 border border-slate-200/80 shadow-sm"
         >
-          <div className="flex gap-4 mb-6">
-            <span className="text-3xl filter grayscale hover:grayscale-0 transition-all duration-300 cursor-default" title="Deutschland">🇩🇪</span>
-            <span className="text-3xl filter grayscale hover:grayscale-0 transition-all duration-300 cursor-default" title="Schweiz">🇨🇭</span>
-            <span className="text-3xl filter grayscale hover:grayscale-0 transition-all duration-300 cursor-default" title="USA">🇺🇸</span>
+          <div className="flex items-center gap-2.5 text-blueprint-600 mb-6">
+            <Route size={20} strokeWidth={2.5} />
+            <h2 className="text-[11px] font-bold uppercase tracking-[0.2em]">
+              {t('process.title')}
+            </h2>
           </div>
-          <h3 className="text-slate-900 font-bold text-lg mb-1 tracking-tight">
-            Key Markets
-          </h3>
-          <p className="text-slate-500 text-xs uppercase tracking-[0.15em]">
-            DACH & United States
+
+          <ol className="space-y-5">
+            {(t('process.steps', { returnObjects: true }) || []).map((step, idx) => (
+              <li key={idx} className="flex gap-4">
+                <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blueprint-50 text-sm font-bold text-blueprint-600">
+                  {idx + 1}
+                </span>
+                <div className="min-w-0">
+                  <h3 className="font-semibold text-slate-900">{step.title}</h3>
+                  <p className="mt-1 text-sm text-slate-600 leading-relaxed">{step.text}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+
+          <p className="mt-6 pt-6 border-t border-slate-100 text-sm text-slate-500">
+            {t('process.note')}
           </p>
+        </motion.div>
+
+
+        {/* TILE 7: DELIVERABLE (5 cols) - the concrete thing they receive */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.6, ease: [0.22, 1, 0.36, 1] }}
+          className="md:col-span-5 self-start bg-slate-900 rounded-[2rem] p-8 lg:p-10 text-white"
+        >
+          <div className="flex items-center gap-2.5 text-slate-300 mb-6">
+            <ClipboardCheck size={20} strokeWidth={2.5} />
+            <h2 className="text-[11px] font-bold uppercase tracking-[0.2em]">
+              {t('deliverable.title')}
+            </h2>
+          </div>
+
+          <ul className="space-y-4">
+            {(t('deliverable.items', { returnObjects: true }) || []).map((item, idx) => (
+              <li key={idx} className="flex gap-3 leading-relaxed text-slate-100">
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blueprint-400" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
         </motion.div>
 
       </div>

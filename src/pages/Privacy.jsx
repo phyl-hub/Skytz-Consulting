@@ -15,7 +15,7 @@ const fadeIn = {
 
 export default function Privacy() {
   const { t, i18n } = useTranslation();
-  const lang = i18n.language || 'de';
+  const lang = i18n.language || 'en';
   const seoConfig = pageSEOConfig.privacy[lang] || pageSEOConfig.privacy.en;
 
   useEffect(() => {
@@ -72,6 +72,9 @@ export default function Privacy() {
                 <li>• {t('privacy.purpose.items.communication')}</li>
               </ul>
 
+              <h2 className="mt-8 text-xl font-bold text-slate-900">{t('privacy.usRights.title')}</h2>
+              <p className="text-slate-600">{t('privacy.usRights.description')}</p>
+
               <h2 className="mt-8 text-xl font-bold text-slate-900">{t('privacy.legalBasis.title')}</h2>
               <p className="text-slate-600">{t('privacy.legalBasis.intro')}</p>
               <ul className="mt-2 space-y-1 text-slate-600">
@@ -80,15 +83,13 @@ export default function Privacy() {
                 <li>• {t('privacy.legalBasis.items.legitimate')}</li>
                 <li>• {t('privacy.legalBasis.items.legal')}</li>
               </ul>
+              <p className="mt-2 text-slate-600">{t('privacy.legalBasis.rights')}</p>
 
               <h2 className="mt-8 text-xl font-bold text-slate-900">{t('privacy.sharing.title')}</h2>
               <p className="text-slate-600">{t('privacy.sharing.description')}</p>
 
               <h2 className="mt-8 text-xl font-bold text-slate-900">{t('privacy.retention.title')}</h2>
               <p className="text-slate-600">{t('privacy.retention.description')}</p>
-
-              <h2 className="mt-8 text-xl font-bold text-slate-900">{t('privacy.rights.title')}</h2>
-              <p className="text-slate-600">{t('privacy.rights.description')}</p>
 
               <h2 className="mt-8 text-xl font-bold text-slate-900">{t('privacy.security.title')}</h2>
               <p className="text-slate-600">{t('privacy.security.description')}</p>
