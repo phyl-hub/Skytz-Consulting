@@ -7,7 +7,8 @@
   "cleanUrls": false,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/(meet-philipp|testimonials|about|industries|vacancies|imprint|impressum|privacy|terms)", "destination": "/index.html" }
   ],
   "headers": [
     {

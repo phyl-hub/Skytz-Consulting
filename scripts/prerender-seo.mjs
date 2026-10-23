@@ -155,6 +155,16 @@ async function main() {
     }
   }
 
+  // Real 404 page: Vercel serves dist/404.html with HTTP 404 for any path
+  // that has no static file and no rewrite (see vercel.json). Same SPA shell
+  // so React Router still renders NotFound, but noindex and no canonical/hreflang.
+  let notFound = template;
+  notFound = replaceOrThrow(notFound, /<title>[^<]*<\/title>/, `<title>Page Not Found | ${SITE_NAME}</title>`, '<title>');
+  notFound = replaceOrThrow(notFound, /<meta name="robots" content="[^"]*" \/>/, '<meta name="robots" content="noindex, nofollow" />', 'meta[name=robots]');
+  notFound = replaceOrThrow(notFound, /[ \t]*<link rel="canonical" href="[^"]*" \/>\r?\n/, '', 'link[rel=canonical]');
+  notFound = replaceOrThrow(notFound, /(?:[ \t]*<link rel="alternate" hreflang="[^"]*" href="[^"]*" \/>\r?\n)+/, '', 'hreflang block');
+  await writeFile(path.join(DIST, '404.html'), notFound, 'utf-8');
+
   console.log(`prerender-seo: wrote ${written} static route(s) with route-correct canonical/hreflang/title/meta.`);
 }
 

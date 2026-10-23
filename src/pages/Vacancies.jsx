@@ -55,7 +55,7 @@ export default function Vacancies() {
 
   return (
     <>
-      {seoConfig && <SEO title={seoConfig.title} description={seoConfig.description} noindex />}
+      {seoConfig && <SEO title={seoConfig.title} description={seoConfig.description} />}
 
       <div className="min-h-screen bg-slate-50">
         <section className="py-20 md:py-28">
