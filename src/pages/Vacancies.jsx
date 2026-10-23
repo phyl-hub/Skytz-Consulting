@@ -38,6 +38,10 @@ const VACANCIES = [
     key: 'bimManagerCoordinator',
     pdfPath: '/BIM-Manager-Coordinator.pdf',
   },
+  {
+    key: 'sicherheitsingenieur',
+    pdfPath: '/Sicherheitsingenieur-Arbeitssicherheit.pdf',
+  },
 ];
 
 export default function Vacancies() {
