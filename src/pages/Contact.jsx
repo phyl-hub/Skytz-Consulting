@@ -59,6 +59,35 @@ export default function Contact() {
           </div>
         </section>
 
+        {/* Primary CTA: book a call */}
+        <section className="pb-12">
+          <div className="mx-auto max-w-7xl px-6">
+            <motion.div initial="hidden" animate="visible" variants={fadeIn}>
+              <div className="flex flex-col items-start gap-6 rounded-2xl bg-blueprint-600 p-8 shadow-xl ring-4 ring-blueprint-200 md:flex-row md:items-center md:justify-between md:p-10">
+                <div className="flex items-start gap-5">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-white/15">
+                    <Calendar className="h-7 w-7 text-white" />
+                  </div>
+                  <div>
+                    <h2 className="text-2xl font-bold text-white md:text-3xl">{t('contact.booking.label')}</h2>
+                    <p className="mt-2 text-blueprint-50">{t('contact.booking.action')}</p>
+                    <p className="mt-2 text-sm text-blueprint-100">{t('contact.noCommitment')}</p>
+                  </div>
+                </div>
+                <a
+                  href="https://calendly.com/philipp-ho/meet"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex w-full shrink-0 items-center justify-center gap-2 rounded-xl bg-white px-8 py-4 text-lg font-bold text-blueprint-700 shadow-lg transition hover:bg-blueprint-50 md:w-auto"
+                >
+                  {t('contact.booking.label')}
+                  <ArrowRight className="h-5 w-5" />
+                </a>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
         {/* Who you are actually contacting */}
         <section className="pb-12">
           <div className="mx-auto max-w-7xl px-6">
@@ -165,7 +194,7 @@ export default function Contact() {
               whileInView="visible"
               viewport={{ once: true }}
               variants={stagger}
-              className="grid gap-6 md:grid-cols-2"
+              className="grid gap-6"
             >
               <motion.div variants={fadeIn}>
                 <BentoCard className="h-full">
@@ -186,27 +215,6 @@ export default function Contact() {
                 </BentoCard>
               </motion.div>
 
-              <motion.div variants={fadeIn}>
-                <BentoCard className="h-full flex flex-col">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blueprint-50 mb-6">
-                    <Calendar className="h-6 w-6 text-blueprint-600" />
-                  </div>
-                  <h2 className="text-xl font-bold text-slate-900">{t('contact.booking.label')}</h2>
-                  <p className="mt-2 text-slate-600">{t('contact.booking.action')}</p>
-
-                  <a
-                    href="https://calendly.com/philipp-ho/meet"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-6 inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800 transition-colors"
-                  >
-                    {t('contact.booking.label')}
-                    <ArrowRight className="h-4 w-4" />
-                  </a>
-
-                  <p className="mt-auto pt-6 text-xs text-slate-500">{t('contact.noCommitment')}</p>
-                </BentoCard>
-              </motion.div>
             </motion.div>
           </div>
         </section>

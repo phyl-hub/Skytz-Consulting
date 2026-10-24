@@ -39,12 +39,12 @@ export const pageSEOConfig = {
     en: {
       title: "Meet Philipp, Book a Call",
       description:
-        'Book a direct conversation about your Sales Engineer or technical leadership hiring needs. No gatekeepers, no forms. Free initial consultation.',
+        'Book a direct conversation about your Sales Engineer or technical leadership hiring needs. Direct contact, handled in confidence. Free initial consultation.',
     },
     de: {
       title: "Philipp treffen, Gespräch buchen",
       description:
-        'Buchen Sie ein direktes Gespräch über Ihre Sales Engineer oder technische Führungskräfte-Anforderungen. Keine Gatekeeper, keine Formulare. Kostenlose Erstberatung.',
+        'Buchen Sie ein direktes Gespräch über Ihre Sales Engineer oder technische Führungskräfte-Anforderungen. Direkter Kontakt, vertraulich behandelt. Kostenlose Erstberatung.',
     },
   },
   privacy: {
