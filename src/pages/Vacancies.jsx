@@ -39,8 +39,8 @@ const VACANCIES = [
     pdfPath: '/BIM-Manager-Coordinator.pdf',
   },
   {
-    key: 'sicherheitsingenieur',
-    pdfPath: '/Sicherheitsingenieur-Arbeitssicherheit.pdf',
+    key: 'expertSifa',
+    pdfPath: '/Experte-Sifa.pdf',
   },
 ];
 
